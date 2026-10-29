@@ -1,0 +1,188 @@
+{
+  "reviewed_sha": "4285cde36d8efa3f870bae95f4080249fba3f2c2",
+  "scope": "Independent symbolic ACC01 first-step and new ACC02 80-digit mechanism checks. No performance runs.",
+  "environment": {
+    "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+    "platform": "Linux-6.18.55-x86_64-with-glibc2.41",
+    "sympy": "1.14.0",
+    "mpmath": "1.3.0",
+    "mp_dps": 80
+  },
+  "ACC01": {
+    "functions": [
+      "(z - 1)**2/2",
+      "(z + 1)**2/2"
+    ],
+    "aggregate": "z**2/2 + 1/2",
+    "hessians": [
+      "1",
+      "1"
+    ],
+    "W": "Matrix([[9/10, 1/10], [1/10, 9/10]])",
+    "eigenvalues_W_minus_J": {
+      "4/5": 1,
+      "0": 1
+    },
+    "alpha": "81/1400000",
+    "beta": "1/1000000",
+    "x0": [
+      "1",
+      "-1"
+    ],
+    "y0": [
+      "0",
+      "0"
+    ],
+    "x1": [
+      "4/5",
+      "-4/5"
+    ],
+    "C0": "2",
+    "T0": "0",
+    "D0": "0",
+    "lhs": "32/25",
+    "printed_rhs": "9/25",
+    "young_rhs": "41/25",
+    "all_beta_bounds_satisfied": true,
+    "young_coefficient": "s**2/2 + 1/2",
+    "scope": "one legitimate first vector-update step; no statement of algorithm divergence"
+  },
+  "ACC02": [
+    {
+      "H_diagonal": [
+        1,
+        10
+      ],
+      "eta": "0",
+      "omega": "0",
+      "steps": 20,
+      "M": "0.16666666666666666666666666666666666666666666666666666666666666666666666666666667",
+      "max_prop21_residual": "-0.0024591541089909734214879568427275605",
+      "max_two_point_identity_error": "2.0590230357872115673e-84",
+      "max_direct_vs_stable_D_error": "2.3719945372268677255e-81",
+      "initial_E": "1.0249587458745874587458745874587459",
+      "last_E": "0.054344952930866750414223155625912792",
+      "all_prop21_checks_pass": true,
+      "scope": "80-digit finite quadratic mechanism check; not general proof or performance evidence"
+    },
+    {
+      "H_diagonal": [
+        1,
+        10
+      ],
+      "eta": "0.5",
+      "omega": "0.5",
+      "steps": 20,
+      "M": "0.05",
+      "max_prop21_residual": "-0.0046060497354529658494980978469508851",
+      "max_two_point_identity_error": "0.0",
+      "max_direct_vs_stable_D_error": "7.6430935088421293377e-81",
+      "initial_E": "1.0022462871287128712871287128712871",
+      "last_E": "0.32065893040176449572574716263090614",
+      "all_prop21_checks_pass": true,
+      "scope": "80-digit finite quadratic mechanism check; not general proof or performance evidence"
+    },
+    {
+      "H_diagonal": [
+        1,
+        1000
+      ],
+      "eta": "0",
+      "omega": "0",
+      "steps": 20,
+      "M": "0.16666666666666666666666666666666666666666666666666666666666666666666666666666667",
+      "max_prop21_residual": "-0.00020521810774831485310223986273133129",
+      "max_two_point_identity_error": "0.0",
+      "max_direct_vs_stable_D_error": "2.0241020051002604591e-79",
+      "initial_E": "1.020874999958333374999958333375",
+      "last_E": "0.49217275013479718456212105774212733",
+      "all_prop21_checks_pass": true,
+      "scope": "80-digit finite quadratic mechanism check; not general proof or performance evidence"
+    },
+    {
+      "H_diagonal": [
+        1,
+        1000
+      ],
+      "eta": "0.5",
+      "omega": "0.5",
+      "steps": 20,
+      "M": "0.05",
+      "max_prop21_residual": "-0.0010895312881997980932128408104274323",
+      "max_two_point_identity_error": "0.0",
+      "max_direct_vs_stable_D_error": "4.4909763238162028936e-79",
+      "initial_E": "1.00187874999625000374999625000375",
+      "last_E": "0.50139543444757740855493849739891467",
+      "all_prop21_checks_pass": true,
+      "scope": "80-digit finite quadratic mechanism check; not general proof or performance evidence"
+    },
+    {
+      "H_diagonal": [
+        0,
+        1
+      ],
+      "eta": "0",
+      "omega": "0",
+      "steps": 20,
+      "M": "0.16666666666666666666666666666666666666666666666666666666666666666666666666666667",
+      "max_prop21_residual": "-0.0000079236818951250908008518363426205936",
+      "max_two_point_identity_error": "1.6472184286297692538e-83",
+      "max_direct_vs_stable_D_error": "1.4824965857667923284e-82",
+      "initial_E": "1.0208333333333333333333333333333333",
+      "last_E": "0.50002711058665555962580167099730565",
+      "all_prop21_checks_pass": true,
+      "scope": "80-digit finite quadratic mechanism check; not general proof or performance evidence"
+    },
+    {
+      "H_diagonal": [
+        0,
+        1
+      ],
+      "eta": "0.5",
+      "omega": "0.5",
+      "steps": 20,
+      "M": "0.05",
+      "max_prop21_residual": "-0.0010346841000430955054000342082394858",
+      "max_two_point_identity_error": "4.1180460715744231345e-84",
+      "max_direct_vs_stable_D_error": "2.8002713286706077315e-82",
+      "initial_E": "1.001875",
+      "last_E": "0.50362452802414286313794199753340968",
+      "all_prop21_checks_pass": true,
+      "scope": "80-digit finite quadratic mechanism check; not general proof or performance evidence"
+    },
+    {
+      "H_diagonal": [
+        0,
+        0
+      ],
+      "eta": "0",
+      "omega": "0",
+      "steps": 20,
+      "M": "0.16666666666666666666666666666666666666666666666666666666666666666666666666666667",
+      "max_prop21_residual": "0.0",
+      "max_two_point_identity_error": "0.0",
+      "max_direct_vs_stable_D_error": "0.0",
+      "initial_E": "1.0",
+      "last_E": "1.0",
+      "all_prop21_checks_pass": true,
+      "scope": "80-digit finite quadratic mechanism check; not general proof or performance evidence"
+    },
+    {
+      "H_diagonal": [
+        0,
+        0
+      ],
+      "eta": "0.5",
+      "omega": "0.5",
+      "steps": 20,
+      "M": "0.05",
+      "max_prop21_residual": "0.0",
+      "max_two_point_identity_error": "0.0",
+      "max_direct_vs_stable_D_error": "0.0",
+      "initial_E": "1.0",
+      "last_E": "1.0",
+      "all_prop21_checks_pass": true,
+      "scope": "80-digit finite quadratic mechanism check; not general proof or performance evidence"
+    }
+  ]
+}
