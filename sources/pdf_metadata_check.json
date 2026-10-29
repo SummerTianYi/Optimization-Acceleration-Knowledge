@@ -1,0 +1,117 @@
+[
+  {
+    "id": "P00",
+    "actual_pages": 18,
+    "manifest_pages": 18,
+    "page_count_matches": true,
+    "text_pages": 18,
+    "encrypted": false,
+    "metadata": {
+      "/Producer": "iLovePDF",
+      "/ModDate": "D:20261012075921Z"
+    }
+  },
+  {
+    "id": "ACC01",
+    "actual_pages": 56,
+    "manifest_pages": 56,
+    "page_count_matches": true,
+    "text_pages": 56,
+    "encrypted": true,
+    "metadata": {
+      "/Producer": "TTKN",
+      "/CreationDate": "D:20231027185056-08'00'",
+      "/Author": "CNKI",
+      "/Creator": "ReaderEx_DIS 2.4.0 Build 4053"
+    }
+  },
+  {
+    "id": "ACC02",
+    "actual_pages": 18,
+    "manifest_pages": 18,
+    "page_count_matches": true,
+    "text_pages": 18,
+    "encrypted": false,
+    "metadata": {
+      "/Author": "Zepeng Wang ",
+      "/CreationDate": "D:20260810215947+05'30'",
+      "/Creator": "Springer",
+      "/CrossMarkDomains[1]": "springer.com",
+      "/CrossMarkDomains[2]": "springerlink.com",
+      "/CrossmarkDomainExclusive": "true",
+      "/CrossmarkMajorVersionDate": "2010-04-23",
+      "/Keywords": "Adaptive step size; Accelerated gradient descent; Strong convexity; Convex optimization",
+      "/ModDate": "D:20260917101640+05'30'",
+      "/Producer": "Acrobat Distiller 10.1.8 (Windows)",
+      "/Subject": "Journal of Optimization Theory and Applications, https://doi.org/10.1007/s10957-026-03086-z",
+      "/Title": "Adaptive Accelerated Gradient Method for Smooth Convex Optimization",
+      "/doi": "10.1007/s10957-026-03086-z",
+      "/robots": "noindex"
+    }
+  },
+  {
+    "id": "ACC03",
+    "actual_pages": 114,
+    "manifest_pages": 114,
+    "page_count_matches": true,
+    "text_pages": 114,
+    "encrypted": true,
+    "metadata": {
+      "/Producer": "TTKN",
+      "/CreationDate": "D:20231005223530-08'00'",
+      "/Author": "CNKI",
+      "/Creator": "ReaderEx_DIS 2.4.0 Build 4047"
+    }
+  },
+  {
+    "id": "ACC04",
+    "actual_pages": 43,
+    "manifest_pages": 43,
+    "page_count_matches": true,
+    "text_pages": 43,
+    "encrypted": true,
+    "metadata": {
+      "/CreationDate": "D:20251231103442",
+      "/Producer": "CNKI®ReaderEx(2.5.0 Build 4088)",
+      "/Creator": "ReaderEx_DIS_C 2.5.0 Build 4088"
+    }
+  },
+  {
+    "id": "ACC05",
+    "actual_pages": 46,
+    "manifest_pages": 46,
+    "page_count_matches": true,
+    "text_pages": 46,
+    "encrypted": false,
+    "metadata": {
+      "/Author": "Michael Muehlebach ",
+      "/CreationDate": "D:20250418104623+05'30'",
+      "/Creator": "Springer",
+      "/CrossMarkDomains[1]": "springer.com",
+      "/CrossMarkDomains[2]": "springerlink.com",
+      "/CrossmarkDomainExclusive": "true",
+      "/CrossmarkMajorVersionDate": "2010-04-23",
+      "/Keywords": "Constrained optimization; Nonlinear programming; Gradient-based methods; Machine learning",
+      "/ModDate": "D:20251217184440+05'30'",
+      "/Producer": "Acrobat Distiller 10.1.8 (Windows)",
+      "/Subject": "Mathematical Programming, https://doi.org/10.1007/s10107-025-02224-1",
+      "/Title": "Accelerated first-order optimization under nonlinear constraints",
+      "/doi": "10.1007/s10107-025-02224-1",
+      "/robots": "noindex"
+    }
+  },
+  {
+    "id": "ACC06",
+    "actual_pages": 57,
+    "manifest_pages": 57,
+    "page_count_matches": true,
+    "text_pages": 57,
+    "encrypted": false,
+    "metadata": {
+      "/Producer": "TTKN",
+      "/CreationDate": "D:20260313121149-08'00'",
+      "/Author": "CNKI",
+      "/Creator": "ReaderEx_DIS 2.0.0 Build 3944"
+    }
+  }
+]

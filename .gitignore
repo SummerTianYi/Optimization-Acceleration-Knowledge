@@ -1,0 +1,20 @@
+# Originals and full-text extraction stay outside this repository.
+materials/
+*.pdf
+*.caj
+*.zip
+*.png
+*.jpg
+*.jpeg
+*.tif
+*.tiff
+extracted/
+pages/
+data/
+.env
+.env.*
+*.pem
+*.key
+__pycache__/
+*.pyc
+.venv/

@@ -1,0 +1,71 @@
+{
+  "required_materials_pass": true,
+  "all_supplied_materials_pass": true,
+  "scope": "byte size and SHA-256 only; no content, page-count, theorem, or Manager acceptance",
+  "checks": [
+    {
+      "id": "P00",
+      "path": "materials/P00_宇自然基金-3_merged(4).pdf",
+      "required_for_reading": true,
+      "bytes": 4987519,
+      "sha256": "7cbfe601cbfcc790e6b63666886e58efc947ed78737be9c8407f5ae149938529",
+      "passed": true
+    },
+    {
+      "id": "ACC01",
+      "path": "materials/ACC01_多智能体分布式优化加速算法的研究_孙碧皓(1).pdf",
+      "required_for_reading": true,
+      "bytes": 2053594,
+      "sha256": "2cbc4e02d66e49e33d73559001c67bf8111dd94cebca928a0a19a0f60c0014ee",
+      "passed": true
+    },
+    {
+      "id": "ACC02",
+      "path": "materials/ACC02_s10957-026-03086-z.pdf",
+      "required_for_reading": true,
+      "bytes": 344280,
+      "sha256": "9764260a9526c6821b0b8fecdb126074ba0b5a702e093e70c2519eb774722f03",
+      "passed": true
+    },
+    {
+      "id": "ACC03",
+      "path": "materials/ACC03_几类优化问题的加速算法研究_高雪.pdf",
+      "required_for_reading": true,
+      "bytes": 4255403,
+      "sha256": "e9eb073fc2708f8289eea80ab15c193aa59b8f7a41efc0fcdd1751d331c38bf0",
+      "passed": true
+    },
+    {
+      "id": "ACC04",
+      "path": "materials/ACC04_一类非光滑凸回归优化问题的光滑加速算法_张子璇(1).pdf",
+      "required_for_reading": true,
+      "bytes": 3868874,
+      "sha256": "4ed5ff01b2e19b0117204f2b5a8fffbb28c4199a918d99b2f9c9612647fcde5d",
+      "passed": true
+    },
+    {
+      "id": "ACC05",
+      "path": "materials/ACC05_s10107-025-02224-1.pdf",
+      "required_for_reading": true,
+      "bytes": 1303261,
+      "sha256": "999357aadf9a4ea73302d4f0b8fe7935a1829fdbf72b2601553cf6c438df4fe9",
+      "passed": true
+    },
+    {
+      "id": "ACC06",
+      "path": "materials/ACC06_两类凸优化模型的对偶优化加速算法研究及应用_黄芳_转出.pdf",
+      "required_for_reading": true,
+      "bytes": 5037482,
+      "sha256": "c7774f9bd9b90a9e9d57e8f70309072cef416c1ab74085cb1436c37b18c7aad3",
+      "passed": true
+    },
+    {
+      "id": "ACC06-ORIGINAL",
+      "path": "materials/ACC06-ORIGINAL_两类凸优化模型的对偶优化加速算法研究及应用_黄芳.caj",
+      "required_for_reading": false,
+      "bytes": 6316813,
+      "sha256": "8a9e3cc791abdd9935a1641ebdda9d3fd20b651db8072794f97cf4a259e3d759",
+      "passed": true
+    }
+  ]
+}

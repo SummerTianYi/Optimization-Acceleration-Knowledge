@@ -1,0 +1,240 @@
+{
+  "check": "V01",
+  "deterministic": true,
+  "random_seed": null,
+  "scope": "one vector-update step with explicit x_previous completion; no full reproduction",
+  "W": [
+    [
+      {
+        "exact": "9/10",
+        "decimal": 0.9
+      },
+      {
+        "exact": "1/10",
+        "decimal": 0.1
+      }
+    ],
+    [
+      {
+        "exact": "1/10",
+        "decimal": 0.1
+      },
+      {
+        "exact": "9/10",
+        "decimal": 0.9
+      }
+    ]
+  ],
+  "mu": {
+    "exact": "1",
+    "decimal": 1.0
+  },
+  "Lf": {
+    "exact": "2",
+    "decimal": 2.0
+  },
+  "Q": {
+    "exact": "2",
+    "decimal": 2.0
+  },
+  "alpha": {
+    "exact": "81/1400000",
+    "decimal": 5.7857142857142855e-05
+  },
+  "beta": {
+    "exact": "1/1000000",
+    "decimal": 1e-06
+  },
+  "beta_upper_bounds_squared": [
+    {
+      "exact": "34263/66640000",
+      "decimal": 0.0005141506602641057
+    },
+    {
+      "exact": "101979/833000000",
+      "decimal": 0.00012242376950780313
+    },
+    {
+      "exact": "118/561",
+      "decimal": 0.2103386809269162
+    },
+    {
+      "exact": "452709/33320000000000",
+      "decimal": 1.3586704681872748e-08
+    }
+  ],
+  "parameter_gates": {
+    "alpha_main_statement": true,
+    "alpha_le_1_over_Lf": true,
+    "alpha_le_1_over_4sqrt2Lf_squared": true,
+    "alpha_le_1_over_2mu": true,
+    "alpha_le_mu_m_over_8Lf_squared": true,
+    "beta_below_all_four_bounds": true
+  },
+  "x0": [
+    {
+      "exact": "1",
+      "decimal": 1.0
+    },
+    {
+      "exact": "-1",
+      "decimal": -1.0
+    }
+  ],
+  "tracker0": [
+    {
+      "exact": "0",
+      "decimal": 0.0
+    },
+    {
+      "exact": "0",
+      "decimal": 0.0
+    }
+  ],
+  "x1": [
+    {
+      "exact": "4/5",
+      "decimal": 0.8
+    },
+    {
+      "exact": "-4/5",
+      "decimal": -0.8
+    }
+  ],
+  "C0": {
+    "exact": "2",
+    "decimal": 2.0
+  },
+  "T0": {
+    "exact": "0",
+    "decimal": 0.0
+  },
+  "D0": {
+    "exact": "0",
+    "decimal": 0.0
+  },
+  "lhs": {
+    "exact": "32/25",
+    "decimal": 1.28
+  },
+  "printed_rhs": {
+    "exact": "9/25",
+    "decimal": 0.36
+  },
+  "derived_rhs": {
+    "exact": "41/25",
+    "decimal": 1.64
+  },
+  "violation_margin": {
+    "exact": "23/25",
+    "decimal": 0.92
+  },
+  "derived_slack": {
+    "exact": "9/25",
+    "decimal": 0.36
+  },
+  "verdict": "printed local relation falsified; full algorithm convergence not decided",
+  "boundaries": [
+    {
+      "sigma": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "domain": "pure mixing",
+      "lhs": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "printed_rhs": {
+        "exact": "1",
+        "decimal": 1.0
+      },
+      "derived_rhs": {
+        "exact": "1",
+        "decimal": 1.0
+      },
+      "printed_holds": true,
+      "derived_holds": true
+    },
+    {
+      "sigma": {
+        "exact": "1/2",
+        "decimal": 0.5
+      },
+      "domain": "pure mixing",
+      "lhs": {
+        "exact": "1/2",
+        "decimal": 0.5
+      },
+      "printed_rhs": {
+        "exact": "3/4",
+        "decimal": 0.75
+      },
+      "derived_rhs": {
+        "exact": "5/4",
+        "decimal": 1.25
+      },
+      "printed_holds": true,
+      "derived_holds": true
+    },
+    {
+      "sigma": {
+        "exact": "4/5",
+        "decimal": 0.8
+      },
+      "domain": "pure mixing",
+      "lhs": {
+        "exact": "32/25",
+        "decimal": 1.28
+      },
+      "printed_rhs": {
+        "exact": "9/25",
+        "decimal": 0.36
+      },
+      "derived_rhs": {
+        "exact": "41/25",
+        "decimal": 1.64
+      },
+      "printed_holds": false,
+      "derived_holds": true
+    },
+    {
+      "sigma": {
+        "exact": "99/100",
+        "decimal": 0.99
+      },
+      "domain": "pure mixing",
+      "lhs": {
+        "exact": "9801/5000",
+        "decimal": 1.9602
+      },
+      "printed_rhs": {
+        "exact": "199/10000",
+        "decimal": 0.0199
+      },
+      "derived_rhs": {
+        "exact": "19801/10000",
+        "decimal": 1.9801
+      },
+      "printed_holds": false,
+      "derived_holds": true
+    },
+    {
+      "sigma": {
+        "exact": "1",
+        "decimal": 1.0
+      },
+      "domain": "excluded: denominator zero; swap matrix",
+      "connected_doubly_stochastic": true,
+      "strict_spectral_gate": false
+    }
+  ],
+  "algebraic_threshold_r": {
+    "exact": "1/3",
+    "decimal": 0.3333333333333333
+  },
+  "algebraic_threshold_difference": {
+    "exact": "0",
+    "decimal": 0.0
+  }
+}

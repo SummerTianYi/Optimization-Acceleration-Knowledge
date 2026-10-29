@@ -1,0 +1,4 @@
+V01 exact arithmetic completed; parameter gates satisfied.
+C1=32/25; printed RHS=9/25; derived RHS=41/25.
+Printed relation fails by 23/25. Boundary threshold: sigma^2 <= 1/3.
+sigma=1 excluded; no conclusion about full algorithm divergence or acceleration.
