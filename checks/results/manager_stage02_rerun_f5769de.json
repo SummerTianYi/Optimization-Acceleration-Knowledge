@@ -1,0 +1,34 @@
+{
+  "reviewed_sha": "f5769deab4f4bf0311a56963494eeafaa73c1909",
+  "rerun_source_git_blob": "823cd54980d0a373b419906828000020870eba2b",
+  "rerun_config_git_blob": "424ed35ec9090697dcdc41aad0e35fb637403624",
+  "source_and_config_blobs_matched": true,
+  "V02_assertion_count": 62,
+  "V02_passed": true,
+  "V02_output_sha256": "69f262b52067c822a7580868eff6074f5b4014007c01e3f00ae5110b94bf423a",
+  "environment": {
+    "python": "3.13.5",
+    "system": "Linux",
+    "arithmetic": "Fraction",
+    "dependencies": "standard library only"
+  },
+  "original_outputs_overwritten": false,
+  "performance_experiments_run": false,
+  "material_identity": {
+    "P00": {
+      "pages": 18,
+      "bytes": 4987519,
+      "sha256": "7cbfe601cbfcc790e6b63666886e58efc947ed78737be9c8407f5ae149938529"
+    },
+    "ACC03": {
+      "pages": 114,
+      "bytes": 4255403,
+      "sha256": "e9eb073fc2708f8289eea80ab15c193aa59b8f7a41efc0fcdd1751d331c38bf0"
+    },
+    "ACC04": {
+      "pages": 43,
+      "bytes": 3868874,
+      "sha256": "4ed5ff01b2e19b0117204f2b5a8fffbb28c4199a918d99b2f9c9612647fcde5d"
+    }
+  }
+}

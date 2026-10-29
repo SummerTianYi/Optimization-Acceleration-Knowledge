@@ -1,0 +1,94 @@
+{
+  "reviewed_sha": "f5769deab4f4bf0311a56963494eeafaa73c1909",
+  "environment": {
+    "python": "3.13.5",
+    "system": "Linux",
+    "arithmetic": "fractions.Fraction"
+  },
+  "scope": "Independent finite algebra and protocol checks, not performance or general theorem verification.",
+  "moving_case": {
+    "D_same": "1/64",
+    "delta_gradient_same": "1/4",
+    "D_mix": "15/64",
+    "delta_gradient_mix": "1/2",
+    "L_same": "2",
+    "L_mix": "8/15",
+    "lhs": "1/16",
+    "mixed_rhs": "1/60",
+    "function_drift": "7/32",
+    "gradient_drift": "1/4"
+  },
+  "same_point_case": {
+    "L_mix": "1/7"
+  },
+  "E03_protocol": {
+    "LF": "6/5",
+    "LG": "1",
+    "tau": "5/12",
+    "sigma": "1/2",
+    "hessian_at_x_pi": [
+      [
+        "1/5",
+        "-1"
+      ],
+      [
+        "-1",
+        "2"
+      ]
+    ],
+    "hessian_determinant_at_x_pi": "-3/5",
+    "units": 6
+  },
+  "E04_protocol": {
+    "units": 8,
+    "reference_x": [
+      "-1",
+      "-3/4",
+      "-1/2",
+      "-1/4",
+      "1/4",
+      "1/2",
+      "3/4",
+      "1"
+    ],
+    "Fstar": "1/2"
+  },
+  "ACC03_table3_3_differences": {
+    "50_iterations": "111/50",
+    "500_iterations": "3/100"
+  },
+  "cached_residual_check": {
+    "A": [
+      [
+        "1",
+        "2"
+      ],
+      [
+        "-1",
+        "1"
+      ]
+    ],
+    "x": [
+      "1/4",
+      "1/4"
+    ],
+    "b": [
+      "1/2",
+      "0"
+    ],
+    "residual": [
+      "1/4",
+      "0"
+    ],
+    "new_mu": "1/2",
+    "f_new": "9/16",
+    "gradient_new": [
+      "1/2",
+      "1"
+    ],
+    "equals_fresh_evaluation": true,
+    "general_linear_model_cost_note": "Cached Ax-b avoids another A*x for the old point; a new A^T*v may still be needed. This is an operation-accounting fact, not a speed measurement."
+  },
+  "performance_protocols_executed": false,
+  "passed": true
+}
