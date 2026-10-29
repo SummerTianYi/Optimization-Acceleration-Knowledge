@@ -8,15 +8,44 @@ PDF2–3 §1按“固定L梯度→两点自适应梯度→Nesterov→已有自�
 
 可复用：背景段末用缺失的**结论对象**连接贡献段，比“仍有很多问题”具体。近邻[19]的历史最小梯度平方O(k⁻³)只属于该近邻，写自己的定理时不能顺手继承。引用原作未回查时，本知识库的叙述须保留“作者转述”。
 
-同事实修改前（执行者构造的欠限定概括）：
+### 事实校准示例（保留原例，不作为同事实组织测试）
+
+校准前（执行者构造的欠限定概括，含待纠正主张）：
 
 > We propose a parameter-free accelerated method that achieves optimal convergence without line search.
 
-修改后（执行者改写）：
+校准后（执行者改写）：
 
 > The method uses function values and gradients at consecutive iterates to select the next step size without a line search. For convex smooth objectives, the analysis establishes a quadratic decay bound for the objective gap and weak convergence of the iterates. Under strong convexity, it gives a linear factor whose contraction parameter scales with μ/L, without requiring μ as an algorithm input.
 
-前句是需要纠正的概括，不是原文引语。修改后保留同样的算法及定理事实，去掉原文未支持的“无参数”和强凸最优性，补上信息调用与收敛拓扑。另有m,t₀,β,γ,η,ω等参数，详见研究卡。
+前句是需要纠正的概括，不是原文引语。校准后去掉原文未支持的“无参数”和强凸最优性，并补上信息调用、收敛拓扑和条件数范围，事实集合发生改变。另有m,t₀,β,γ,η,ω等参数，详见研究卡。
+
+### 同事实组织改写（新增受控练习；英文为自行改写）
+
+以下两版用于独立介绍算法及结论的段落，共同事实先固定如下。
+
+| 事实ID | 两版必须共同保留的事实 | 原文定位 |
+|---|---|---|
+| B1 | f在真实Hilbert空间上凸且L光滑，最优集非空；式(6)从x₀=y₀出发并遵守Hypothesis2.1 | PDF1–2模型与最优点约定；PDF3式(6)，PDF9–10 Hypothesis2.1，PDF11/14定理前提 |
+| B2 | 相邻迭代点的函数值和梯度用于选择下一步步长，不进行线搜索 | PDF4局部曲率定义，PDF9–10步长规则；式(6)依赖顺序 |
+| B3 | 目标函数差有O(k⁻²)上界 | PDF11–13，Theorem3.1、步长下界与Remark3.1 |
+| B4 | x_k和y_k弱收敛到同一个最优点 | PDF14–15，Theorem3.2 |
+
+**组织修改前（准确，但结果与信息要求交错）：**
+
+<!-- controlled-rewrite-before -->
+> Let f be convex and L-smooth on a real Hilbert space, with a nonempty set of minimizers, and consider (6) initialized with x₀=y₀ under Hypothesis 2.1. Both iterate sequences converge weakly to the same minimizer. Function values and gradients at consecutive iterates determine the next step size without a line search. The objective gap has an O(k⁻²) bound.
+<!-- controlled-rewrite-before-end -->
+
+**组织修改后（条件—信息机制—两种结论）：**
+
+<!-- controlled-rewrite-after -->
+> Let f be convex and L-smooth on a real Hilbert space, with a nonempty set of minimizers, and consider (6) initialized with x₀=y₀ under Hypothesis 2.1. Using function values and gradients at consecutive iterates, the method determines the next step size without a line search. The objective gap is O(k⁻²), and both iterate sequences converge weakly to the same minimizer.
+<!-- controlled-rewrite-after-end -->
+
+内部事实核对：前版B1→B4→B2→B3，后版B1→B2→B3→B4；条件句逐字符一致，函数值率与两序列的弱收敛均保留。后版按信息机制接分析结论，读者不用在结果与信息调用之间切换。
+
+**自然性反向审查。** 这一独立段落保留凸性、光滑性、最优点存在、初始化及Hypothesis2.1；若前文已设定这些条件，正文后续可直接从“The method…”开始。前版将“Both iterate sequences converge weakly to the same minimizer.”与“The objective gap has an O(k⁻²) bound.”隔开；后版合为“The objective gap is O(k⁻²), and both iterate sequences converge weakly to the same minimizer.”。合并后两个收敛对象及弱收敛含义仍完整，读者可在同一句比较两种结论，无须额外加“The analysis establishes two conclusions”之类引导语。固定初值和参数的O记号按该上下文使用；强凸最优性、性能及常数风险留在研究卡，正文不反复排除未提出的主张。
 
 ## 片段二：算法规则从证明需求中出现
 
@@ -32,4 +61,4 @@ PDF10–17继续分层：能量下降→步长下界→函数值界→有界与�
 
 何时用：算法设计确实由能量剩余项推出，且计算依赖已核对时。检查每个“control”对应一个不等式，不能仅模仿句型。非凸、随机或网络迁移必须重新建立剩余项，不能沿用措辞暗示已解决。对应P00 PDF15/印19集中到分布式路线中的基础论证要求。
 
-写作自查：两处可定位的论证链；前后改写未加新结论；原文与改写、历史工作与本篇贡献、函数率与点收敛均已区分。无实验的论文以理论结论组织作分析，不制造实验讨论。
+修订自查：两处可定位的论证链保留；旧例改标事实校准，新增四事实受控组织练习，两版条件及信息集合逐句核对。原文与改写、历史工作与本篇贡献、函数率与点收敛均已区分。此处是执行者修订自查，仍待Manager复验。

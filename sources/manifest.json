@@ -18,7 +18,7 @@
       "authors": null,
       "role": "scope_authority",
       "required_for_reading": true,
-      "scientific_review_status": "pending_manager_independent_review",
+      "scientific_review_status": "manager_scope_location_passed; R3_alignment_revision_pending_recheck",
       "scope_note": "上传摘编版18页；页码按PDF与印刷页分别记录，不假设收到完整基金申请书。",
       "package_path": "materials/P00_宇自然基金-3_merged(4).pdf",
       "originals_location": "outside_git: supplied handoff package materials/",
@@ -29,7 +29,9 @@
       "package_encrypted_flag": false,
       "pypdf_is_encrypted": false,
       "readable": true,
-      "title_author_check": "source_page_verified; see READING_LOG.md; P00 author not inferred"
+      "title_author_check": "source_page_verified; see READING_LOG.md; P00 author not inferred",
+      "manager_review_reference": "reviews/STAGE01_4285cde_MANAGER_REVIEW.md",
+      "manager_reviewed_sha": "4285cde36d8efa3f870bae95f4080249fba3f2c2"
     },
     {
       "id": "ACC01",
@@ -41,17 +43,19 @@
       "authors": "孙碧皓",
       "role": "primary_paper",
       "required_for_reading": true,
-      "scientific_review_status": "pending_manager_independent_review",
+      "scientific_review_status": "manager_research_and_original_experiment_audit_passed; R1_R2_revision_pending_recheck",
       "package_path": "materials/ACC01_多智能体分布式优化加速算法的研究_孙碧皓(1).pdf",
       "originals_location": "outside_git: supplied handoff package materials/",
       "possession_status": "held_and_sha256_verified_this_run",
       "reading_status": "scientific_text_full_read",
-      "distillation_status": "research_writing_experiments_complete",
+      "distillation_status": "research_retained; writing_and_experiment_protocol_revised_pending_manager_recheck",
       "actual_pages": 56,
       "package_encrypted_flag": false,
       "pypdf_is_encrypted": true,
       "readable": true,
-      "title_author_check": "source_page_verified; see READING_LOG.md; P00 author not inferred"
+      "title_author_check": "source_page_verified; see READING_LOG.md; P00 author not inferred",
+      "manager_review_reference": "reviews/STAGE01_4285cde_MANAGER_REVIEW.md",
+      "manager_reviewed_sha": "4285cde36d8efa3f870bae95f4080249fba3f2c2"
     },
     {
       "id": "ACC02",
@@ -63,18 +67,20 @@
       "authors": "Zepeng Wang; Juan Peypouquet",
       "role": "primary_paper",
       "required_for_reading": true,
-      "scientific_review_status": "pending_manager_independent_review",
+      "scientific_review_status": "manager_research_and_original_experiment_audit_passed; R1_R2_revision_pending_recheck",
       "doi": "10.1007/s10957-026-03086-z",
       "package_path": "materials/ACC02_s10957-026-03086-z.pdf",
       "originals_location": "outside_git: supplied handoff package materials/",
       "possession_status": "held_and_sha256_verified_this_run",
       "reading_status": "scientific_text_full_read",
-      "distillation_status": "research_writing_experiments_complete",
+      "distillation_status": "research_retained; writing_and_experiment_protocol_revised_pending_manager_recheck",
       "actual_pages": 18,
       "package_encrypted_flag": false,
       "pypdf_is_encrypted": false,
       "readable": true,
-      "title_author_check": "source_page_verified; see READING_LOG.md; P00 author not inferred"
+      "title_author_check": "source_page_verified; see READING_LOG.md; P00 author not inferred",
+      "manager_review_reference": "reviews/STAGE01_4285cde_MANAGER_REVIEW.md",
+      "manager_reviewed_sha": "4285cde36d8efa3f870bae95f4080249fba3f2c2"
     },
     {
       "id": "ACC03",
@@ -86,7 +92,7 @@
       "authors": "高雪",
       "role": "primary_paper",
       "required_for_reading": true,
-      "scientific_review_status": "pending_manager_independent_review",
+      "scientific_review_status": "manager_navigation_location_check_passed; full_distillation_not_started",
       "package_path": "materials/ACC03_几类优化问题的加速算法研究_高雪.pdf",
       "originals_location": "outside_git: supplied handoff package materials/",
       "possession_status": "held_and_sha256_verified_this_run",
@@ -96,7 +102,9 @@
       "package_encrypted_flag": false,
       "pypdf_is_encrypted": true,
       "readable": true,
-      "title_author_check": "source_page_verified; see READING_LOG.md; P00 author not inferred"
+      "title_author_check": "source_page_verified; see READING_LOG.md; P00 author not inferred",
+      "manager_review_reference": "reviews/STAGE01_4285cde_MANAGER_REVIEW.md",
+      "manager_reviewed_sha": "4285cde36d8efa3f870bae95f4080249fba3f2c2"
     },
     {
       "id": "ACC04",
@@ -108,7 +116,7 @@
       "authors": "张子璇",
       "role": "primary_paper",
       "required_for_reading": true,
-      "scientific_review_status": "pending_manager_independent_review",
+      "scientific_review_status": "manager_navigation_location_check_passed; full_distillation_not_started",
       "package_path": "materials/ACC04_一类非光滑凸回归优化问题的光滑加速算法_张子璇(1).pdf",
       "originals_location": "outside_git: supplied handoff package materials/",
       "possession_status": "held_and_sha256_verified_this_run",
@@ -118,7 +126,9 @@
       "package_encrypted_flag": false,
       "pypdf_is_encrypted": true,
       "readable": true,
-      "title_author_check": "source_page_verified; see READING_LOG.md; P00 author not inferred"
+      "title_author_check": "source_page_verified; see READING_LOG.md; P00 author not inferred",
+      "manager_review_reference": "reviews/STAGE01_4285cde_MANAGER_REVIEW.md",
+      "manager_reviewed_sha": "4285cde36d8efa3f870bae95f4080249fba3f2c2"
     },
     {
       "id": "ACC05",
@@ -130,7 +140,7 @@
       "authors": "Michael Muehlebach; Michael I. Jordan",
       "role": "primary_paper",
       "required_for_reading": true,
-      "scientific_review_status": "pending_manager_independent_review",
+      "scientific_review_status": "manager_navigation_location_check_passed; full_distillation_not_started",
       "doi": "10.1007/s10107-025-02224-1",
       "package_path": "materials/ACC05_s10107-025-02224-1.pdf",
       "originals_location": "outside_git: supplied handoff package materials/",
@@ -141,7 +151,9 @@
       "package_encrypted_flag": false,
       "pypdf_is_encrypted": false,
       "readable": true,
-      "title_author_check": "source_page_verified; see READING_LOG.md; P00 author not inferred"
+      "title_author_check": "source_page_verified; see READING_LOG.md; P00 author not inferred",
+      "manager_review_reference": "reviews/STAGE01_4285cde_MANAGER_REVIEW.md",
+      "manager_reviewed_sha": "4285cde36d8efa3f870bae95f4080249fba3f2c2"
     },
     {
       "id": "ACC06",
@@ -153,7 +165,7 @@
       "authors": "黄芳",
       "role": "primary_paper",
       "required_for_reading": true,
-      "scientific_review_status": "pending_manager_independent_review",
+      "scientific_review_status": "manager_navigation_location_check_passed; full_distillation_not_started",
       "scope_note": "既有转出PDF；本轮重核文件身份、57页可打开及选定原页，没有重新声称完成CAJ逐页等价转换审计。",
       "package_path": "materials/ACC06_两类凸优化模型的对偶优化加速算法研究及应用_黄芳_转出.pdf",
       "originals_location": "outside_git: supplied handoff package materials/",
@@ -164,7 +176,9 @@
       "package_encrypted_flag": false,
       "pypdf_is_encrypted": false,
       "readable": true,
-      "title_author_check": "source_page_verified; see READING_LOG.md; P00 author not inferred"
+      "title_author_check": "source_page_verified; see READING_LOG.md; P00 author not inferred",
+      "manager_review_reference": "reviews/STAGE01_4285cde_MANAGER_REVIEW.md",
+      "manager_reviewed_sha": "4285cde36d8efa3f870bae95f4080249fba3f2c2"
     },
     {
       "id": "ACC06-ORIGINAL",
@@ -175,12 +189,14 @@
       "authors": "黄芳",
       "role": "source_backup",
       "required_for_reading": false,
-      "scientific_review_status": "pending_manager_independent_review",
+      "scientific_review_status": "manager_identity_checked; no_CAJ_PDF_equivalence_review",
       "package_path": "materials/ACC06-ORIGINAL_两类凸优化模型的对偶优化加速算法研究及应用_黄芳.caj",
       "originals_location": "outside_git: supplied handoff package materials/",
       "possession_status": "held_and_sha256_verified_this_run",
       "reading_status": "backup_identity_only",
-      "distillation_status": "not_applicable_backup"
+      "distillation_status": "not_applicable_backup",
+      "manager_review_reference": "reviews/STAGE01_4285cde_MANAGER_REVIEW.md",
+      "manager_reviewed_sha": "4285cde36d8efa3f870bae95f4080249fba3f2c2"
     }
   ]
 }

@@ -1,0 +1,641 @@
+{
+  "checked_at_utc": "2026-10-29T17:54:25.025729+00:00",
+  "scope": "Engineering, textual invariants and decision tables only; no scientific experiment or independent acceptance",
+  "command": "python checks/check_stage01_revision.py --package-root <external-handoff-directory>",
+  "environment": {
+    "python": "3.12.14",
+    "pypdf": "6.10.0",
+    "system": "Windows"
+  },
+  "manager_base": "e53d9271e89b832a6996e2eff225be94416e547f",
+  "manager_base_is_ancestor": true,
+  "original_identities_checked": [
+    {
+      "id": "P00",
+      "sha256": "7cbfe601cbfcc790e6b63666886e58efc947ed78737be9c8407f5ae149938529",
+      "bytes": 4987519,
+      "pages": 18
+    },
+    {
+      "id": "ACC01",
+      "sha256": "2cbc4e02d66e49e33d73559001c67bf8111dd94cebca928a0a19a0f60c0014ee",
+      "bytes": 2053594,
+      "pages": 56
+    },
+    {
+      "id": "ACC02",
+      "sha256": "9764260a9526c6821b0b8fecdb126074ba0b5a702e093e70c2519eb774722f03",
+      "bytes": 344280,
+      "pages": 18
+    }
+  ],
+  "all_eight_manifest_identities_preserved": true,
+  "protected_files_equal_manager_base": [
+    {
+      "path": ".gitattributes",
+      "sha256": "d60f352d0db1404c70afb4bb8b2ca3fd1c610572aa40720e8a0b7baa7885418c"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "df85ef49e53dbb67dbca0259fc9e255dd39ddaf9af0ceb0ade7c766a2eda7ae9"
+    },
+    {
+      "path": "checks/PROTOCOL.md",
+      "sha256": "56b4b31cbbdf2d7af7683bb28f31f52f4b62004a7241554d8ad17dfa81790b6d"
+    },
+    {
+      "path": "checks/RESULT.md",
+      "sha256": "00e03519f10039217552a5ae924525f6e9e525ff92bec7054220bc667cd88051"
+    },
+    {
+      "path": "checks/config.json",
+      "sha256": "a4241677b51b4b433ec9281f22a9274ba86b107aae722739ca1e95a4caa6ab6c"
+    },
+    {
+      "path": "checks/manager_check_4285cde.py",
+      "sha256": "59426f18495f035003fd7a9d7eeacde992fe801294ab95d65ff2439f09627909"
+    },
+    {
+      "path": "checks/requirements.txt",
+      "sha256": "a23860869bae726e81dbbc2eebfc65dec0f356b936f4000083deed858220211f"
+    },
+    {
+      "path": "checks/results/acc01_relation.json",
+      "sha256": "2653cb9b544bd1d76eac5b903239b0678081cacb59b72373fa27ab6c5511583d"
+    },
+    {
+      "path": "checks/results/delivery_audit.json",
+      "sha256": "927fcffeaffbcb4b17a7f602f6afaf57ad059dd60c20cbcaf06d5d8f9eaf545e"
+    },
+    {
+      "path": "checks/results/environment.json",
+      "sha256": "66f358b4ca55cabd2016c802e96dbc965c84a6d316e3d4dc32ce7dbe2533c35d"
+    },
+    {
+      "path": "checks/results/manager_stage01_4285cde.json",
+      "sha256": "951b5acdf4e4776e49678f8eb724f4fccc6d8f1b6ee2e4351e91ce3657bf21b9"
+    },
+    {
+      "path": "checks/results/stdout.txt",
+      "sha256": "9bc6852ab07313bf957a96e3daeee3853593191574e840b28d63e7f21bbce280"
+    },
+    {
+      "path": "checks/verify_acc01_relation.py",
+      "sha256": "93e60fa8f7533132234a73f90f482792f1c16fc627f02cd774db64927a14a057"
+    },
+    {
+      "path": "papers/ACC01/RESEARCH.md",
+      "sha256": "0d6569dc64507becfc9c7738b03e20a5753bf438b52606dc6fc10d5f86103e9a"
+    },
+    {
+      "path": "papers/ACC02/RESEARCH.md",
+      "sha256": "c2f77af4c2a393762065344e141b06f000074ca1a983581d77f3f799a6f964eb"
+    },
+    {
+      "path": "reviews/EXECUTOR_SELF_CHECK.md",
+      "sha256": "17053204266af100891b0bb6c41b9c244a0fb8a5bf1df39e1930bdcb12ead52a"
+    },
+    {
+      "path": "reviews/STAGE01_4285cde_MANAGER_REVIEW.md",
+      "sha256": "ddeca90981760be43a5c1f9d1afb299f6201f515b7474db87750b457c261b1c3"
+    },
+    {
+      "path": "scope/P00_ALIGNMENT.md",
+      "sha256": "e62a42c54c5b9cd6cb6964e6e8b3bfa86f2e480865a8d58ca463088a382e42f6"
+    },
+    {
+      "path": "sources/material_identity_check.json",
+      "sha256": "a43d5fd661f3d2f821db3eeaf218522ac323bffec5bc99208fc7198f313a5af1"
+    },
+    {
+      "path": "sources/pdf_metadata_check.json",
+      "sha256": "7a894853550ebeb55395af18ae564d5ec580e204cf90f44dc368d83de33ff911"
+    },
+    {
+      "path": "tasks/MASTER_PLAN.md",
+      "sha256": "d479d50b447f0a271b53ee35f8ccb48c7a8702fbe245e0c79f8178ed36918f85"
+    },
+    {
+      "path": "tasks/STAGE01.md",
+      "sha256": "63e643c87289c8eea9bd1bd883233395550249af48bdf7a988de7bfbb1735d98"
+    },
+    {
+      "path": "tasks/STAGE01_REVISION.md",
+      "sha256": "5f09d0f1b624c7795922e990d2444a862cad0e56afbe2aac228d9698330270f9"
+    }
+  ],
+  "original_acc01_experiment_audit_and_e03_preserved": true,
+  "writing_invariants": [
+    {
+      "paper": "ACC01",
+      "fact_ids": [
+        "A1",
+        "A2",
+        "A3",
+        "A4"
+      ],
+      "before_sha256": "35125924db9e27d2afea0f65592115bce5c4b338f88b3a51bbd63d7561e0fbfc",
+      "after_sha256": "9b5e72b92d7de8627519d928c6c17a9540ee55f19a578884570e72e611fcf15a",
+      "invariant_text_checks": "pass",
+      "semantic_and_naturalness_review": "manual; see executor review"
+    },
+    {
+      "paper": "ACC02",
+      "fact_ids": [
+        "B1",
+        "B2",
+        "B3",
+        "B4"
+      ],
+      "before_sha256": "9356aa59ffa590b4eb1a8d3bb9e4f90036638b73cf5051000942f8af550d6f29",
+      "after_sha256": "154a78b37ccceb5b7bc199909282eb81b2f6d48f4adb439ef05ec0c6f7ad85c9",
+      "invariant_text_checks": "pass",
+      "semantic_and_naturalness_review": "manual; see executor review"
+    }
+  ],
+  "e01_planned_counts": {
+    "main_training": 90,
+    "per_method_training": 30,
+    "main_testing": 42,
+    "ablation": 28,
+    "sensitivity": 120,
+    "reused_training": 60,
+    "additional_sensitivity": 60
+  },
+  "synthetic_selection_cases_not_experiments": [
+    {
+      "case": "success_count_first",
+      "synthetic_costs": {
+        "1/1000": [
+          1,
+          null,
+          null
+        ],
+        "3/1000": [
+          999999,
+          999999,
+          null
+        ]
+      },
+      "expected": "3/1000",
+      "actual": "3/1000",
+      "passed": true
+    },
+    {
+      "case": "penalty_cost_second",
+      "synthetic_costs": {
+        "1/1000": [
+          100,
+          100,
+          null
+        ],
+        "3/1000": [
+          90,
+          90,
+          null
+        ]
+      },
+      "expected": "3/1000",
+      "actual": "3/1000",
+      "passed": true
+    },
+    {
+      "case": "smaller_c_tie",
+      "synthetic_costs": {
+        "3/1000": [
+          100,
+          null,
+          null
+        ],
+        "1/1000": [
+          100,
+          null,
+          null
+        ]
+      },
+      "expected": "1/1000",
+      "actual": "1/1000",
+      "passed": true
+    },
+    {
+      "case": "all_failed_no_configuration",
+      "synthetic_costs": {
+        "1/1000": [
+          null,
+          null,
+          null
+        ],
+        "3/1000": [
+          null,
+          null,
+          null
+        ],
+        "1/100": [
+          null,
+          null,
+          null
+        ],
+        "3/100": [
+          null,
+          null,
+          null
+        ],
+        "1/10": [
+          null,
+          null,
+          null
+        ]
+      },
+      "expected": "None",
+      "actual": "None",
+      "passed": true
+    }
+  ],
+  "e02_static_checks": {
+    "parameter_lhs": "3/8",
+    "parameter_rhs": "5/9",
+    "planned_performance_units": 16,
+    "backtracking_retry_limit": 100,
+    "oracle_budget": 200000
+  },
+  "candidate_count": 2,
+  "local_link_count": 93,
+  "local_links": [
+    {
+      "from": "README.md",
+      "to": "STATE.md"
+    },
+    {
+      "from": "README.md",
+      "to": "REVIEW.md"
+    },
+    {
+      "from": "README.md",
+      "to": "tasks/STAGE01_REVISION.md"
+    },
+    {
+      "from": "README.md",
+      "to": "tasks/STAGE01.md"
+    },
+    {
+      "from": "README.md",
+      "to": "tasks/MASTER_PLAN.md"
+    },
+    {
+      "from": "README.md",
+      "to": "scope/P00_ALIGNMENT.md"
+    },
+    {
+      "from": "README.md",
+      "to": "scope/ACCELERATION_MAP.md"
+    },
+    {
+      "from": "README.md",
+      "to": "scope/CANDIDATES.md"
+    },
+    {
+      "from": "README.md",
+      "to": "sources/manifest.json"
+    },
+    {
+      "from": "README.md",
+      "to": "sources/READING_LOG.md"
+    },
+    {
+      "from": "README.md",
+      "to": "papers/ACC01/RESEARCH.md"
+    },
+    {
+      "from": "README.md",
+      "to": "papers/ACC01/WRITING.md"
+    },
+    {
+      "from": "README.md",
+      "to": "papers/ACC01/EXPERIMENTS.md"
+    },
+    {
+      "from": "README.md",
+      "to": "papers/ACC02/RESEARCH.md"
+    },
+    {
+      "from": "README.md",
+      "to": "papers/ACC02/WRITING.md"
+    },
+    {
+      "from": "README.md",
+      "to": "papers/ACC02/EXPERIMENTS.md"
+    },
+    {
+      "from": "README.md",
+      "to": "checks/RESULT.md"
+    },
+    {
+      "from": "README.md",
+      "to": "reviews/STAGE01_4285cde_MANAGER_REVIEW.md"
+    },
+    {
+      "from": "README.md",
+      "to": "reviews/STAGE01_REVISION_EXECUTOR_CHECK.md"
+    },
+    {
+      "from": "README.md",
+      "to": "knowledge/METHODS.md"
+    },
+    {
+      "from": "README.md",
+      "to": "knowledge/WRITING.md"
+    },
+    {
+      "from": "README.md",
+      "to": "knowledge/EXPERIMENTS.md"
+    },
+    {
+      "from": "REVIEW.md",
+      "to": "papers/ACC01/WRITING.md"
+    },
+    {
+      "from": "REVIEW.md",
+      "to": "papers/ACC02/WRITING.md"
+    },
+    {
+      "from": "REVIEW.md",
+      "to": "knowledge/WRITING.md"
+    },
+    {
+      "from": "REVIEW.md",
+      "to": "papers/ACC01/EXPERIMENTS.md"
+    },
+    {
+      "from": "REVIEW.md",
+      "to": "papers/ACC02/EXPERIMENTS.md"
+    },
+    {
+      "from": "REVIEW.md",
+      "to": "scope/CANDIDATES.md"
+    },
+    {
+      "from": "REVIEW.md",
+      "to": "scope/ACCELERATION_MAP.md"
+    },
+    {
+      "from": "REVIEW.md",
+      "to": "knowledge/METHODS.md"
+    },
+    {
+      "from": "REVIEW.md",
+      "to": "reviews/STAGE01_REVISION_EXECUTOR_CHECK.md"
+    },
+    {
+      "from": "REVIEW.md",
+      "to": "checks/check_stage01_revision.py"
+    },
+    {
+      "from": "REVIEW.md",
+      "to": "checks/results/stage01_revision_audit.json"
+    },
+    {
+      "from": "REVIEW.md",
+      "to": "reviews/STAGE01_4285cde_MANAGER_REVIEW.md"
+    },
+    {
+      "from": "REVIEW.md",
+      "to": "tasks/STAGE01_REVISION.md"
+    },
+    {
+      "from": "REVIEW.md",
+      "to": "checks/manager_check_4285cde.py"
+    },
+    {
+      "from": "REVIEW.md",
+      "to": "checks/results/manager_stage01_4285cde.json"
+    },
+    {
+      "from": "REVIEW.md",
+      "to": "checks/RESULT.md"
+    },
+    {
+      "from": "REVIEW.md",
+      "to": "STATE.md"
+    },
+    {
+      "from": "REVIEW.md",
+      "to": "sources/READING_LOG.md"
+    },
+    {
+      "from": "STATE.md",
+      "to": "reviews/STAGE01_4285cde_MANAGER_REVIEW.md"
+    },
+    {
+      "from": "STATE.md",
+      "to": "tasks/STAGE01_REVISION.md"
+    },
+    {
+      "from": "STATE.md",
+      "to": "REVIEW.md"
+    },
+    {
+      "from": "STATE.md",
+      "to": "reviews/STAGE01_REVISION_EXECUTOR_CHECK.md"
+    },
+    {
+      "from": "STATE.md",
+      "to": "tasks/MASTER_PLAN.md"
+    },
+    {
+      "from": "checks/RESULT.md",
+      "to": "checks/PROTOCOL.md"
+    },
+    {
+      "from": "checks/RESULT.md",
+      "to": "checks/verify_acc01_relation.py"
+    },
+    {
+      "from": "checks/RESULT.md",
+      "to": "checks/config.json"
+    },
+    {
+      "from": "checks/RESULT.md",
+      "to": "checks/results/acc01_relation.json"
+    },
+    {
+      "from": "checks/RESULT.md",
+      "to": "checks/results/stdout.txt"
+    },
+    {
+      "from": "checks/RESULT.md",
+      "to": "checks/results/environment.json"
+    },
+    {
+      "from": "knowledge/EXPERIMENTS.md",
+      "to": "checks/PROTOCOL.md"
+    },
+    {
+      "from": "knowledge/EXPERIMENTS.md",
+      "to": "checks/RESULT.md"
+    },
+    {
+      "from": "knowledge/EXPERIMENTS.md",
+      "to": "reviews/STAGE01_4285cde_MANAGER_REVIEW.md"
+    },
+    {
+      "from": "knowledge/METHODS.md",
+      "to": "checks/RESULT.md"
+    },
+    {
+      "from": "knowledge/METHODS.md",
+      "to": "reviews/STAGE01_4285cde_MANAGER_REVIEW.md"
+    },
+    {
+      "from": "knowledge/METHODS.md",
+      "to": "scope/CANDIDATES.md"
+    },
+    {
+      "from": "knowledge/WRITING.md",
+      "to": "papers/ACC01/WRITING.md"
+    },
+    {
+      "from": "knowledge/WRITING.md",
+      "to": "papers/ACC02/WRITING.md"
+    },
+    {
+      "from": "reviews/STAGE01_4285cde_MANAGER_REVIEW.md",
+      "to": "tasks/STAGE01_REVISION.md"
+    },
+    {
+      "from": "reviews/STAGE01_4285cde_MANAGER_REVIEW.md",
+      "to": "checks/manager_check_4285cde.py"
+    },
+    {
+      "from": "reviews/STAGE01_4285cde_MANAGER_REVIEW.md",
+      "to": "checks/results/manager_stage01_4285cde.json"
+    },
+    {
+      "from": "reviews/STAGE01_REVISION_EXECUTOR_CHECK.md",
+      "to": "reviews/STAGE01_4285cde_MANAGER_REVIEW.md"
+    },
+    {
+      "from": "reviews/STAGE01_REVISION_EXECUTOR_CHECK.md",
+      "to": "papers/ACC01/WRITING.md"
+    },
+    {
+      "from": "reviews/STAGE01_REVISION_EXECUTOR_CHECK.md",
+      "to": "papers/ACC02/WRITING.md"
+    },
+    {
+      "from": "reviews/STAGE01_REVISION_EXECUTOR_CHECK.md",
+      "to": "knowledge/WRITING.md"
+    },
+    {
+      "from": "reviews/STAGE01_REVISION_EXECUTOR_CHECK.md",
+      "to": "papers/ACC01/EXPERIMENTS.md"
+    },
+    {
+      "from": "reviews/STAGE01_REVISION_EXECUTOR_CHECK.md",
+      "to": "checks/results/stage01_revision_audit.json"
+    },
+    {
+      "from": "reviews/STAGE01_REVISION_EXECUTOR_CHECK.md",
+      "to": "papers/ACC02/EXPERIMENTS.md"
+    },
+    {
+      "from": "reviews/STAGE01_REVISION_EXECUTOR_CHECK.md",
+      "to": "scope/CANDIDATES.md"
+    },
+    {
+      "from": "scope/ACCELERATION_MAP.md",
+      "to": "sources/READING_LOG.md"
+    },
+    {
+      "from": "scope/ACCELERATION_MAP.md",
+      "to": "scope/P00_ALIGNMENT.md"
+    },
+    {
+      "from": "scope/ACCELERATION_MAP.md",
+      "to": "papers/ACC01/RESEARCH.md"
+    },
+    {
+      "from": "scope/ACCELERATION_MAP.md",
+      "to": "papers/ACC01/WRITING.md"
+    },
+    {
+      "from": "scope/ACCELERATION_MAP.md",
+      "to": "papers/ACC01/EXPERIMENTS.md"
+    },
+    {
+      "from": "scope/ACCELERATION_MAP.md",
+      "to": "papers/ACC02/RESEARCH.md"
+    },
+    {
+      "from": "scope/ACCELERATION_MAP.md",
+      "to": "papers/ACC02/WRITING.md"
+    },
+    {
+      "from": "scope/ACCELERATION_MAP.md",
+      "to": "papers/ACC02/EXPERIMENTS.md"
+    },
+    {
+      "from": "scope/CANDIDATES.md",
+      "to": "papers/ACC02/EXPERIMENTS.md"
+    },
+    {
+      "from": "sources/READING_LOG.md",
+      "to": "sources/manifest.json"
+    },
+    {
+      "from": "sources/READING_LOG.md",
+      "to": "sources/material_identity_check.json"
+    },
+    {
+      "from": "sources/READING_LOG.md",
+      "to": "sources/pdf_metadata_check.json"
+    },
+    {
+      "from": "papers/ACC01/EXPERIMENTS.md",
+      "to": "checks/RESULT.md"
+    },
+    {
+      "from": "papers/ACC01/EXPERIMENTS.md",
+      "to": "reviews/STAGE01_4285cde_MANAGER_REVIEW.md"
+    },
+    {
+      "from": "papers/ACC01/EXPERIMENTS.md",
+      "to": "papers/ACC01/RESEARCH.md"
+    },
+    {
+      "from": "papers/ACC01/RESEARCH.md",
+      "to": "sources/READING_LOG.md"
+    },
+    {
+      "from": "papers/ACC01/RESEARCH.md",
+      "to": "checks/RESULT.md"
+    },
+    {
+      "from": "papers/ACC01/RESEARCH.md",
+      "to": "checks/RESULT.md"
+    },
+    {
+      "from": "papers/ACC01/WRITING.md",
+      "to": "papers/ACC01/RESEARCH.md"
+    },
+    {
+      "from": "papers/ACC02/EXPERIMENTS.md",
+      "to": "reviews/STAGE01_4285cde_MANAGER_REVIEW.md"
+    },
+    {
+      "from": "papers/ACC02/EXPERIMENTS.md",
+      "to": "checks/manager_check_4285cde.py"
+    },
+    {
+      "from": "papers/ACC02/EXPERIMENTS.md",
+      "to": "checks/results/manager_stage01_4285cde.json"
+    },
+    {
+      "from": "papers/ACC02/EXPERIMENTS.md",
+      "to": "papers/ACC02/RESEARCH.md"
+    }
+  ],
+  "inspected_file_count": 41,
+  "file_allowlist_utf8_lf_syntax_credentials": "pass",
+  "scientific_scripts_executed": [],
+  "passed": true
+}
