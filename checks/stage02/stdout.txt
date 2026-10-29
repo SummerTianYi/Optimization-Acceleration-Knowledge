@@ -1,0 +1,1 @@
+{"verification": "V02", "passed": true, "assertions": 62, "bias_cases": 24, "fixed_pairs": 9, "drift_cases": 3, "performance_protocols_executed": false}

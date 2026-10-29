@@ -1,0 +1,935 @@
+{
+  "checked_at_utc": "2026-10-29T19:01:30.986749+00:00",
+  "scope": "provenance, protected bytes, links, text invariants, static protocol algebra; no optimizer",
+  "command": "python checks/stage02/audit_stage02.py --package-root <external handoff>",
+  "manager_base": "91ba65b40857b33912200a32efd1ba993f7c83a5",
+  "manager_base_is_ancestor": true,
+  "branch": "main",
+  "environment": {
+    "python": "3.12.14",
+    "pypdf": "6.10.0",
+    "system": "Windows"
+  },
+  "source_identities": [
+    {
+      "id": "P00",
+      "bytes": 4987519,
+      "sha256": "7cbfe601cbfcc790e6b63666886e58efc947ed78737be9c8407f5ae149938529",
+      "pages": 18
+    },
+    {
+      "id": "ACC03",
+      "bytes": 4255403,
+      "sha256": "e9eb073fc2708f8289eea80ab15c193aa59b8f7a41efc0fcdd1751d331c38bf0",
+      "pages": 114
+    },
+    {
+      "id": "ACC04",
+      "bytes": 3868874,
+      "sha256": "4ed5ff01b2e19b0117204f2b5a8fffbb28c4199a918d99b2f9c9612647fcde5d",
+      "pages": 43
+    }
+  ],
+  "all_manifest_identity_fields_preserved": true,
+  "acc05_acc06_manifest_unchanged": true,
+  "protected_files": [
+    {
+      "path": ".gitattributes",
+      "sha256": "d60f352d0db1404c70afb4bb8b2ca3fd1c610572aa40720e8a0b7baa7885418c"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "df85ef49e53dbb67dbca0259fc9e255dd39ddaf9af0ceb0ade7c766a2eda7ae9"
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "f3836ab7054fe61b9270641ee73847aad4cdadfec0010b02054cb773707d9ce9"
+    },
+    {
+      "path": "checks/PROTOCOL.md",
+      "sha256": "56b4b31cbbdf2d7af7683bb28f31f52f4b62004a7241554d8ad17dfa81790b6d"
+    },
+    {
+      "path": "checks/RESULT.md",
+      "sha256": "00e03519f10039217552a5ae924525f6e9e525ff92bec7054220bc667cd88051"
+    },
+    {
+      "path": "checks/check_stage01_revision.py",
+      "sha256": "273814cebffbd274f1c2befbe93de62cec56b59415a44b3f80c4837b18e2c9da"
+    },
+    {
+      "path": "checks/config.json",
+      "sha256": "a4241677b51b4b433ec9281f22a9274ba86b107aae722739ca1e95a4caa6ab6c"
+    },
+    {
+      "path": "checks/manager_check_4285cde.py",
+      "sha256": "59426f18495f035003fd7a9d7eeacde992fe801294ab95d65ff2439f09627909"
+    },
+    {
+      "path": "checks/requirements.txt",
+      "sha256": "a23860869bae726e81dbbc2eebfc65dec0f356b936f4000083deed858220211f"
+    },
+    {
+      "path": "checks/results/acc01_relation.json",
+      "sha256": "2653cb9b544bd1d76eac5b903239b0678081cacb59b72373fa27ab6c5511583d"
+    },
+    {
+      "path": "checks/results/delivery_audit.json",
+      "sha256": "927fcffeaffbcb4b17a7f602f6afaf57ad059dd60c20cbcaf06d5d8f9eaf545e"
+    },
+    {
+      "path": "checks/results/environment.json",
+      "sha256": "66f358b4ca55cabd2016c802e96dbc965c84a6d316e3d4dc32ce7dbe2533c35d"
+    },
+    {
+      "path": "checks/results/manager_revision_172f260.json",
+      "sha256": "d4bec421c1ae3e27ed69dc87361e2b1552e96a1b18429834ea7741dba7058c11"
+    },
+    {
+      "path": "checks/results/manager_stage01_4285cde.json",
+      "sha256": "951b5acdf4e4776e49678f8eb724f4fccc6d8f1b6ee2e4351e91ce3657bf21b9"
+    },
+    {
+      "path": "checks/results/stage01_revision_audit.json",
+      "sha256": "71383595895838d50c7800be838aea0bf259481839de7280430204edb8fe105e"
+    },
+    {
+      "path": "checks/results/stdout.txt",
+      "sha256": "9bc6852ab07313bf957a96e3daeee3853593191574e840b28d63e7f21bbce280"
+    },
+    {
+      "path": "checks/verify_acc01_relation.py",
+      "sha256": "93e60fa8f7533132234a73f90f482792f1c16fc627f02cd774db64927a14a057"
+    },
+    {
+      "path": "papers/ACC01/EXPERIMENTS.md",
+      "sha256": "2541fe9a573ec9a6558972a1c855f760a6e51358aa36ee3b0099fb05722ecfba"
+    },
+    {
+      "path": "papers/ACC01/RESEARCH.md",
+      "sha256": "0d6569dc64507becfc9c7738b03e20a5753bf438b52606dc6fc10d5f86103e9a"
+    },
+    {
+      "path": "papers/ACC01/WRITING.md",
+      "sha256": "2a02466d48716e33e72a1e76f7afab61a0ee73474807b484fae17661232ca1c3"
+    },
+    {
+      "path": "papers/ACC02/EXPERIMENTS.md",
+      "sha256": "6c07887a7289724a9dd73c27e3244e32171c4ce9da33326c64875a1cdbce5919"
+    },
+    {
+      "path": "papers/ACC02/RESEARCH.md",
+      "sha256": "c2f77af4c2a393762065344e141b06f000074ca1a983581d77f3f799a6f964eb"
+    },
+    {
+      "path": "papers/ACC02/WRITING.md",
+      "sha256": "94372c291f4358f9728df80a5ebc07c0cbc2d14d7c539f1997d7462922df6b57"
+    },
+    {
+      "path": "reviews/EXECUTOR_SELF_CHECK.md",
+      "sha256": "17053204266af100891b0bb6c41b9c244a0fb8a5bf1df39e1930bdcb12ead52a"
+    },
+    {
+      "path": "reviews/STAGE01_4285cde_MANAGER_REVIEW.md",
+      "sha256": "ddeca90981760be43a5c1f9d1afb299f6201f515b7474db87750b457c261b1c3"
+    },
+    {
+      "path": "reviews/STAGE01_REVISION_172f260_MANAGER_REVIEW.md",
+      "sha256": "0b8f61f6c2aeba2b90ccf1f6b6ec67d248b65d6a8638fc39cac5c8b0fffe1d66"
+    },
+    {
+      "path": "reviews/STAGE01_REVISION_EXECUTOR_CHECK.md",
+      "sha256": "6763333888fa1929d5701dc45de77f3ff1177c4af97f522e65f0ca07e262a82b"
+    },
+    {
+      "path": "sources/material_identity_check.json",
+      "sha256": "a43d5fd661f3d2f821db3eeaf218522ac323bffec5bc99208fc7198f313a5af1"
+    },
+    {
+      "path": "sources/pdf_metadata_check.json",
+      "sha256": "7a894853550ebeb55395af18ae564d5ec580e204cf90f44dc368d83de33ff911"
+    },
+    {
+      "path": "tasks/MASTER_PLAN.md",
+      "sha256": "d479d50b447f0a271b53ee35f8ccb48c7a8702fbe245e0c79f8178ed36918f85"
+    },
+    {
+      "path": "tasks/STAGE01.md",
+      "sha256": "63e643c87289c8eea9bd1bd883233395550249af48bdf7a988de7bfbb1735d98"
+    },
+    {
+      "path": "tasks/STAGE01_REVISION.md",
+      "sha256": "5f09d0f1b624c7795922e990d2444a862cad0e56afbe2aac228d9698330270f9"
+    },
+    {
+      "path": "tasks/STAGE02.md",
+      "sha256": "0c33aa2597d99fe1fbde69b67245ce425b392605637c9c64bb4621cba6b1b8fe"
+    }
+  ],
+  "writing_checks": [
+    {
+      "paper": "ACC03",
+      "fact_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4"
+      ],
+      "before_sha256": "4911c5c38c352788c7f057ad2188dbea2a1dd7953166d2e3ad033f8a21984ca0",
+      "after_sha256": "e04a2fde74ab0083ea638eb58a873ee32397ddb4a325cc12100c88c42cc25ef2",
+      "textual_invariants": "pass",
+      "semantic_naturalness": "manual review, not proven by string checks"
+    },
+    {
+      "paper": "ACC04",
+      "fact_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4"
+      ],
+      "before_sha256": "085aa2f7f5de933d1532f6bfbbb31f9fe2f6321bd940caadd1c22ced01fb14cc",
+      "after_sha256": "327f10c2ac9708556a11f5694141aac1304f869b81fdc876fae5bea9399c34c6",
+      "textual_invariants": "pass",
+      "semantic_naturalness": "manual review, not proven by string checks"
+    }
+  ],
+  "e03_static": {
+    "planned_units": 6,
+    "descent_margins": [
+      {
+        "inertia": "1/2",
+        "descent_margin": "5/4"
+      },
+      {
+        "inertia": "4/5",
+        "descent_margin": "1/32"
+      }
+    ],
+    "tuning_runs": 0
+  },
+  "e04_static": {
+    "planned_units": 8,
+    "exact_fstar": "1/2",
+    "tuning_runs": 0
+  },
+  "v02_saved_output_and_hashes": "pass; not rerun by this audit",
+  "candidate_count": 2,
+  "local_link_count": 151,
+  "local_links": [
+    {
+      "source": "README.md",
+      "target": "STATE.md"
+    },
+    {
+      "source": "README.md",
+      "target": "REVIEW.md"
+    },
+    {
+      "source": "README.md",
+      "target": "tasks/STAGE02.md"
+    },
+    {
+      "source": "README.md",
+      "target": "tasks/MASTER_PLAN.md"
+    },
+    {
+      "source": "README.md",
+      "target": "AGENTS.md"
+    },
+    {
+      "source": "README.md",
+      "target": "scope/P00_ALIGNMENT.md"
+    },
+    {
+      "source": "README.md",
+      "target": "scope/ACCELERATION_MAP.md"
+    },
+    {
+      "source": "README.md",
+      "target": "scope/CANDIDATES.md"
+    },
+    {
+      "source": "README.md",
+      "target": "sources/manifest.json"
+    },
+    {
+      "source": "README.md",
+      "target": "sources/READING_LOG.md"
+    },
+    {
+      "source": "README.md",
+      "target": "papers/ACC01/RESEARCH.md"
+    },
+    {
+      "source": "README.md",
+      "target": "papers/ACC01/WRITING.md"
+    },
+    {
+      "source": "README.md",
+      "target": "papers/ACC01/EXPERIMENTS.md"
+    },
+    {
+      "source": "README.md",
+      "target": "papers/ACC02/RESEARCH.md"
+    },
+    {
+      "source": "README.md",
+      "target": "papers/ACC02/WRITING.md"
+    },
+    {
+      "source": "README.md",
+      "target": "papers/ACC02/EXPERIMENTS.md"
+    },
+    {
+      "source": "README.md",
+      "target": "papers/ACC03/RESEARCH.md"
+    },
+    {
+      "source": "README.md",
+      "target": "papers/ACC03/WRITING.md"
+    },
+    {
+      "source": "README.md",
+      "target": "papers/ACC03/EXPERIMENTS.md"
+    },
+    {
+      "source": "README.md",
+      "target": "papers/ACC04/RESEARCH.md"
+    },
+    {
+      "source": "README.md",
+      "target": "papers/ACC04/WRITING.md"
+    },
+    {
+      "source": "README.md",
+      "target": "papers/ACC04/EXPERIMENTS.md"
+    },
+    {
+      "source": "README.md",
+      "target": "checks/stage02/RESULT.md"
+    },
+    {
+      "source": "README.md",
+      "target": "reviews/STAGE02_EXECUTOR_CHECK.md"
+    },
+    {
+      "source": "README.md",
+      "target": "checks/stage02/audit.json"
+    },
+    {
+      "source": "README.md",
+      "target": "checks/RESULT.md"
+    },
+    {
+      "source": "README.md",
+      "target": "reviews/STAGE01_4285cde_MANAGER_REVIEW.md"
+    },
+    {
+      "source": "README.md",
+      "target": "reviews/STAGE01_REVISION_EXECUTOR_CHECK.md"
+    },
+    {
+      "source": "README.md",
+      "target": "knowledge/METHODS.md"
+    },
+    {
+      "source": "README.md",
+      "target": "knowledge/WRITING.md"
+    },
+    {
+      "source": "README.md",
+      "target": "knowledge/EXPERIMENTS.md"
+    },
+    {
+      "source": "REVIEW.md",
+      "target": "tasks/STAGE02.md"
+    },
+    {
+      "source": "REVIEW.md",
+      "target": "papers/ACC03/RESEARCH.md"
+    },
+    {
+      "source": "REVIEW.md",
+      "target": "papers/ACC03/WRITING.md"
+    },
+    {
+      "source": "REVIEW.md",
+      "target": "papers/ACC03/EXPERIMENTS.md"
+    },
+    {
+      "source": "REVIEW.md",
+      "target": "papers/ACC04/RESEARCH.md"
+    },
+    {
+      "source": "REVIEW.md",
+      "target": "papers/ACC04/WRITING.md"
+    },
+    {
+      "source": "REVIEW.md",
+      "target": "papers/ACC04/EXPERIMENTS.md"
+    },
+    {
+      "source": "REVIEW.md",
+      "target": "checks/stage02/RESULT.md"
+    },
+    {
+      "source": "REVIEW.md",
+      "target": "checks/stage02/PROTOCOL.md"
+    },
+    {
+      "source": "REVIEW.md",
+      "target": "checks/stage02/DERIVATION.md"
+    },
+    {
+      "source": "REVIEW.md",
+      "target": "checks/stage02/config.json"
+    },
+    {
+      "source": "REVIEW.md",
+      "target": "checks/stage02/verify_smoothing.py"
+    },
+    {
+      "source": "REVIEW.md",
+      "target": "checks/stage02/results.json"
+    },
+    {
+      "source": "REVIEW.md",
+      "target": "checks/stage02/stdout.txt"
+    },
+    {
+      "source": "REVIEW.md",
+      "target": "scope/CANDIDATES.md"
+    },
+    {
+      "source": "REVIEW.md",
+      "target": "scope/ACCELERATION_MAP.md"
+    },
+    {
+      "source": "REVIEW.md",
+      "target": "scope/P00_ALIGNMENT.md"
+    },
+    {
+      "source": "REVIEW.md",
+      "target": "knowledge/METHODS.md"
+    },
+    {
+      "source": "REVIEW.md",
+      "target": "knowledge/WRITING.md"
+    },
+    {
+      "source": "REVIEW.md",
+      "target": "knowledge/EXPERIMENTS.md"
+    },
+    {
+      "source": "REVIEW.md",
+      "target": "checks/stage02/audit_stage02.py"
+    },
+    {
+      "source": "REVIEW.md",
+      "target": "checks/stage02/audit.json"
+    },
+    {
+      "source": "REVIEW.md",
+      "target": "reviews/STAGE02_EXECUTOR_CHECK.md"
+    },
+    {
+      "source": "REVIEW.md",
+      "target": "sources/READING_LOG.md"
+    },
+    {
+      "source": "REVIEW.md",
+      "target": "reviews/STAGE01_REVISION_172f260_MANAGER_REVIEW.md"
+    },
+    {
+      "source": "REVIEW.md",
+      "target": "checks/RESULT.md"
+    },
+    {
+      "source": "REVIEW.md",
+      "target": "reviews/STAGE01_4285cde_MANAGER_REVIEW.md"
+    },
+    {
+      "source": "STATE.md",
+      "target": "tasks/STAGE02.md"
+    },
+    {
+      "source": "STATE.md",
+      "target": "REVIEW.md"
+    },
+    {
+      "source": "STATE.md",
+      "target": "reviews/STAGE01_REVISION_172f260_MANAGER_REVIEW.md"
+    },
+    {
+      "source": "STATE.md",
+      "target": "checks/stage02/RESULT.md"
+    },
+    {
+      "source": "STATE.md",
+      "target": "checks/stage02/audit.json"
+    },
+    {
+      "source": "STATE.md",
+      "target": "scope/CANDIDATES.md"
+    },
+    {
+      "source": "checks/RESULT.md",
+      "target": "checks/PROTOCOL.md"
+    },
+    {
+      "source": "checks/RESULT.md",
+      "target": "checks/verify_acc01_relation.py"
+    },
+    {
+      "source": "checks/RESULT.md",
+      "target": "checks/config.json"
+    },
+    {
+      "source": "checks/RESULT.md",
+      "target": "checks/results/acc01_relation.json"
+    },
+    {
+      "source": "checks/RESULT.md",
+      "target": "checks/results/stdout.txt"
+    },
+    {
+      "source": "checks/RESULT.md",
+      "target": "checks/results/environment.json"
+    },
+    {
+      "source": "knowledge/EXPERIMENTS.md",
+      "target": "checks/PROTOCOL.md"
+    },
+    {
+      "source": "knowledge/EXPERIMENTS.md",
+      "target": "checks/RESULT.md"
+    },
+    {
+      "source": "knowledge/EXPERIMENTS.md",
+      "target": "reviews/STAGE01_4285cde_MANAGER_REVIEW.md"
+    },
+    {
+      "source": "knowledge/EXPERIMENTS.md",
+      "target": "checks/stage02/RESULT.md"
+    },
+    {
+      "source": "knowledge/EXPERIMENTS.md",
+      "target": "papers/ACC03/EXPERIMENTS.md"
+    },
+    {
+      "source": "knowledge/EXPERIMENTS.md",
+      "target": "papers/ACC04/EXPERIMENTS.md"
+    },
+    {
+      "source": "knowledge/METHODS.md",
+      "target": "checks/RESULT.md"
+    },
+    {
+      "source": "knowledge/METHODS.md",
+      "target": "reviews/STAGE01_4285cde_MANAGER_REVIEW.md"
+    },
+    {
+      "source": "knowledge/METHODS.md",
+      "target": "scope/CANDIDATES.md"
+    },
+    {
+      "source": "knowledge/METHODS.md",
+      "target": "papers/ACC03/RESEARCH.md"
+    },
+    {
+      "source": "knowledge/METHODS.md",
+      "target": "checks/stage02/DERIVATION.md"
+    },
+    {
+      "source": "knowledge/WRITING.md",
+      "target": "papers/ACC01/WRITING.md"
+    },
+    {
+      "source": "knowledge/WRITING.md",
+      "target": "papers/ACC02/WRITING.md"
+    },
+    {
+      "source": "knowledge/WRITING.md",
+      "target": "papers/ACC03/WRITING.md"
+    },
+    {
+      "source": "knowledge/WRITING.md",
+      "target": "papers/ACC04/WRITING.md"
+    },
+    {
+      "source": "reviews/STAGE01_4285cde_MANAGER_REVIEW.md",
+      "target": "tasks/STAGE01_REVISION.md"
+    },
+    {
+      "source": "reviews/STAGE01_4285cde_MANAGER_REVIEW.md",
+      "target": "checks/manager_check_4285cde.py"
+    },
+    {
+      "source": "reviews/STAGE01_4285cde_MANAGER_REVIEW.md",
+      "target": "checks/results/manager_stage01_4285cde.json"
+    },
+    {
+      "source": "reviews/STAGE01_REVISION_172f260_MANAGER_REVIEW.md",
+      "target": "tasks/STAGE02.md"
+    },
+    {
+      "source": "reviews/STAGE01_REVISION_172f260_MANAGER_REVIEW.md",
+      "target": "checks/results/manager_revision_172f260.json"
+    },
+    {
+      "source": "reviews/STAGE01_REVISION_EXECUTOR_CHECK.md",
+      "target": "reviews/STAGE01_4285cde_MANAGER_REVIEW.md"
+    },
+    {
+      "source": "reviews/STAGE01_REVISION_EXECUTOR_CHECK.md",
+      "target": "papers/ACC01/WRITING.md"
+    },
+    {
+      "source": "reviews/STAGE01_REVISION_EXECUTOR_CHECK.md",
+      "target": "papers/ACC02/WRITING.md"
+    },
+    {
+      "source": "reviews/STAGE01_REVISION_EXECUTOR_CHECK.md",
+      "target": "knowledge/WRITING.md"
+    },
+    {
+      "source": "reviews/STAGE01_REVISION_EXECUTOR_CHECK.md",
+      "target": "papers/ACC01/EXPERIMENTS.md"
+    },
+    {
+      "source": "reviews/STAGE01_REVISION_EXECUTOR_CHECK.md",
+      "target": "checks/results/stage01_revision_audit.json"
+    },
+    {
+      "source": "reviews/STAGE01_REVISION_EXECUTOR_CHECK.md",
+      "target": "papers/ACC02/EXPERIMENTS.md"
+    },
+    {
+      "source": "reviews/STAGE01_REVISION_EXECUTOR_CHECK.md",
+      "target": "scope/CANDIDATES.md"
+    },
+    {
+      "source": "reviews/STAGE02_EXECUTOR_CHECK.md",
+      "target": "checks/stage02/audit.json"
+    },
+    {
+      "source": "scope/ACCELERATION_MAP.md",
+      "target": "sources/READING_LOG.md"
+    },
+    {
+      "source": "scope/ACCELERATION_MAP.md",
+      "target": "scope/P00_ALIGNMENT.md"
+    },
+    {
+      "source": "scope/ACCELERATION_MAP.md",
+      "target": "papers/ACC01/RESEARCH.md"
+    },
+    {
+      "source": "scope/ACCELERATION_MAP.md",
+      "target": "papers/ACC01/WRITING.md"
+    },
+    {
+      "source": "scope/ACCELERATION_MAP.md",
+      "target": "papers/ACC01/EXPERIMENTS.md"
+    },
+    {
+      "source": "scope/ACCELERATION_MAP.md",
+      "target": "papers/ACC02/RESEARCH.md"
+    },
+    {
+      "source": "scope/ACCELERATION_MAP.md",
+      "target": "papers/ACC02/WRITING.md"
+    },
+    {
+      "source": "scope/ACCELERATION_MAP.md",
+      "target": "papers/ACC02/EXPERIMENTS.md"
+    },
+    {
+      "source": "scope/ACCELERATION_MAP.md",
+      "target": "papers/ACC03/RESEARCH.md"
+    },
+    {
+      "source": "scope/ACCELERATION_MAP.md",
+      "target": "papers/ACC03/WRITING.md"
+    },
+    {
+      "source": "scope/ACCELERATION_MAP.md",
+      "target": "papers/ACC03/EXPERIMENTS.md"
+    },
+    {
+      "source": "scope/ACCELERATION_MAP.md",
+      "target": "checks/stage02/RESULT.md"
+    },
+    {
+      "source": "scope/ACCELERATION_MAP.md",
+      "target": "papers/ACC04/RESEARCH.md"
+    },
+    {
+      "source": "scope/ACCELERATION_MAP.md",
+      "target": "papers/ACC04/WRITING.md"
+    },
+    {
+      "source": "scope/ACCELERATION_MAP.md",
+      "target": "papers/ACC04/EXPERIMENTS.md"
+    },
+    {
+      "source": "scope/CANDIDATES.md",
+      "target": "papers/ACC02/EXPERIMENTS.md"
+    },
+    {
+      "source": "scope/CANDIDATES.md",
+      "target": "scope/P00_ALIGNMENT.md"
+    },
+    {
+      "source": "scope/CANDIDATES.md",
+      "target": "checks/stage02/RESULT.md"
+    },
+    {
+      "source": "scope/CANDIDATES.md",
+      "target": "papers/ACC04/EXPERIMENTS.md"
+    },
+    {
+      "source": "sources/READING_LOG.md",
+      "target": "sources/manifest.json"
+    },
+    {
+      "source": "sources/READING_LOG.md",
+      "target": "sources/material_identity_check.json"
+    },
+    {
+      "source": "sources/READING_LOG.md",
+      "target": "sources/pdf_metadata_check.json"
+    },
+    {
+      "source": "sources/READING_LOG.md",
+      "target": "checks/stage02/audit.json"
+    },
+    {
+      "source": "sources/READING_LOG.md",
+      "target": "checks/stage02/RESULT.md"
+    },
+    {
+      "source": "checks/stage02/PROTOCOL.md",
+      "target": "checks/stage02/config.json"
+    },
+    {
+      "source": "checks/stage02/PROTOCOL.md",
+      "target": "checks/stage02/verify_smoothing.py"
+    },
+    {
+      "source": "checks/stage02/PROTOCOL.md",
+      "target": "checks/stage02/DERIVATION.md"
+    },
+    {
+      "source": "checks/stage02/RESULT.md",
+      "target": "checks/stage02/PROTOCOL.md"
+    },
+    {
+      "source": "checks/stage02/RESULT.md",
+      "target": "checks/stage02/results.json"
+    },
+    {
+      "source": "checks/stage02/RESULT.md",
+      "target": "checks/stage02/stdout.txt"
+    },
+    {
+      "source": "papers/ACC01/EXPERIMENTS.md",
+      "target": "checks/RESULT.md"
+    },
+    {
+      "source": "papers/ACC01/EXPERIMENTS.md",
+      "target": "reviews/STAGE01_4285cde_MANAGER_REVIEW.md"
+    },
+    {
+      "source": "papers/ACC01/EXPERIMENTS.md",
+      "target": "papers/ACC01/RESEARCH.md"
+    },
+    {
+      "source": "papers/ACC01/RESEARCH.md",
+      "target": "sources/READING_LOG.md"
+    },
+    {
+      "source": "papers/ACC01/RESEARCH.md",
+      "target": "checks/RESULT.md"
+    },
+    {
+      "source": "papers/ACC01/RESEARCH.md",
+      "target": "checks/RESULT.md"
+    },
+    {
+      "source": "papers/ACC01/WRITING.md",
+      "target": "papers/ACC01/RESEARCH.md"
+    },
+    {
+      "source": "papers/ACC02/EXPERIMENTS.md",
+      "target": "reviews/STAGE01_4285cde_MANAGER_REVIEW.md"
+    },
+    {
+      "source": "papers/ACC02/EXPERIMENTS.md",
+      "target": "checks/manager_check_4285cde.py"
+    },
+    {
+      "source": "papers/ACC02/EXPERIMENTS.md",
+      "target": "checks/results/manager_stage01_4285cde.json"
+    },
+    {
+      "source": "papers/ACC02/EXPERIMENTS.md",
+      "target": "papers/ACC02/RESEARCH.md"
+    },
+    {
+      "source": "papers/ACC03/EXPERIMENTS.md",
+      "target": "papers/ACC03/RESEARCH.md"
+    },
+    {
+      "source": "papers/ACC03/RESEARCH.md",
+      "target": "sources/manifest.json"
+    },
+    {
+      "source": "papers/ACC03/RESEARCH.md",
+      "target": "sources/READING_LOG.md"
+    },
+    {
+      "source": "papers/ACC03/RESEARCH.md",
+      "target": "papers/ACC03/EXPERIMENTS.md"
+    },
+    {
+      "source": "papers/ACC03/WRITING.md",
+      "target": "papers/ACC03/RESEARCH.md"
+    },
+    {
+      "source": "papers/ACC03/WRITING.md",
+      "target": "papers/ACC03/EXPERIMENTS.md"
+    },
+    {
+      "source": "papers/ACC04/RESEARCH.md",
+      "target": "sources/manifest.json"
+    },
+    {
+      "source": "papers/ACC04/RESEARCH.md",
+      "target": "checks/stage02/RESULT.md"
+    },
+    {
+      "source": "papers/ACC04/RESEARCH.md",
+      "target": "papers/ACC04/EXPERIMENTS.md"
+    },
+    {
+      "source": "papers/ACC04/WRITING.md",
+      "target": "papers/ACC04/RESEARCH.md"
+    },
+    {
+      "source": "papers/ACC04/WRITING.md",
+      "target": "papers/ACC04/EXPERIMENTS.md"
+    }
+  ],
+  "inspected_files": 60,
+  "artifact_hashes": [
+    {
+      "path": "README.md",
+      "sha256": "69bda3ad857d4e4af55bbf5072283fecec36b756ba503066d583528fa5ade75f"
+    },
+    {
+      "path": "REVIEW.md",
+      "sha256": "a4a794de05bab6e11deb23d73aec3ac42d1c729263b6bd36462e7e465ec2c4cf"
+    },
+    {
+      "path": "STATE.md",
+      "sha256": "1bc63d79ed5e9160eafc8b683c0c0222c1c787a30edfa2132ff562b660622782"
+    },
+    {
+      "path": "knowledge/EXPERIMENTS.md",
+      "sha256": "2fae653772906a782286cf7441eb139d09c91c5e07a0f50d1fc92f7537b3a728"
+    },
+    {
+      "path": "knowledge/METHODS.md",
+      "sha256": "44d48e8666e63c80c86a0d63976a86c8275d39a3eabeb5b5a2b6ffbbc0bca54c"
+    },
+    {
+      "path": "knowledge/WRITING.md",
+      "sha256": "1a5f1094e5cf65443328ec8242d192394ec74876f71a3ebd5d8b10154c4ff1f4"
+    },
+    {
+      "path": "reviews/STAGE02_EXECUTOR_CHECK.md",
+      "sha256": "d39060bd18397d7d9b5f0068a6d025cdd6afc9e222acd741abccdaae0ac56940"
+    },
+    {
+      "path": "scope/ACCELERATION_MAP.md",
+      "sha256": "04f982854bcf21f20ed8df726db93355b14978a6755bd3aa8a4a61a6e185eb22"
+    },
+    {
+      "path": "scope/CANDIDATES.md",
+      "sha256": "1a2254cb355c47917e3fe4c79fa378d187327f91064521da73b2482b6b609094"
+    },
+    {
+      "path": "scope/P00_ALIGNMENT.md",
+      "sha256": "a2303e9391fcb7b68a3e3d2afe087013e0b13290dc96c38236cd35ca8966a522"
+    },
+    {
+      "path": "sources/manifest.json",
+      "sha256": "4c23fcaff1ed775d4a578918c731490b1972ce0192609de27550b52010b3574f"
+    },
+    {
+      "path": "sources/READING_LOG.md",
+      "sha256": "240331b629a31ade88a9bf09dae4659794e82a5919ae8e56a45119ea7b25b8d2"
+    },
+    {
+      "path": "checks/stage02/audit_stage02.py",
+      "sha256": "77b0a01f69ca4df1458256bbefda891d61ac5a6ff72953b9281d33bd941986ae"
+    },
+    {
+      "path": "checks/stage02/config.json",
+      "sha256": "07580a8f170cf680ac3c58143b7b96a7ec95606ee115e35c2351e2385417f07b"
+    },
+    {
+      "path": "checks/stage02/DERIVATION.md",
+      "sha256": "58e721f38d177934bdfa084f3d54cd81f68eddb3f9d3735ba1a44a1991d0386b"
+    },
+    {
+      "path": "checks/stage02/PROTOCOL.md",
+      "sha256": "7dea27fa842efe2923973600c7724b056476373d9e9599603bc3b39c759aa5f3"
+    },
+    {
+      "path": "checks/stage02/RESULT.md",
+      "sha256": "a91598c1f831c56a1eda92bf1dc633a410c28a3997d468cf488e96d98fb85fcb"
+    },
+    {
+      "path": "checks/stage02/results.json",
+      "sha256": "b01edd21bef323f874b276a37390b76fbad66f7ba43c5d78d9d6c6ab14f589ff"
+    },
+    {
+      "path": "checks/stage02/stdout.txt",
+      "sha256": "3bf94b8a840d145d40460e9844032925d4b9a6d60687d32fa669711b6775325f"
+    },
+    {
+      "path": "checks/stage02/verify_smoothing.py",
+      "sha256": "3cdbe8dfb74a4827e4cc2ba17afa03130714acb745588eb5a9f948f6be88e728"
+    },
+    {
+      "path": "papers/ACC03/EXPERIMENTS.md",
+      "sha256": "63c7e5373a1961527fbfad6612b1a4307247bfd93d9e36265be2297e8839fe61"
+    },
+    {
+      "path": "papers/ACC03/RESEARCH.md",
+      "sha256": "f00d659488b283d73d78d1e64c9b5b2555488ea92be9bcfcd0d7619d660711c8"
+    },
+    {
+      "path": "papers/ACC03/WRITING.md",
+      "sha256": "71dca3a6545fa4d6615f2b1c519153782eb56ae2aeddac6c3e863305ccd80c54"
+    },
+    {
+      "path": "papers/ACC04/EXPERIMENTS.md",
+      "sha256": "4c1355584eb37ff7dae323ee5e3b267943dab99ea7d362bc9afbd6653ead31a9"
+    },
+    {
+      "path": "papers/ACC04/RESEARCH.md",
+      "sha256": "19e347693ea0af19396cad35ca2ef9ca59021779f2af99b67ab76b1edc321e73"
+    },
+    {
+      "path": "papers/ACC04/WRITING.md",
+      "sha256": "2b7e20de49cf43fb9f3b6f1db1fe69ffb206cf96ff1e84d04fec3d8cd380244d"
+    }
+  ],
+  "scientific_scripts_executed_by_audit": [],
+  "syntax_utf8_lf_credentials_allowlist": "pass",
+  "passed": true
+}

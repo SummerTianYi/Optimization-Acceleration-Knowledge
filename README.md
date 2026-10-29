@@ -2,12 +2,15 @@
 
 独立私有研究知识库，依据导师计划书P00及新六篇加速论文开展蒸馏、方向筛选与候选课题准备。当前不制作导师汇报材料。
 
-**首批ACC01/ACC02完整蒸馏及定向修订已通过Manager验收。当前任务：[STAGE02](tasks/STAGE02.md)，完整蒸馏ACC03/ACC04并更新候选。** 先读[STATE](STATE.md)、[REVIEW](REVIEW.md)、[Manager复验](reviews/STAGE01_REVISION_172f260_MANAGER_REVIEW.md)。范围与通用标准见[MASTER_PLAN](tasks/MASTER_PLAN.md)、[AGENTS](AGENTS.md)。
+**首批ACC01/ACC02已通过Manager验收；第二批ACC03/ACC04完整蒸馏、V02小核验及候选更新已完成，待Manager独立验收。** 先读[STATE](STATE.md)、[REVIEW](REVIEW.md)、[STAGE02](tasks/STAGE02.md)。范围与通用标准见[MASTER_PLAN](tasks/MASTER_PLAN.md)、[AGENTS](AGENTS.md)。
 
 - [P00范围](scope/P00_ALIGNMENT.md)、[六篇地图](scope/ACCELERATION_MAP.md)、[候选](scope/CANDIDATES.md)
 - [材料清单](sources/manifest.json)、[阅读日志](sources/READING_LOG.md)
 - ACC01：[研究](papers/ACC01/RESEARCH.md) / [写作](papers/ACC01/WRITING.md) / [实验](papers/ACC01/EXPERIMENTS.md)
 - ACC02：[研究](papers/ACC02/RESEARCH.md) / [写作](papers/ACC02/WRITING.md) / [实验](papers/ACC02/EXPERIMENTS.md)
+- ACC03：[研究](papers/ACC03/RESEARCH.md) / [写作](papers/ACC03/WRITING.md) / [实验](papers/ACC03/EXPERIMENTS.md)
+- ACC04：[研究](papers/ACC04/RESEARCH.md) / [写作](papers/ACC04/WRITING.md) / [实验](papers/ACC04/EXPERIMENTS.md)
+- [V02实际核验](checks/stage02/RESULT.md)、[第二批分项自查](reviews/STAGE02_EXECUTOR_CHECK.md)、[阶段检查](checks/stage02/audit.json)
 - [V01实际核验](checks/RESULT.md)、[首次Manager审核](reviews/STAGE01_4285cde_MANAGER_REVIEW.md)、[修订自查](reviews/STAGE01_REVISION_EXECUTOR_CHECK.md)
 - [方法](knowledge/METHODS.md)、[写作](knowledge/WRITING.md)、[实验](knowledge/EXPERIMENTS.md)
 
