@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-29T17:54:25.025729+00:00",
+  "checked_at_utc": "2026-10-29T17:59:02.700154+00:00",
   "scope": "Engineering, textual invariants and decision tables only; no scientific experiment or independent acceptance",
   "command": "python checks/check_stage01_revision.py --package-root <external-handoff-directory>",
   "environment": {
