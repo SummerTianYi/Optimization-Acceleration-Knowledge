@@ -1,0 +1,13 @@
+{
+  "reviewed_sha": "172f2604a88225860aa44e857f8416971bb5ed77",
+  "scope": "Manager independent protocol arithmetic and synthetic selection table only; no optimizer or performance experiment run",
+  "budget": 1000000,
+  "counts": {"E01_main_train": 90, "E01_train_per_method": 30, "E01_main_test": 42, "E01_ablation": 28, "E01_sensitivity": 120, "E01_sensitivity_reused": 60, "E01_sensitivity_new": 60, "E02_performance_cells": 16},
+  "selection_cases": [
+    {"case": "success_before_cost", "input": {"1/1000": [1, null, null], "3/1000": [999999, 999999, null]}, "expected": "3/1000", "actual": "3/1000"},
+    {"case": "cost_breaks_equal_success", "input": {"1/1000": [100, 100, null], "3/1000": [90, 90, null]}, "expected": "3/1000", "actual": "3/1000"},
+    {"case": "smaller_step_breaks_tie", "input": {"3/1000": [100, null, null], "1/1000": [100, null, null]}, "expected": "1/1000", "actual": "1/1000"},
+    {"case": "no_success_no_configuration", "input": {"1/1000": [null, null, null], "3/1000": [null, null, null], "1/100": [null, null, null], "3/100": [null, null, null], "1/10": [null, null, null]}, "expected": null, "actual": null}
+  ],
+  "pass": true
+}
