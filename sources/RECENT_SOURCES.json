@@ -20,7 +20,15 @@
       "access_date": "2026-10-31",
       "reading_status": "targeted_reading_not_full_distillation",
       "related_record": null,
-      "metadata_url": "https://arxiv.org/abs/2602.17878v1"
+      "metadata_url": "https://arxiv.org/abs/2602.17878v1",
+      "reading_updates": [
+        {
+          "stage": "RECENT_LITERATURE_SCREEN_02",
+          "date": "2026-10-31",
+          "read_pdf_pages": "2–3,13–14",
+          "scope": "原始绝对gap定义、I-FALM实际内解/输出及参数；复用此前Lemma5.7阅读"
+        }
+      ]
     },
     {
       "id": "R02",
@@ -40,7 +48,15 @@
       "access_date": "2026-10-31",
       "reading_status": "targeted_reading_not_full_distillation",
       "related_record": null,
-      "metadata_url": "https://arxiv.org/abs/2606.00853v1"
+      "metadata_url": "https://arxiv.org/abs/2606.00853v1",
+      "reading_updates": [
+        {
+          "stage": "RECENT_LITERATURE_SCREEN_02",
+          "date": "2026-10-31",
+          "read_pdf_pages": "30,32,34–35,37",
+          "scope": "文献中的谱球矩阵趋势滤波、MCP、原LMO与作者展望；未复现实验"
+        }
+      ]
     },
     {
       "id": "R03",
@@ -80,7 +96,15 @@
       "access_date": "2026-10-31",
       "reading_status": "metadata_abstract_or_navigation_only",
       "related_record": null,
-      "metadata_url": "https://arxiv.org/abs/2607.01755v1"
+      "metadata_url": "https://arxiv.org/abs/2607.01755v1",
+      "reading_updates": [
+        {
+          "stage": "RECENT_LITERATURE_SCREEN_02",
+          "date": "2026-10-31",
+          "read_pdf_pages": "3,10–11,15",
+          "scope": "核心假设/多时间尺度/压缩/轨道有界及Th3.14"
+        }
+      ]
     },
     {
       "id": "R05",
@@ -140,7 +164,15 @@
       "access_date": "2026-10-31",
       "reading_status": "metadata_abstract_or_navigation_only",
       "related_record": null,
-      "metadata_url": "https://jmlr.org/papers/v27/25-1030.html"
+      "metadata_url": "https://jmlr.org/papers/v27/25-1030.html",
+      "reading_updates": [
+        {
+          "stage": "RECENT_LITERATURE_SCREEN_02",
+          "date": "2026-10-31",
+          "read_pdf_pages": "3–4,8,13,17,24–26,28",
+          "scope": "模型、网络、Lyapunov框架、重排/有放回抽样及Th3.8/4.4/4.7"
+        }
+      ]
     },
     {
       "id": "R08",
@@ -180,7 +212,15 @@
       "access_date": "2026-10-31",
       "reading_status": "targeted_reading_not_full_distillation",
       "related_record": "R08",
-      "metadata_url": "https://asujanani6.github.io/assets/pdf/HALLAR.pdf"
+      "metadata_url": "https://asujanani6.github.io/assets/pdf/HALLAR.pdf",
+      "reading_updates": [
+        {
+          "stage": "RECENT_LITERATURE_SCREEN_02",
+          "date": "2026-10-31",
+          "read_pdf_pages": "6–9,13–14,40–43",
+          "scope": "HLR/ALM停止与RFW下降、直接gap证明；作者网页仍为2025-09-10稿"
+        }
+      ]
     },
     {
       "id": "R09",
@@ -280,7 +320,15 @@
       "access_date": "2026-10-31",
       "reading_status": "targeted_reading_not_full_distillation",
       "related_record": null,
-      "metadata_url": "https://arxiv.org/abs/2610.13787v1"
+      "metadata_url": "https://arxiv.org/abs/2610.13787v1",
+      "reading_updates": [
+        {
+          "stage": "RECENT_LITERATURE_SCREEN_02",
+          "date": "2026-10-31",
+          "read_pdf_pages": "6–7,14–16,23",
+          "scope": "归约局部域、二次FTRL、Prop8.10路径误差与二阶矩接口、引用追踪"
+        }
+      ]
     },
     {
       "id": "R13",
@@ -420,7 +468,15 @@
       "access_date": "2026-10-31",
       "reading_status": "targeted_reading_not_full_distillation",
       "related_record": null,
-      "metadata_url": "https://arxiv.org/abs/2005.10675v1"
+      "metadata_url": "https://arxiv.org/abs/2005.10675v1",
+      "reading_updates": [
+        {
+          "stage": "RECENT_LITERATURE_SCREEN_02",
+          "date": "2026-10-31",
+          "read_pdf_pages": "14,18",
+          "scope": "ADFS局部prox转换、GLM一维实现与缓存"
+        }
+      ]
     },
     {
       "id": "R20",
@@ -480,7 +536,15 @@
       "access_date": "2026-10-31",
       "reading_status": "targeted_reading_not_full_distillation",
       "related_record": null,
-      "metadata_url": "https://proceedings.mlr.press/v235/liu24i.html"
+      "metadata_url": "https://proceedings.mlr.press/v235/liu24i.html",
+      "reading_updates": [
+        {
+          "stage": "RECENT_LITERATURE_SCREEN_02",
+          "date": "2026-10-31",
+          "read_pdf_pages": "2,7,28–29",
+          "scope": "联合复杂度、聚合精度、黑箱邻居线性信息模型"
+        }
+      ]
     },
     {
       "id": "R23",
@@ -501,8 +565,294 @@
       "reading_status": "targeted_reading_not_full_distillation",
       "related_record": null,
       "metadata_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/af536fa4312b5b2e5c541156cd31e93b-Paper-Conference.pdf"
+    },
+    {
+      "id": "R24",
+      "url": "https://arxiv.org/pdf/2004.13233v2",
+      "sha256": "a9ecdf50e2258b5f28d08e1eeca3734d5ade2c5dc6574f39d6e48ad9329b975c",
+      "bytes": 933952,
+      "pages": 15,
+      "status": "downloaded",
+      "access_date": "2026-10-31",
+      "title": "On Distributed Non-convex Optimization: Projected Subgradient Method For Weakly Convex Problems in Networks",
+      "authors": "Shixiang Chen; Alfredo Garcia; Shahin Shahrampour",
+      "version": "2004.13233v2",
+      "first_date": "2020-04-28",
+      "revision_date": "2021-02-23",
+      "publication_date": null,
+      "read_pdf_pages": "1,4–5,7",
+      "reading_scope": "Assumptions、LemmaIII.1、ThIII.2/III.5及相位恢复模型；未复证全篇",
+      "metadata_url": "https://arxiv.org/abs/2004.13233",
+      "related_record": null,
+      "reading_status": "targeted_reading_not_full_distillation"
+    },
+    {
+      "id": "R25",
+      "url": "https://proceedings.mlr.press/v216/xiao23a/xiao23a.pdf",
+      "sha256": "b2df9f92ae99aee37004e371425ef62da3dcb324247a037c2920cfb231aeeec9",
+      "bytes": 610629,
+      "pages": 11,
+      "status": "downloaded",
+      "access_date": "2026-10-31",
+      "title": "A One-Sample Decentralized Proximal Algorithm for Non-Convex Stochastic Composite Optimization",
+      "authors": "Tesi Xiao; Xuxing Chen; Krishnakumar Balasubramanian; Saeed Ghadimi",
+      "version": "UAI2023 PMLR216:2324–2334",
+      "first_date": "2023-02-20",
+      "revision_date": null,
+      "publication_date": "2023",
+      "read_pdf_pages": "1–3,5–6",
+      "reading_scope": "正式版Ass1–7、Th1/Cor1；平方残差、批量和多轮共识口径",
+      "metadata_url": "https://proceedings.mlr.press/v216/xiao23a.html",
+      "related_record": null,
+      "reading_status": "targeted_reading_not_full_distillation"
+    },
+    {
+      "id": "R25S",
+      "url": "https://proceedings.mlr.press/v216/xiao23a/xiao23a-supp.pdf",
+      "sha256": "a3a9185b581aae3d1a8ebaad67e23b1f241527840fd93cc28c64302be45e3201",
+      "bytes": 409267,
+      "pages": 14,
+      "status": "downloaded",
+      "access_date": "2026-10-31",
+      "title": "Supplement: A One-Sample Decentralized Proximal Algorithm for Non-Convex Stochastic Composite Optimization",
+      "authors": "Tesi Xiao; Xuxing Chen; Krishnakumar Balasubramanian; Saeed Ghadimi",
+      "version": "UAI2023 official supplement",
+      "first_date": null,
+      "revision_date": null,
+      "publication_date": "2023",
+      "read_pdf_pages": "",
+      "reading_scope": "仅下载保存，未读证明，不作数学依据",
+      "metadata_url": "https://proceedings.mlr.press/v216/xiao23a.html",
+      "related_record": "R25",
+      "reading_status": "downloaded_not_read"
+    },
+    {
+      "id": "R26",
+      "url": "https://arxiv.org/pdf/2504.12742v2",
+      "sha256": "dad7a039afa38f9f0750a85235a48b4a2f59d8d63f400fdec281fd96239188c3",
+      "bytes": 1442687,
+      "pages": 27,
+      "status": "downloaded",
+      "access_date": "2026-10-31",
+      "title": "Decentralized Nonconvex Composite Federated Learning with Gradient Tracking and Momentum",
+      "authors": "Yuan Zhou; Xinli Shi; Xuelong Li; Jiachen Zhong; Guanghui Wen; Jinde Cao",
+      "version": "2504.12742v2",
+      "first_date": "2025-04-17",
+      "revision_date": "2026-08-08",
+      "publication_date": null,
+      "read_pdf_pages": "1,3–6",
+      "reading_scope": "prox定义、假设、Lem2/Th1/Cor1；弱凸共同项与光滑局部项分开",
+      "metadata_url": "https://arxiv.org/abs/2504.12742",
+      "related_record": null,
+      "reading_status": "targeted_reading_not_full_distillation"
+    },
+    {
+      "id": "R27",
+      "url": "https://raw.githubusercontent.com/mlresearch/v235/main/assets/sahinoglu24a/sahinoglu24a.pdf",
+      "sha256": "5b8dc2e9121cda777de63541389ea1b06fc2702d56c02ce57c9bd7f2e3ee4239",
+      "bytes": 3268251,
+      "pages": 17,
+      "status": "downloaded",
+      "access_date": "2026-10-31",
+      "title": "An Online Optimization Perspective on First-Order and Zero-Order Decentralized Nonsmooth Nonconvex Stochastic Optimization",
+      "authors": "Emre Sahinoglu; Shahin Shahrampour",
+      "version": "ICML2024 PMLR235:43043–43059",
+      "first_date": "2024-06-03",
+      "revision_date": null,
+      "publication_date": "2024",
+      "read_pdf_pages": "1,5–7",
+      "reading_scope": "网络/Lipschitz/随机oracle及Th1/2 Goldstein证书；不复证附录",
+      "metadata_url": "https://proceedings.mlr.press/v235/sahinoglu24a.html",
+      "related_record": null,
+      "reading_status": "targeted_reading_not_full_distillation"
+    },
+    {
+      "id": "R28",
+      "url": "https://par.nsf.gov/servlets/purl/10113918",
+      "sha256": "3529bcefbc321ba2f03e6bc2bedb4ae497b82f6d19c0bdecaa1d1b2a15134578",
+      "bytes": 749965,
+      "pages": 38,
+      "status": "downloaded",
+      "access_date": "2026-10-31",
+      "title": "A Newton-CG algorithm with complexity guarantees for smooth unconstrained optimization",
+      "authors": "Clément W. Royer; Michael O’Neill; Stephen J. Wright",
+      "version": "publisher typeset DOI10.1007/s10107-019-01362-7 via NSF",
+      "first_date": "2018-03-08",
+      "revision_date": "2018-11-12",
+      "publication_date": null,
+      "read_pdf_pages": "1,25–27,29–31",
+      "reading_scope": "Appendix B Lemma9式46/47为适配基础；另读Alg5/Lem10，不依赖其排版伪码",
+      "metadata_url": "https://arxiv.org/abs/1803.02924",
+      "related_record": null,
+      "reading_status": "targeted_reading_not_full_distillation",
+      "date_note": "first/revision refer to linked arXiv metadata; downloaded publisher PDF has 2019 copyright. Exact publication date not verified."
+    },
+    {
+      "id": "R29",
+      "url": "https://proceedings.mlr.press/v28/jaggi13.pdf",
+      "sha256": "d6447bb08c4b395304dbbf78b00d9a9b7cbf4e6866dc8f86d1edad4a8c658660",
+      "bytes": 910364,
+      "pages": 9,
+      "status": "downloaded",
+      "access_date": "2026-10-31",
+      "title": "Revisiting Frank-Wolfe: Projection-Free Sparse Convex Optimization",
+      "authors": "Martin Jaggi",
+      "version": "ICML2013 PMLR28(1):427–435",
+      "first_date": null,
+      "revision_date": null,
+      "publication_date": "2013",
+      "read_pdf_pages": "2–4",
+      "reading_scope": "Algorithm2加性LMO精度、Th1/2原始与duality gap；未逐项复证附录",
+      "metadata_url": "https://proceedings.mlr.press/v28/jaggi13.html",
+      "related_record": null,
+      "reading_status": "targeted_reading_not_full_distillation"
+    },
+    {
+      "id": "R30",
+      "url": "https://arxiv.org/pdf/1301.4666v6",
+      "sha256": "a8cc420c25f05e8f59f26faf76926145ae48404631b1f65eebf91a5b56243d9f",
+      "bytes": 403525,
+      "pages": 35,
+      "status": "downloaded",
+      "access_date": "2026-10-31",
+      "title": "A Linearly Convergent Conditional Gradient Algorithm with Applications to Online and Stochastic Optimization",
+      "authors": "Dan Garber; Elad Hazan",
+      "version": "1301.4666v6",
+      "first_date": "2013-01-20",
+      "revision_date": "2015-08-14",
+      "publication_date": "2016-07-19",
+      "read_pdf_pages": "5,7,10–11,16,19,21–23",
+      "reading_scope": "Th2/3、LLOO与几何常数、分解真实成本、在线跟踪证明；定位用预印本",
+      "metadata_url": "https://arxiv.org/abs/1301.4666",
+      "related_record": null,
+      "reading_status": "targeted_reading_not_full_distillation",
+      "formal_title": "A Linearly Convergent Variant of the Conditional Gradient Algorithm under Strong Convexity, with Applications to Online and Stochastic Optimization",
+      "formal_metadata_url": "https://doi.org/10.1137/140985366",
+      "version_limit": "Theorems located in v6, not compared word-for-word with 2016 final."
+    },
+    {
+      "id": "R31",
+      "url": "https://proceedings.mlr.press/v37/garbera15.pdf",
+      "sha256": "b77cafa5d6b8343fc5099c47ef862fa91d331d2587ef143376332c7254e1e1e4",
+      "bytes": 588264,
+      "pages": 9,
+      "status": "downloaded",
+      "access_date": "2026-10-31",
+      "title": "Faster Rates for the Frank-Wolfe Method over Strongly-Convex Sets",
+      "authors": "Dan Garber; Elad Hazan",
+      "version": "ICML2015 PMLR37:541–549",
+      "first_date": "2014-06-05",
+      "revision_date": null,
+      "publication_date": "2015-06-01",
+      "read_pdf_pages": "3–4",
+      "reading_scope": "强凸域定义与Th2；未做曲面域归约的完整成本证明",
+      "metadata_url": "https://proceedings.mlr.press/v37/garbera15.html",
+      "related_record": null,
+      "reading_status": "targeted_reading_not_full_distillation"
+    },
+    {
+      "id": "R32",
+      "url": "https://arxiv.org/pdf/1401.6607v3",
+      "sha256": "13a03c5cdabed5a343d5e2a9c152e896600eef7ca8d93cdd364dc8838ea09d3c",
+      "bytes": 1091582,
+      "pages": 32,
+      "status": "downloaded",
+      "access_date": "2026-10-31",
+      "title": "An Accelerated Linearized Alternating Direction Method of Multipliers",
+      "authors": "Yuyuan Ouyang; Yunmei Chen; Guanghui Lan; Eduardo Pasiliao Jr.",
+      "version": "1401.6607v3",
+      "first_date": "2014-01-26",
+      "revision_date": "2014-02-11",
+      "publication_date": "2015-03-24",
+      "read_pdf_pages": "1,3,5–6,8,12–16",
+      "reading_scope": "直接gap、Alg2实际子问题、Th2.6/2.7/2.9；未核正式版全文差异",
+      "metadata_url": "https://arxiv.org/abs/1401.6607",
+      "related_record": null,
+      "reading_status": "targeted_reading_not_full_distillation",
+      "formal_metadata_url": "https://doi.org/10.1137/14095697X"
+    },
+    {
+      "id": "R33",
+      "url": "https://par.nsf.gov/servlets/purl/10143180",
+      "sha256": "bc894c70ae2197c4a37f3b8f7a90d11112f1a280590769128f7562735a7fd0dd",
+      "bytes": 581273,
+      "pages": 35,
+      "status": "downloaded",
+      "access_date": "2026-10-31",
+      "title": "Lower complexity bounds of first-order methods for convex-concave bilinear saddle-point problems",
+      "authors": "Yuyuan Ouyang; Yangyang Xu",
+      "version": "publisher typeset DOI10.1007/s10107-019-01420-0 via NSF",
+      "first_date": "2018-08-08",
+      "revision_date": null,
+      "publication_date": "2021",
+      "read_pdf_pages": "3,8,21,23,28–29",
+      "reading_scope": "oracle、Th3.1/4.1及半径/确定性/维数条件；非全文下界证明",
+      "metadata_url": "https://doi.org/10.1007/s10107-019-01420-0",
+      "related_record": null,
+      "reading_status": "targeted_reading_not_full_distillation"
+    },
+    {
+      "id": "R34",
+      "url": "https://jmlr.csail.mit.edu/papers/volume18/16-410/16-410.pdf",
+      "sha256": "7b8c596e2c7581ed49c99f60060d803b8b8fabe60a142149883779930e6770e8",
+      "bytes": 5203186,
+      "pages": 51,
+      "status": "downloaded",
+      "access_date": "2026-10-31",
+      "title": "Katyusha: The First Direct Acceleration of Stochastic Gradient Methods",
+      "authors": "Zeyuan Allen-Zhu",
+      "version": "JMLR18(221), published 2018-06",
+      "first_date": null,
+      "revision_date": "2017-05",
+      "publication_date": "2018-06",
+      "read_pdf_pages": "1,19–23",
+      "reading_scope": "非均匀小批量Alg3/Th5.2、Cor5.7；共同强凸正则与整体强凸区别",
+      "metadata_url": "https://www.jmlr.org/papers/v18/16-410.html",
+      "related_record": null,
+      "reading_status": "targeted_reading_not_full_distillation"
+    },
+    {
+      "id": "R35",
+      "url": "https://lcondat.github.io/publis/Condat-optim-JOTA-2013.pdf",
+      "sha256": "8407049d7ca8a2cd2e561f71c6f72893feb73c96b878c9811d0fddd403bf36d9",
+      "bytes": 175733,
+      "pages": 19,
+      "status": "downloaded",
+      "access_date": "2026-10-31",
+      "title": "A Primal-Dual Splitting Method for Convex Optimization Involving Lipschitzian, Proximable and Linear Composite Terms",
+      "authors": "Laurent Condat",
+      "version": "final author version; JOTA158(2):460–479",
+      "first_date": null,
+      "revision_date": null,
+      "publication_date": "2013",
+      "read_pdf_pages": "1,4–6",
+      "reading_scope": "Alg3.1/3.2、Th3.1及分裂运算；只适配凸prox子问题",
+      "metadata_url": "https://lcondat.github.io/research.html",
+      "related_record": null,
+      "reading_status": "targeted_reading_not_full_distillation"
+    },
+    {
+      "id": "R37",
+      "url": "https://xu-yangyang.github.io/papers/AcceleratedLALM.pdf",
+      "sha256": "b28c59b99ab489c68b8a5b587ab1678fcf19e0468b907fa12a9e8d8bebeda0b7",
+      "bytes": 2867451,
+      "pages": 26,
+      "status": "downloaded",
+      "access_date": "2026-10-31",
+      "title": "Accelerated First-Order Primal-Dual Proximal Methods for Linearly Constrained Composite Convex Programming",
+      "authors": "Yangyang Xu",
+      "version": "SIAM JOPT27(3):1459–1484 author-hosted publisher PDF",
+      "first_date": "2016-06-29",
+      "revision_date": null,
+      "publication_date": "2017",
+      "read_pdf_pages": "1–4,7–11",
+      "reading_scope": "Alg1、Th2.7/2.9、Remark2.10；识别精确增广子问题与总一阶成本",
+      "metadata_url": "https://doi.org/10.1137/16M1082305",
+      "related_record": null,
+      "reading_status": "targeted_reading_not_full_distillation"
     }
   ],
   "date_convention": "null means not independently verified; journal submitted/received is not necessarily first public version",
-  "scope": "New public sources only; P00/ACC manifest unchanged; no fulltexts in Git"
+  "scope": "New public sources only; P00/ACC manifest unchanged; no fulltexts in Git",
+  "stage02_note": "14 new files registered including 1 unread supplement; 13 new targeted primary texts. Historical metadata preserved; incremental reading in reading_updates."
 }

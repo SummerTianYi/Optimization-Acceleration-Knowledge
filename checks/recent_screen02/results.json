@@ -1,0 +1,101 @@
+{
+  "date": "2026-10-31",
+  "kind": "algebra_and_cost_accounting_only",
+  "A1": {
+    "scope": "R34 regularized convex subclass only; no performance data",
+    "inputs_and_outputs": [
+      {
+        "N": 256,
+        "kappa": 16,
+        "kbar": 4096,
+        "batch": 256,
+        "work_coefficient": 2304.0,
+        "depth_coefficient": 9.0,
+        "target_work_coefficient": 1280.0
+      },
+      {
+        "N": 256,
+        "kappa": 1,
+        "kbar": 1,
+        "batch": 256,
+        "work_coefficient": 528.0,
+        "depth_coefficient": 2.0625,
+        "target_work_coefficient": 272.0
+      },
+      {
+        "N": 256,
+        "kappa": 65536,
+        "kbar": 65536,
+        "batch": 16,
+        "work_coefficient": 8448.0,
+        "depth_coefficient": 528.0,
+        "target_work_coefficient": 4352.0
+      },
+      {
+        "N": 256,
+        "kappa": 16,
+        "kbar": 16,
+        "batch": 64,
+        "work_coefficient": 576.0,
+        "depth_coefficient": 9.0,
+        "target_work_coefficient": 320.0
+      },
+      {
+        "N": 1,
+        "kappa": 1,
+        "kbar": 1,
+        "batch": 1,
+        "work_coefficient": 3.0,
+        "depth_coefficient": 3.0,
+        "target_work_coefficient": 2.0
+      }
+    ]
+  },
+  "B1": {
+    "model": "R02 section 7.2.2 one column MCP differences and spectral ball",
+    "u": [
+      "-5/3",
+      "4/3",
+      "1/3"
+    ],
+    "differences": [
+      "3",
+      "-1"
+    ],
+    "lambda": "1",
+    "a": "2",
+    "beta": "1",
+    "prox": [
+      "3",
+      "0"
+    ],
+    "radius_squared": "14/3",
+    "minimum_norm_lift": [
+      "-2",
+      "1",
+      "1"
+    ],
+    "lift_squared_norm": "6",
+    "minimum_lift_excess": "4/3",
+    "boundary_feasible_radius_squared": "6"
+  },
+  "D1": {
+    "matrix_diagonal": [
+      "-1",
+      "2"
+    ],
+    "direction": [
+      "24/25",
+      "7/25"
+    ],
+    "ritz": "-478/625",
+    "eta": "147/625",
+    "true_gap": "3/2",
+    "certified_gap": "3/2",
+    "direction_gap": "1581/1250",
+    "tolerance": "1",
+    "failure_budget_partial_sum_over_delta": "100/101"
+  },
+  "assertions": "passed",
+  "limits": "No Lanczos, FRAMES, network optimizer, or performance protocol executed."
+}

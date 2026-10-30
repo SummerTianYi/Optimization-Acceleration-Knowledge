@@ -1,4 +1,8 @@
-# 近期研究问题筛选01：检索与阅读记录
+# 近期研究检索与阅读记录
+
+当前为候选证据补齐02，增量在文末；此前筛选01协议、查询、阅读范围和停止判断按历史保留。累计63条查询、39份登记文件，不能视为独立论文或全文通读数量。
+
+## 筛选01历史记录
 
 执行日期及截止：2026-10-31，Asia/Shanghai。起点为 Manager `bf294849d4908a2fb4dc5078c39c428581efc8b2`。本地原 HEAD `f5769deab4f4bf0311a56963494eeafaa73c1909`、工作树干净，已在库外保存完整 Git bundle 后快进；没有本地旧初筛产物需要迁移。
 
@@ -119,3 +123,84 @@ Q01–Q04建立四线入口并得到R01–R14等；Q05–Q07沿网络/SDP前作�
 A1/B1均完成问题来源、竞争定理代入、简单替代和方法接口核查，B2的宽泛路线被新下界排除，C/D线保留了具体而未核完的前作需求。因下一个决策已需要异质快照递推、结构恢复或指定前作精读，停止本轮扩搜；不是检索穷尽。2项候选、4项潜在候选及其余线索/关闭记录见[问题池](../scope/PROBLEM_EVIDENCE.md)，数量按证据分层，导师最终选择。
 
 原始查询响应与PDF均留库外；Git只保存本文、元数据和原创分析。检索结果条数未稳定导出，故不编PRISMA筛选计数，不把25个下载文件说成25项独立研究或25篇全文精读。
+
+## 候选证据补齐02：执行协议与增量（2026-10-31）
+
+筛选01通过后的起点为Manager提交 `f440b2f6d5fd52b785d0de6a85edbe61eb767609`。本地起始HEAD为 `2a117fc0199e437d3b799af8ef899ea30b6b6d16`，工作树干净；先在库外创建并验证完整Git bundle，再快进到指定提交，无本地未保存成果或分叉。沿用本文件、来源登记和原问题编号，不重新进行四线全域检索。
+
+本轮只追A2、D1、B2、C-R1的已列原文缺口，以及A1/B1最强简单替代。已有PDF优先复用；新读范围单列，旧阅读事实保留。顺序为A2/D1优先；发现原方法直接覆盖可关闭或降为实施学习，不预设需保留几项。原始响应和新增PDF保存库外 `work/recent_screen02`。以下是探索性定向补证记录，不宣称预注册系统综述。
+
+|增量查询|实际查询式（web.run；2026-10-31，Asia/Shanghai）|用途|
+|---|---|---|
+|Q13-1|`decentralized weakly convex Moreau envelope stochastic subgradient convergence rate 2025 2026`|A2原定理与近期替代|
+|Q13-2|`"decentralized" "weakly convex" complexity gradient tracking`|A2证书与成本|
+|Q14-1|`"decentralized" "weakly convex" "DEPOSITUM"`|R07参考链|
+|Q14-2|`"distributed subgradient" "weakly convex" Chen Garcia Shahrampour`|R07参考链|
+|Q14-3|`"Prox-DASA" arxiv`|成熟直接特例|
+|Q14-4|`"2504.12742"`|近期后续版本|
+|Q15-1|`"Newton-CG algorithm with complexity guarantees" Royer Wright arxiv`|D1成熟最小特征值oracle|
+|Q15-2|`"Online Optimization Perspective" "Sahinoglu" Shahrampour 2024`|A2一般非光滑竞争证书|
+
+|Q16-1|`Garber Hazan linearly convergent conditional gradient online stochastic optimization 2016 arxiv local linear optimization oracle`|B2指定前作|
+|Q16-2|`Ouyang Chen Lan Pasiliao accelerated linearized alternating direction method multipliers 2015 arxiv`|C-R1参考[38]|
+|Q16-3|`Ouyang Xu lower complexity bounds convex concave bilinear saddle point 2021 arxiv`|C-R1参考[39]|
+|Q17-1|`Katyusha minibatch non uniform smoothness average L global L theorem 5.1 Allen Zhu JMLR`|A1最强简单替代|
+|Q17-2|`Garber Hazan 2015 faster rates Frank Wolfe strongly convex sets PMLR`|B2几何特例|
+|Q18-1|`Condat primal dual splitting method convex optimization Lipschitzian proximable linear composite terms pdf 2013`|B1复合prox替代|
+|Q18-2|`HALLaR hybrid algorithm low-rank semidefinite programming author 2026 Monteiro`|D1作者终稿版本追踪|
+|Q19-1|`"An Accelerated Linearized Alternating Direction" "10.1137"`|正式题名/版本|
+|Q20-1|`"Yangyang Xu" "Accelerated First-Order Primal-Dual" arxiv`|C-R1精确子问题竞争结果|
+
+补齐02共17条实际查询；累计63条。仍使用web.run、原文引用链及作者/出版平台，不重新做全域四线检索，也未调用Google Scholar、OpenAlex或Semantic Scholar API。原始响应q01—q08及元数据响应留库外。查询串不是独立研究条目计数。
+
+### 新增原件与阅读范围
+
+页码为PDF物理页；SHA256、字节、首发/修订/发表日期逐字段见[登记](RECENT_SOURCES.json)。以下14份文件中13份定向读正文，R25S仅下载未读。没有把取得全文称为完整三类蒸馏。
+
+|ID/一手原文|作者|实际版本；页数|新读页及用途|
+|---|---|---|---|
+|R24 [On Distributed Non-convex Optimization: Projected Subgradient Method For Weakly Convex Problems in Networks](https://arxiv.org/pdf/2004.13233v2)|Shixiang Chen; Alfredo Garcia; Shahin Shahrampour|2004.13233v2；15|1,4–5,7；Assumptions、LemmaIII.1、ThIII.2/III.5及相位恢复模型；未复证全篇|
+|R25 [A One-Sample Decentralized Proximal Algorithm for Non-Convex Stochastic Composite Optimization](https://proceedings.mlr.press/v216/xiao23a/xiao23a.pdf)|Tesi Xiao; Xuxing Chen; Krishnakumar Balasubramanian; Saeed Ghadimi|UAI2023 PMLR216:2324–2334；11|1–3,5–6；正式版Ass1–7、Th1/Cor1；平方残差、批量和多轮共识口径|
+|R25S [Supplement: A One-Sample Decentralized Proximal Algorithm for Non-Convex Stochastic Composite Optimization](https://proceedings.mlr.press/v216/xiao23a/xiao23a-supp.pdf)|Tesi Xiao; Xuxing Chen; Krishnakumar Balasubramanian; Saeed Ghadimi|UAI2023 official supplement；14|未读；仅下载保存，未读证明，不作数学依据|
+|R26 [Decentralized Nonconvex Composite Federated Learning with Gradient Tracking and Momentum](https://arxiv.org/pdf/2504.12742v2)|Yuan Zhou; Xinli Shi; Xuelong Li; Jiachen Zhong; Guanghui Wen; Jinde Cao|2504.12742v2；27|1,3–6；prox定义、假设、Lem2/Th1/Cor1；弱凸共同项与光滑局部项分开|
+|R27 [An Online Optimization Perspective on First-Order and Zero-Order Decentralized Nonsmooth Nonconvex Stochastic Optimization](https://raw.githubusercontent.com/mlresearch/v235/main/assets/sahinoglu24a/sahinoglu24a.pdf)|Emre Sahinoglu; Shahin Shahrampour|ICML2024 PMLR235:43043–43059；17|1,5–7；网络/Lipschitz/随机oracle及Th1/2 Goldstein证书；不复证附录|
+|R28 [A Newton-CG algorithm with complexity guarantees for smooth unconstrained optimization](https://par.nsf.gov/servlets/purl/10113918)|Clément W. Royer; Michael O’Neill; Stephen J. Wright|publisher typeset DOI10.1007/s10107-019-01362-7 via NSF；38|1,25–27,29–31；Appendix B Lemma9式46/47为适配基础；另读Alg5/Lem10，不依赖其排版伪码|
+|R29 [Revisiting Frank-Wolfe: Projection-Free Sparse Convex Optimization](https://proceedings.mlr.press/v28/jaggi13.pdf)|Martin Jaggi|ICML2013 PMLR28(1):427–435；9|2–4；Algorithm2加性LMO精度、Th1/2原始与duality gap；未逐项复证附录|
+|R30 [A Linearly Convergent Conditional Gradient Algorithm with Applications to Online and Stochastic Optimization](https://arxiv.org/pdf/1301.4666v6)|Dan Garber; Elad Hazan|1301.4666v6；35|5,7,10–11,16,19,21–23；Th2/3、LLOO与几何常数、分解真实成本、在线跟踪证明；定位用预印本|
+|R31 [Faster Rates for the Frank-Wolfe Method over Strongly-Convex Sets](https://proceedings.mlr.press/v37/garbera15.pdf)|Dan Garber; Elad Hazan|ICML2015 PMLR37:541–549；9|3–4；强凸域定义与Th2；未做曲面域归约的完整成本证明|
+|R32 [An Accelerated Linearized Alternating Direction Method of Multipliers](https://arxiv.org/pdf/1401.6607v3)|Yuyuan Ouyang; Yunmei Chen; Guanghui Lan; Eduardo Pasiliao Jr.|1401.6607v3；32|1,3,5–6,8,12–16；直接gap、Alg2实际子问题、Th2.6/2.7/2.9；未核正式版全文差异|
+|R33 [Lower complexity bounds of first-order methods for convex-concave bilinear saddle-point problems](https://par.nsf.gov/servlets/purl/10143180)|Yuyuan Ouyang; Yangyang Xu|publisher typeset DOI10.1007/s10107-019-01420-0 via NSF；35|3,8,21,23,28–29；oracle、Th3.1/4.1及半径/确定性/维数条件；非全文下界证明|
+|R34 [Katyusha: The First Direct Acceleration of Stochastic Gradient Methods](https://jmlr.csail.mit.edu/papers/volume18/16-410/16-410.pdf)|Zeyuan Allen-Zhu|JMLR18(221), published 2018-06；51|1,19–23；非均匀小批量Alg3/Th5.2、Cor5.7；共同强凸正则与整体强凸区别|
+|R35 [A Primal-Dual Splitting Method for Convex Optimization Involving Lipschitzian, Proximable and Linear Composite Terms](https://lcondat.github.io/publis/Condat-optim-JOTA-2013.pdf)|Laurent Condat|final author version; JOTA158(2):460–479；19|1,4–6；Alg3.1/3.2、Th3.1及分裂运算；只适配凸prox子问题|
+|R37 [Accelerated First-Order Primal-Dual Proximal Methods for Linearly Constrained Composite Convex Programming](https://xu-yangyang.github.io/papers/AcceleratedLALM.pdf)|Yangyang Xu|SIAM JOPT27(3):1459–1484 author-hosted publisher PDF；26|1–4,7–11；Alg1、Th2.7/2.9、Remark2.10；识别精确增广子问题与总一阶成本|
+
+### 复用原件的增量阅读
+
+筛选01表中的范围是当时事实；本次增加下列阅读，登记用reading_updates追加，不覆盖原字段。
+
+|ID|本次实际新读/重读PDF页|用途|
+|---|---|---|
+|R01|2–3,13–14|原始绝对gap定义、I-FALM实际内解/输出及参数；复用此前Lemma5.7阅读|
+|R02|30,32,34–35,37|文献中的谱球矩阵趋势滤波、MCP、原LMO与作者展望；未复现实验|
+|R04|3,10–11,15|核心假设/多时间尺度/压缩/轨道有界及Th3.14|
+|R07|3–4,8,13,17,24–26,28|模型、网络、Lyapunov框架、重排/有放回抽样及Th3.8/4.4/4.7|
+|R08A|6–9,13–14,40–43|HLR/ALM停止与RFW下降、直接gap证明；作者网页仍为2025-09-10稿|
+|R12|6–7,14–16,23|归约局部域、二次FTRL、Prop8.10路径误差与二阶矩接口、引用追踪|
+|R19|14,18|ADFS局部prox转换、GLM一维实现与缓存|
+|R22|2,7,28–29|联合复杂度、聚合精度、黑箱邻居线性信息模型|
+
+### 版本、排除与关键页核查
+
+R26已核arXiv首发2025-04-17、v2修订2026-08-08；分析定位v2。R30的2016正式题名与1301.4666v6略异，正式DOI元数据已核，但原定理定位在预印本。R32的2015正式题名、作者及DOI已核，正文使用1401.6607v3；未声称逐字核过终稿。R33取得出版社排版稿，2019版权与2021卷期分开记录。R37使用作者网站的SIAM排版PDF。
+
+HALLaR重新访问正式DOI和作者链接：正式全文仍受订阅限制，作者公开PDF仍为50页、2025-09-10稿。arXiv v3为2024稿，不能替代2026终稿差异核验；数学定位继续用R08A。R28所读出版社稿与arXiv日期关联，精确正式发表日期未独立核实，不填猜测值。其他日期的null也表示未核，不表示未发表。
+
+在找Xu加速原对偶前作时，曾打开并下载1706.07622v2；首页实际为其他作者的Adaptive Similar Triangles/Optimal Transport论文，与目标不符，故排除，未进来源登记或任何数学论证。随后按作者主页取得正确R37。排除文件仍在库外，下载预留编号不回填复用，也不作为依据登记。
+
+关键式回页图视觉核对：R34 PDF21（平均与全局光滑常数、共同强凸正则）；R31 PDF4（强凸域/目标及Th2）；R01 PDF14（Cor3.5总ACG、D与乘子半径）；R32 PDF16（Th2.9单边gap与可行性）。其余新增原文按表列PDF页提取核读；不声称所有附录逐行复证。页图、全文、PDF均留库外。
+
+### 本轮停止依据与保留缺口
+
+四项指定潜在问题均取得新增关键原文并实际代入。A2由“缺有限率”收缩为通信成本；D1成熟证书链可用，降学习实施；B2用离线内解绕开在线有界损失不匹配，降方法线索；C-R1原作与下界对齐，限固定I-FALM分析升候选。A1/B1的强简单替代削弱了当前候选资格，均降为潜在。完整理由、准备程度与下一验证只在[证据](../scope/PROBLEM_EVIDENCE.md)和[短名单](../scope/DIRECTION_SHORTLIST_V2.md)维护。
+
+剩余工作已具体化为一般强凸归约、同证书恢复成本、弱凸网络下降或非精确gap关系，继续扩搜不再是本轮必要动作。实际有限检查另见[推导与输出](../checks/recent_screen02/DERIVATION.md)；未运行性能实验。此次定向精读不构成穷尽检索或创新证明，导师最终选择，Manager先独立验收。
