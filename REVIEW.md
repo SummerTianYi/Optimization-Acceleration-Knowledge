@@ -1,38 +1,10 @@
-# 近期研究问题筛选01：固定验收入口
+# 当前验收入口：筛选01通过，进入证据补齐02
 
-本轮基于Manager提交 `bf294849d4908a2fb4dc5078c39c428581efc8b2`，执行日期2026-10-31。该REVIEW随本次提交固定；从交付SHA打开即可获得同版本文件。**执行者工作完成，待Manager独立验收。最终选题由导师决定。**
+受审固定SHA：`2a117fc0199e437d3b799af8ef899ea30b6b6d16`。**Manager已通过本轮有限研究问题筛选；未确认任何候选创新或完整可行性。** 最终选题由导师决定。
 
-## 本次交付
+- [Manager独立审核](reviews/RECENT_SCREEN01_2a117fc_MANAGER_REVIEW.md)：A1/B1原文、方法与价值边界，潜在候选范围，实际核验和后续决定。
+- [原执行者固定交付](https://github.com/SummerTianYi/Optimization-Acceleration-Knowledge/blob/2a117fc0199e437d3b799af8ef899ea30b6b6d16/REVIEW.md)：原16条问题池、检索与来源、有限计算及限制。
+- [Manager独立脚本](checks/manager_recent_2a117fc.py)和[实际结果](checks/results/manager_recent_2a117fc.json)：重构三项有限例，不是原脚本复跑或性能实验。
+- [当前任务](tasks/RECENT_LITERATURE_SCREEN_02.md)：补A2、D1、B2、C-R1决定性前作，明确A1/B1模型和比较目标，重新分层供导师选择。
 
-|交付|内容与实际范围|
-|---|---|
-|[检索记录](sources/RECENT_SEARCH_LOG.md)、[来源登记](sources/RECENT_SOURCES.json)|四线46条查询，25份文档的原URL/版本/日期/页数/SHA256/阅读页段；去重、受限路径和未读项分明|
-|[近期地图](scope/RECENT_LITERATURE_MAP.md)|四线进展及证书、条件数、oracle与总成本口径|
-|[问题证据与问题池](scope/PROBLEM_EVIDENCE.md)|16条记录：2候选、4潜在、3线索、5关闭主张、2历史处置；具体方法接口和下一证据|
-|[分层短名单](scope/DIRECTION_SHORTLIST_V2.md)|供比较的A1/B1，保留A2/B2/C-R1/D1待证；不以4—6参考数降低门槛|
-|[有限推导与检查](checks/recent_screen01/DERIVATION.md)、[代码](checks/recent_screen01/decision_checks.py)、[实际输出](checks/recent_screen01/results.json)|A1成本分解、B1精确lift边界、D1最小特征值证书反例；另有B1书面ε-次梯度转移，非性能实验|
-|[方法知识卡](knowledge/METHODS.md)|新增可迁移的方差/共识、证书转移、在线归约、MEV证书接口|
-
-## 发现—核查—取舍的变化
-
-A1从一般网络加速收缩到异质快照造成的全网总LIFO瓶颈，比较了2025 DIVERSE的纯最小化特例；简单重新统计采样数不能消除快照项。B1从去lift收敛收缩到可计算恢复，因为R11及本轮直接代入已经给出附近点存在性。B2的通用常数LMO在线路线被2026-10下界限制，特定几何仍保留。C/D线的成熟方法覆盖尚缺原文链，分别留潜在候选而不凑课题数。
-
-旧C1/C2均暂缓，不占名额或充前置门；C2的方法经验可用于B1，但其精确信息约束未被本轮证明已覆盖。16条中的编号只在本轮问题池内使用，勿与历史地图的同名方向编号混同。
-
-## 核验与保护
-
-实际科学小检查已运行，输出保留Python版本、全部参数、精确有理数与数值结果；未重跑V01/V02、Manager实验或任何原性能协议。来源和仓库审计见[审计脚本](checks/recent_screen01/audit.py)及[审计结果](checks/recent_screen01/audit_result.json)。这些检查核身份、链接、历史和状态，不代替数学独立验收。
-
-实际审计：25份下载件SHA256、字节数与PDF页数匹配；54个历史保护文件的Git blob未变；89处当前改动文档的本地链接可解析；46条查询、16条问题池记录与当前状态一致。新增/修改文本未命中所列凭据或个人机器路径模式，库内无PDF/CAJ/ZIP/页图等禁入件，Git差异空白检查通过。命令为 `python checks/recent_screen01/audit.py --source-dir ../../work/recent_screen01`。人工对照另纠正了A1精度口径：R22定义聚合点距离，不能直接写成函数gap；文中已给转换所需的L/m因子。
-
-安全同步前工作树干净，无旧初筛本地成果；先保存并验证库外Git bundle，再快进包含指定Manager提交。原件身份清单、papers、历史checks/reviews及原科学结果受保护；本轮只增近期记录并同步当前入口。任务/策略/规则同步了用户三层要求与导师最终决定权，没有访问旧库。
-
-提交后正常push到现有私有main并按最终交付SHA远端回读；外部回读回执在库外，不向提交中填入自引用SHA。最终回复给出实际完整SHA和固定REVIEW链接。
-
-## 真实限制与Manager下一步
-
-HALLaR正式终稿付费不可得，以2025作者稿为依据；R10两份同作仅作实现背景。A2等条目未达到核心定理核读，B2/C-R1/D1有明确尚未补齐的竞争前作。没有穷尽数据库、全文复证25篇、证明新收敛关系、确认创新或完成可行性预研。
-
-建议Manager先回核A1的总LIFO与快照依赖、B1的无lift转移和恢复成本，再比较潜在候选是否值得补证。当前ACC01—ACC04通过状态不变，ACC05/06完整蒸馏及STAGE03继续暂缓。本轮不制作导师材料，不确定唯一课题。
-
-近期研究问题筛选01完成，待Manager独立验收。
+已接受成果保留，不重做全域检索或已通过蒸馏。新任务尚无执行回执；四项潜在候选没有因通过筛选而自动升格，也不为了4—6参考数凑题。当前状态见[STATE](STATE.md)。

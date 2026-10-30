@@ -1,0 +1,53 @@
+{
+  "reviewed_sha": "2a117fc0199e437d3b799af8ef899ea30b6b6d16",
+  "executed_at_utc": "2026-10-30T18:54:05.705049+00:00",
+  "python": "3.13.5",
+  "arithmetic": "Fraction and Decimal(80)",
+  "scope": "Independent reconstruction of finite algebra/cost examples, not original script rerun, not convergence or novelty certification",
+  "heterogeneous": {
+    "m": 16,
+    "n": 16,
+    "mu": "1",
+    "a": [4096, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+    "Lbar": "4111/16",
+    "Lbar_max": "4096",
+    "b": "63.883133385964652393594973950030167528887621596004102956827738943368457096454639",
+    "p": "0.12477174489446221170624018349615267095485863592969551358755417762376651776651297",
+    "sample_cost_scaled": "128.46875000000000000000000000000000000000000000000000000000000000000000000000000",
+    "snapshot_cost_scaled": "512.00000000000000000000000000000000000000000000000000000000000000000000000000002",
+    "average_target_half_term": "128.23416081528353808108834858817090757385596307674456408960880605282603863453370",
+    "interpretation": "coefficients on sqrt(kappa) scale; excludes initialization/log factors; not measured runtime"
+  },
+  "uniform": {
+    "m": 16,
+    "n": 16,
+    "mu": "1",
+    "a": [4096, 4096, 4096, 4096, 4096, 4096, 4096, 4096, 4096, 4096, 4096, 4096, 4096, 4096, 4096, 4096],
+    "Lbar": "4096",
+    "Lbar_max": "4096",
+    "b": "16",
+    "p": "0.03125",
+    "sample_cost_scaled": "2048.0000",
+    "snapshot_cost_scaled": "512.00000",
+    "average_target_half_term": "512",
+    "interpretation": "coefficients on sqrt(kappa) scale; excludes initialization/log factors; not measured runtime"
+  },
+  "no_lift": {
+    "q": ["3/4", "7/4"],
+    "least_squares_point": "17/20",
+    "residual_squared": "1/80",
+    "original_composite_prox": "1/4",
+    "identity_case_has_lift": true,
+    "interpretation": "no exact lift for this T; one-dimensional composite prox is cheap, so this is not a research-value witness"
+  },
+  "minimum_eigenvalue": {
+    "rayleigh": 1,
+    "residual_squared": 0,
+    "rayleigh_shift": 0,
+    "minimum_after_rayleigh_shift": -1,
+    "certified_shift": 1,
+    "minimum_after_certified_shift": 0,
+    "interpretation": "residual of an arbitrary eigenpair is not a lower certificate for the minimum eigenvalue"
+  },
+  "passed": true
+}

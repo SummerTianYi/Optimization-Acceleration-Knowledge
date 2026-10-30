@@ -1,15 +1,13 @@
 # 当前状态
 
-更新2026-10-31。**近期研究问题筛选01已完成执行者交付，待Manager按固定SHA独立验收。** 当前入口[REVIEW](REVIEW.md)；任务为[确认版及用户分层补充](tasks/RECENT_LITERATURE_SCREEN_01.md)，策略见[RECENT_RESEARCH_STRATEGY](scope/RECENT_RESEARCH_STRATEGY.md)。最终选题由导师决定，Codex和Manager均不提前确定唯一课题。
+更新2026-10-31。**近期研究问题筛选01已通过Manager独立验收；当前任务为[候选证据补齐02](tasks/RECENT_LITERATURE_SCREEN_02.md)。** 受审SHA：`2a117fc0199e437d3b799af8ef899ea30b6b6d16`；结论和实际范围见[Manager审核](reviews/RECENT_SCREEN01_2a117fc_MANAGER_REVIEW.md)。
 
-本地原HEAD为f5769deab4f4bf0311a56963494eeafaa73c1909，开始时工作树干净，无本地旧初筛产物。已在库外保存Git bundle并安全快进，包含Manager提交bf294849d4908a2fb4dc5078c39c428581efc8b2；没有强推、历史迁移或旧库访问。
+保留16条记录：2项候选A1/B1，4项潜在候选A2/B2/C-R1/D1，3项线索、5条关闭的宽泛主张及2项历史处置。通过的是有限文献筛选与继续核验资格，不是新颖性或完整可行性认证。最终选题由导师决定；参考4—6项不是硬配额，也不直接在A1/B1中二选一。
 
-本轮完成：四线46条实际查询、25份原文文档身份登记及不同深度阅读；[检索日志](sources/RECENT_SEARCH_LOG.md)、[近期地图](scope/RECENT_LITERATURE_MAP.md)、[逐问题证据与16条问题池](scope/PROBLEM_EVIDENCE.md)、[分层短名单](scope/DIRECTION_SHORTLIST_V2.md)。其中2项候选课题、4项潜在候选，其余线索、关闭主张和历史候选状态均保留。4—6项只是参考，未核完者没有升格凑数。
+本轮Manager已读固定交付、关键原始定理和近期反对证据，并独立重构三项有限计算；[脚本](checks/manager_recent_2a117fc.py)及[输出](checks/results/manager_recent_2a117fc.json)单独保留，未运行性能实验或改写执行者数据。未核全25份原件和所有潜在候选前作，HALLaR付费终稿仍未取得。全部审查边界见审核。
 
-实际有限核查：[推导/输入/命令](checks/recent_screen01/DERIVATION.md)、[代码](checks/recent_screen01/decision_checks.py)、[真实输出](checks/recent_screen01/results.json)。A1收缩到异质快照/共识成本；B1扣除已有无lift存在性保证，保留可计算恢复；B2通用在线路线受下界限制；D1仍待成熟非精确特征值方法覆盖检查。完整新定理、性能实验和候选可行性未完成，也不属于本轮承诺。
+下一轮重点补齐四项潜在候选的指定前作及定理适配；A1/B1只明确代表模型、同证书比较及简单替代，不开展完整算法研发。沿用现有问题池和来源记录，维护状态变化，不新增全领域论文清单。当前任务发布不代表本地已执行，先安全同步并保存已有工作。
 
-ACC01—ACC04完整蒸馏及历史V01/V02、Manager核验继续保留，不重新蒸馏或重跑。ACC04式(3-20)含初值项，历史误报以[Manager撤销记录](reviews/STAGE02_f5769de_MANAGER_REVIEW.md)为准。ACC05/06完整蒸馏与STAGE03继续暂缓，C1不是网络前置门。
+ACC01—ACC04已通过、ACC05/06仅导航；STAGE03继续暂缓。P00决定范围，acceleration决定主要目标。旧知识库不访问，原件/全文/页图/凭据不入Git，历史V01/V02和Manager结果不重做。ACC04式(3-20)初值误报按已有撤销记录处理。当前不制作导师汇报、不确认创新或最终定题。
 
-限制：HALLaR付费终稿未取得，采用2025作者稿且区分2024预印本；部分潜在候选只有摘要或尚未完成关键竞争前作阅读；非穷尽检索，未确认创新。P00/原件/全文/页图/凭据在库外，不制作导师汇报。后续只待Manager复核后下达任务。
-
-停止于“近期研究问题筛选01完成，待Manager独立验收”。
+原筛选01交付保留于固定SHA。新停止点：“候选证据补齐02完成，待Manager独立验收”。
