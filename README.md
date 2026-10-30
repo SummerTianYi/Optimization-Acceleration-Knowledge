@@ -8,4 +8,6 @@
 
 本轮验收单位是问题，不是论文数量：出处真实、P00贴合、加速对象明确、最新覆盖已核、研究必要性成立、具体理论工具可用，才进入候选。更简单成熟办法、相关下界及反对证据也要检查。[公开种子元数据](sources/RECENT_SEEDS_METADATA_CHECK_20261031.md)仅供发现线索，不是原文定理验收或固定入选列表。
 
-原件、全文、页图、交接包和凭据不入Git。旧Nonconvex-Optimization-Knowledge库保持隔离。当前未完成最新问题筛选、性能实验或创新确认；计划与实际成果按STATE及后续固定交付区分。
+本轮已交[近期研究地图](scope/RECENT_LITERATURE_MAP.md)、[逐问题证据与分层问题池](scope/PROBLEM_EVIDENCE.md)、[候选短名单](scope/DIRECTION_SHORTLIST_V2.md)及[检索/版本记录](sources/RECENT_SEARCH_LOG.md)，待Manager独立验收。2项候选课题、4项潜在候选；参考4—6项不构成配额。导师拥有最终选题权。实际小核查见[完整依据](checks/recent_screen01/DERIVATION.md)，验收入口为[REVIEW](REVIEW.md)。
+
+原件、全文、页图、交接包和凭据不入Git。旧Nonconvex-Optimization-Knowledge库保持隔离。没有执行新算法性能实验、确认创新或最终定题；ACC05/06完整蒸馏继续暂缓。

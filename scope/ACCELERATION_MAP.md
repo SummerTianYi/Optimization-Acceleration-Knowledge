@@ -1,6 +1,6 @@
 # 六篇共同阅读地图：先比较对象，再比较速度
 
-实际页段见[READING_LOG](../sources/READING_LOG.md)。ACC01/02三类蒸馏已获Manager验收；ACC03/04本批完成研究、写作与全部原实验审查，待独立验收；ACC05/06仍仅导航。表中作者定理与执行者局部核验分开，不表示全文证明已独立认证。P00范围以 [P00_ALIGNMENT](P00_ALIGNMENT.md) 为准。
+实际页段见[READING_LOG](../sources/READING_LOG.md)。ACC01—ACC04完整蒸馏已获Manager验收，ACC05/06仍仅导航，STAGE03暂缓。表中作者定理与执行者局部核验分开，不表示全文证明已独立认证。P00范围以 [P00_ALIGNMENT](P00_ALIGNMENT.md) 为准。当前新增[近期研究地图](RECENT_LITERATURE_MAP.md)与[分层问题池](PROBLEM_EVIDENCE.md)；六篇作为方法基础，不限定候选名额。ACC04式(3-20)误报以[Manager撤销记录](../reviews/STAGE02_f5769de_MANAGER_REVIEW.md)为准，本轮未返工正文蒸馏。
 
 ## 模型、机制和证据对象
 

@@ -1,0 +1,115 @@
+{
+  "executed_date": "2026-10-31",
+  "timezone": "Asia/Shanghai",
+  "python": "3.12.14",
+  "kind": "algebra_and_cost_accounting_only",
+  "cesar_heterogeneous": {
+    "m": 16,
+    "n": 16,
+    "mu": 1,
+    "a": [
+      4096,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "L": 256.9375,
+    "Lbar": 256.9375,
+    "Lbar_max": 4096,
+    "b": 63.883133385964655,
+    "p": 0.12477174489446222,
+    "sum_q": 4.00731752547761,
+    "sampled_gradient_cost_scaled": 128.46874999999997,
+    "snapshot_cost_scaled": 512.0,
+    "average_condition_target_scaled": 128.23416081528353,
+    "initialization_gradients": 256
+  },
+  "cesar_uniform_boundary": {
+    "m": 16,
+    "n": 16,
+    "mu": 1,
+    "a": [
+      4096,
+      4096,
+      4096,
+      4096,
+      4096,
+      4096,
+      4096,
+      4096,
+      4096,
+      4096,
+      4096,
+      4096,
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "L": 4096.0,
+    "Lbar": 4096.0,
+    "Lbar_max": 4096,
+    "b": 16.0,
+    "p": 0.03125,
+    "sum_q": 16.0,
+    "sampled_gradient_cost_scaled": 2048.0,
+    "snapshot_cost_scaled": 512.0,
+    "average_condition_target_scaled": 512.0,
+    "initialization_gradients": 256
+  },
+  "no_lift": {
+    "beta": "1/4",
+    "x": "1",
+    "C": "[-2,2]",
+    "T": "z -> (z,2z)",
+    "g": "abs(y1)+abs(y2)",
+    "q": [
+      "3/4",
+      "7/4"
+    ],
+    "incompatibility_q2_minus_2q1": "1/4",
+    "least_squares_z": "17/20",
+    "residual": [
+      "1/10",
+      "-1/20"
+    ],
+    "residual_squared": "1/80",
+    "direct_composite_prox": "1/4",
+    "identity_T_box_boundary_has_exact_lift": true
+  },
+  "eigen_certificate": {
+    "G": [
+      [
+        -1,
+        0
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "v": [
+      0,
+      1
+    ],
+    "rayleigh": 1,
+    "residual_squared": 0,
+    "rayleigh_based_shift": 0,
+    "shifted_min_eigenvalue": -1,
+    "certified_shift": 1,
+    "certified_shifted_min_eigenvalue": 0
+  },
+  "assertions": "passed"
+}
