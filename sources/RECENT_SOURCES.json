@@ -27,6 +27,12 @@
           "date": "2026-10-31",
           "read_pdf_pages": "2–3,13–14",
           "scope": "原始绝对gap定义、I-FALM实际内解/输出及参数；复用此前Lemma5.7阅读"
+        },
+        {
+          "stage": "CANDIDATE_VALIDATION_03",
+          "date": "2026-10-31",
+          "read_pdf_pages": "12–14,23–25",
+          "scope": "原预算(91)、Algorithm4输出/停止与乘子权重；视觉核13、25"
         }
       ]
     },
@@ -76,7 +82,15 @@
       "access_date": "2026-10-31",
       "reading_status": "targeted_reading_not_full_distillation",
       "related_record": null,
-      "metadata_url": "https://arxiv.org/abs/2610.36256v1"
+      "metadata_url": "https://arxiv.org/abs/2610.36256v1",
+      "reading_updates": [
+        {
+          "stage": "CANDIDATE_VALIDATION_03",
+          "date": "2026-10-31",
+          "read_pdf_pages": "2–5,14–16,20–21,24–26,28–29",
+          "scope": "核心机制、HVP、作者问题和竞争文献定位；视觉核16、21；实验页仅导航，不作实验蒸馏"
+        }
+      ]
     },
     {
       "id": "R04",
@@ -584,7 +598,15 @@
       "reading_scope": "Assumptions、LemmaIII.1、ThIII.2/III.5及相位恢复模型；未复证全篇",
       "metadata_url": "https://arxiv.org/abs/2004.13233",
       "related_record": null,
-      "reading_status": "targeted_reading_not_full_distillation"
+      "reading_status": "targeted_reading_not_full_distillation",
+      "reading_updates": [
+        {
+          "stage": "CANDIDATE_VALIDATION_03",
+          "date": "2026-10-31",
+          "read_pdf_pages": "4–5,8–11",
+          "scope": "复用并展开Moreau一步与包络平均；视觉核10–11，8–9仅导航"
+        }
+      ]
     },
     {
       "id": "R25",
@@ -769,7 +791,15 @@
       "metadata_url": "https://arxiv.org/abs/1401.6607",
       "related_record": null,
       "reading_status": "targeted_reading_not_full_distillation",
-      "formal_metadata_url": "https://doi.org/10.1137/14095697X"
+      "formal_metadata_url": "https://doi.org/10.1137/14095697X",
+      "reading_updates": [
+        {
+          "stage": "CANDIDATE_VALIDATION_03",
+          "date": "2026-10-31",
+          "read_pdf_pages": "8",
+          "scope": "直接gap式(2.13)接口重读，不重做已核定理"
+        }
+      ]
     },
     {
       "id": "R33",
@@ -809,7 +839,15 @@
       "reading_scope": "非均匀小批量Alg3/Th5.2、Cor5.7；共同强凸正则与整体强凸区别",
       "metadata_url": "https://www.jmlr.org/papers/v18/16-410.html",
       "related_record": null,
-      "reading_status": "targeted_reading_not_full_distillation"
+      "reading_status": "targeted_reading_not_full_distillation",
+      "reading_updates": [
+        {
+          "stage": "CANDIDATE_VALIDATION_03",
+          "date": "2026-10-31",
+          "read_pdf_pages": "19–21,23",
+          "scope": "Cor5.7归约、Th5.2条件相对收缩及脚注14光滑上界收紧；在02已核基础上定向重核"
+        }
+      ]
     },
     {
       "id": "R35",
@@ -829,7 +867,15 @@
       "reading_scope": "Alg3.1/3.2、Th3.1及分裂运算；只适配凸prox子问题",
       "metadata_url": "https://lcondat.github.io/research.html",
       "related_record": null,
-      "reading_status": "targeted_reading_not_full_distillation"
+      "reading_status": "targeted_reading_not_full_distillation",
+      "reading_updates": [
+        {
+          "stage": "CANDIDATE_VALIDATION_03",
+          "date": "2026-10-31",
+          "read_pdf_pages": "6",
+          "scope": "凸内分裂定理范围核对；模型与算法复用02"
+        }
+      ]
     },
     {
       "id": "R37",
@@ -850,6 +896,69 @@
       "metadata_url": "https://doi.org/10.1137/16M1082305",
       "related_record": null,
       "reading_status": "targeted_reading_not_full_distillation"
+    },
+    {
+      "id": "R38",
+      "url": "https://arxiv.org/pdf/2604.18321v1",
+      "sha256": "7951199b4281a76e6a4046035fbad5ee12bc23c4037b17c4a0337b75a31f1f77",
+      "bytes": 619026,
+      "pages": 30,
+      "http_status": 200,
+      "access_date": "2026-10-31",
+      "status": "downloaded",
+      "title": "Accuracy Certificates for Convex Optimization at Accelerated Rates via Primal-Dual Averaging",
+      "authors": "Matthew X. Burns; Jiaming Liang",
+      "version": "2604.18321v1",
+      "first_date": "2026-04-20",
+      "revision_date": "2026-04-20",
+      "publication_date": null,
+      "read_pdf_pages": "1–4,9",
+      "reading_scope": "CSCO模型/GLMO、Def2.4及TAA Th5.1；视觉核4、9，仅为证书适配",
+      "reading_status": "targeted_reading_not_full_distillation",
+      "related_record": "R01",
+      "metadata_url": "https://arxiv.org/abs/2604.18321v1"
+    },
+    {
+      "id": "R39",
+      "url": "https://arxiv.org/pdf/2509.07580v1",
+      "sha256": "e56bcfefba598a47150c1a12566ecfcd3e4291147e180dfcfd8e84ca9ae9ceff",
+      "bytes": 702024,
+      "pages": 35,
+      "http_status": 200,
+      "access_date": "2026-10-31",
+      "status": "downloaded",
+      "title": "On Global Rates for Regularization Methods based on Secant Derivative Approximations",
+      "authors": "Coralia Cartis; Sadok Jerad",
+      "version": "2509.07580v1",
+      "first_date": "2025-09-09",
+      "revision_date": "2025-09-09",
+      "publication_date": null,
+      "read_pdf_pages": "1–2",
+      "reading_scope": "旧版题名/作者及导言导航；核心比较使用R40，不计独立竞争证据",
+      "reading_status": "navigation_only_superseded_version",
+      "related_record": "R40",
+      "metadata_url": "https://arxiv.org/abs/2509.07580v1"
+    },
+    {
+      "id": "R40",
+      "url": "https://arxiv.org/pdf/2509.07580v2",
+      "sha256": "04698c96b7266211e43abafe3063622261cd05a2fcec1a0401816bfadf30fe27",
+      "bytes": 842248,
+      "pages": 40,
+      "http_status": 200,
+      "access_date": "2026-10-31",
+      "status": "downloaded",
+      "title": "On Global Rates for Regularization Methods based on Secant Derivative Approximations",
+      "authors": "Coralia Cartis; Sadok Jerad; Karl Welzel",
+      "version": "2509.07580v2",
+      "first_date": "2025-09-09",
+      "revision_date": "2026-07-23",
+      "publication_date": null,
+      "read_pdf_pages": "6,8–9,17,19–20,23",
+      "reading_scope": "Condition2.1、假设、有限差分算法/定理及PSB接口；视觉核8、19–20；不读实验、不全文复证",
+      "reading_status": "targeted_reading_not_full_distillation",
+      "related_record": "R39",
+      "metadata_url": "https://arxiv.org/abs/2509.07580v2"
     }
   ],
   "date_convention": "null means not independently verified; journal submitted/received is not necessarily first public version",
