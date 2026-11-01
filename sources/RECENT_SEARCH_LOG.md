@@ -1,6 +1,6 @@
 # 近期研究检索与阅读记录
 
-05 的 R43 定向补读记在文末。沿用 04 已登记的 49 份来源文件。
+本轮增量见[06 定向来源核准](#search06)。05 沿用 49 份来源，06 新增 3 份，累计 52 份登记文件。
 
 03 交付时为候选价值与主线验证03；累计63条历史查询、42份登记文件，不能视为独立论文或全文通读数量。03只有指定原文访问和关系核查，没有新增检索式。
 
@@ -287,3 +287,33 @@ HALLaR重新访问正式DOI和作者链接：正式全文仍受订阅限制，�
 问题是 T04-4 中哪些分量成本已由文献分析。沿用 R43 的 [arXiv v3 作者稿](https://arxiv.org/pdf/1811.03831v3) 和库外已登记 PDF。回读官方版本入口，核本地 SHA-256 为 `38be95ec4a9b1343a942d5c293eeb2e8a8c46d404b92c9e57205707d24171702`。首发 2018-11-09，v3 修订 2019-04-19，期刊线上发表 2019-11-14。增读 PDF31 的全程概率语境、PDF32–35 §7.2，视觉核 PDF32–35。PDF33 定理 7.2、PDF34 式 (7.9)–(7.11)、PDF35 的每步分量工作均属于作者已有分析。[本轮适配及边界](../scope/PROBLEM_EVIDENCE.md) · [来源登记](RECENT_SOURCES.json)
 
 P00 PDF12–14/印16–18 回看原页，既有六篇及近期定理按已验坐标复用。R42 引理 E.1 与 R44 引理 4.2 的适用对象按已登记页段回看。05 新增 0 条检索式、0 份来源，沿用 49 份文件、80 条历史查询。此次增读与 04 原先读到 PDF24–26、Manager 对 §7.2 的独立发现分别归属。
+
+<a id="search06"></a>
+
+## 06 · 首次选题稿的定向来源核准
+
+执行日及截止 2026-11-01（Asia/Shanghai）。从 05 已登记的 49 份文件出发。本轮 Web Search 仅定向查五题的直接近邻和版本，实际查询式如下；沿用 80 条历史查询，增 9 条。原文取 arXiv 固定版本，出版身份另回 PMLR、Springer 及 Crossref，不以检索摘要替代定理。书目查询和定向阅读分别计数。
+
+|编号|原查询式|用于哪一步|
+|---|---|---|
+|T06-01|`decentralized nonsmooth weakly convex optimization Stiefel manifold subgradient communication rounds mixing robust subspace 2025 2026`|带局部非光滑约束的网络方法及光滑近邻，补 R48|
+|T06-02|`"Frank-Wolfe with Moreau Envelope Smoothing" matrix trend filtering stationarity active identification 2026`|回到 R02 式 (7.5)，核原始差分结构与 R45 适用面|
+|T06-03|`"Accuracy Certificates" convex optimization accelerated rates primal-dual averaging equality constrained stopping criterion 2026 feasible`|核 R38/R46 的原问题证书边界|
+|T06-04|`"On Global Rates for Regularization Methods" inexact secant Hessian finite difference second order stationarity 2026`|对照 R03/R40/R43 已覆盖的抽样精度与差分任务|
+|T06-05|`"spectral bundle" rank adaptive polynomial optimization sphere moment SOS subspace certificates 2025 2026`|球面松弛的另一种可算下界，补 R49|
+|T06-06|`"An Elementary Proof of Hilbert's Theorem on Ternary Quartics" Pfister Scheiderer ternary quartics sums squares arxiv`|证明三变量起步例所需的经典原文，补 R50|
+|T06-07|`"A hierarchy of eigencomputations for polynomial optimization on the sphere" Lovitz Johnston arxiv version`|核 R49 的作者稿与刊版|
+|T06-08|`"Distributed Retraction-Free and Communication-Efficient Optimization on the Stiefel Manifold" arXiv Song Gao`|核 R48 作者稿与会议记录|
+|T06-09|`"An elementary proof of Hilbert's theorem on ternary quartics" Pfister Scheiderer 2012 DOI Journal of Algebraic Geometry`|按题名查出版身份，刊名以 DOI 实际登记的 Journal of Algebra 为准|
+
+**既有来源。** 回读 R41、R02、R45、R38、R46、R03、R40、R43、R42、R44、R06 的 arXiv 版本页，所见最新作者稿版本号与既有登记一致。R02 复查 PDF34–36 §7.2.2 行差分、谱球、MCP 定义及图 4。R41 引用五位作者的 2023 年 v1，另有署名不同的 2026 IEEE 刊版；本文的定理号及模型定位均按 v1。R43 §7.2、R45 定理 4–5 等数学坐标复用 04/05 记录。B3 对照 R06 已读定理，仍缺块工作总量的代表实例。其余检索命中仅作导航；未将题名命中或未命中用于断言新颖性。[R41 作者稿](https://arxiv.org/abs/2303.17779v1) · [R41 刊版](https://doi.org/10.1109/TSP.2026.3720815)
+
+|新增编号|首发 → 所读版本|本轮阅读的固定 PDF 页与用途|出版定位|
+|---|---|---|---|
+|R48|2025-06-03 → v2，2025-08-09|1、5、7；假设 5.3、定理 5.11。正交约束与通信机制相近，局部目标光滑，输出为梯度与可行缺陷。|[ICML 2025，PMLR 267](https://proceedings.mlr.press/v267/song25c.html)|
+|R49|2023-10-27 → v3，2025-07-13|1、6、17–18；定理 1.7、4.4 与式 (10)。在齐次球面问题上用广义特征值给下界，可与完整 SOS 对照。|[Mathematical Programming，2025-07-21 在线](https://doi.org/10.1007/s10107-025-02251-y)|
+|R50|2010-09-16 → v1，同日|1–2、25；引言与 §9.2。使用非负三元四次齐次式的平方和表示。代入 T04-5 球面算例的推论归本项目。|[Journal of Algebra，2012 年 12 月](https://doi.org/10.1016/j.jalgebra.2012.07.042)|
+
+三个固定版本 PDF 均已下载到库外并核字节、页数和 SHA-256；见[唯一登记](RECENT_SOURCES.json)。累计 52 份登记文件，含历史版本和未读补充，不换算成已通读论文数。本轮五题正文引 12 篇一手文献。对定理及其适用模型的增量判断见[问题证据](../scope/PROBLEM_EVIDENCE.md#evidence06)。
+
+另有两个近期命中仅核到版本页与摘要，作为后续导航。Cui、Hu、Gao、Gu 的 [非光滑 Stiefel Landing 方法（2026-10-22，v1）](https://arxiv.org/abs/2610.30617v1)提供几何方向的交叉线索；Gladin 的 [低维精度证书（2026-10-08，v1）](https://arxiv.org/abs/2610.11448v1)关注投影仿射下模型及遗漏分量。此次未据此推断网络通信轮数或容量流的内解成本，两条摘要未计入 PDF 登记。

@@ -1,13 +1,9 @@
 # 当前状态
 
-2026-11-01。用户已授权按收尾方案规划并制作首次导师选题材料。**当前唯一任务：[首次选题交付收尾06](tasks/FIRST_TOPIC_SELECTION_06.md)。** [05 Manager审核](reviews/MAINLINE05_b27cdb8_MANAGER_REVIEW.md)已通过组织层验收；04五项形成层验收与全部历史成果保留，不重复执行04/05。
+2026-11-01 · 首次选题材料06完成，待Manager独立验收。
 
-本次完成的是Manager规划、规则及入口更新；尚未收到06本地执行回执。Codex使用已有材料，以T04-1至T04-5为主体完成至少五项合格的首次选题稿，必要且有充分依据时最多补两项，不为数量延迟已合格的五项交付。导师拥有最终决定权。
+[导师初选讨论稿](advisor/FIRST_TOPIC_SELECTION.md)已形成，T04-1 至 T04-5 均在正文中。T04-3 与 T04-5 的共同学习路径仍有依据，五项均可独立选择。B3 惯性线索继续保存在问题池。[本次核准及未决点](REVIEW.md) · [唯一内部卡片](scope/DIRECTION_SHORTLIST_V2.md#short06) · [实质补证](scope/PROBLEM_EVIDENCE.md#evidence06)
 
-[五项内部卡片](scope/DIRECTION_SHORTLIST_V2.md)与[05关联地图](scope/RECENT_LITERATURE_MAP.md#map05)继续作为科学依据。T04-3/5的共享下界与成本工具是推荐组合，不是仅交两项；五项都应在导师稿正文获得可比较的展示。联系用于降低理解和学习成本，不强拼统一理论或隐性排除网络/高阶方向。
+本轮基于 Manager `c66f5983aef9812b1584e978f0c32b06153ba19a` 和[06任务](tasks/FIRST_TOPIC_SELECTION_06.md)，承接[05独立审核](reviews/MAINLINE05_b27cdb8_MANAGER_REVIEW.md)。[研究范围](scope/P00_ALIGNMENT.md)、[关联对照](scope/RECENT_LITERATURE_MAP.md#map05)、[定向来源日志](sources/RECENT_SEARCH_LOG.md#search06)保留原有编号。既往蒸馏、问题处置和计算均按各批记录。
 
-06授权新建advisor/FIRST_TOPIC_SELECTION.md，作为内部卡片的简明阅读稿，文件待Codex生成。过去“暂不制作导师材料”的限制仅在本次成稿范围内解除；不发送、不联系导师、不制作额外论文汇报或替导师定题。先核必要证据，再成稿；不以前置完整证明、性能运行或创新认证代替选题准备。
-
-当前加速目标仍须落在有意义的理论保证或同精度总工作；T04-3/5不只是验界。R43第7.2节抽样/分量成本覆盖已由05补入，06复用结论而非重做。真正的新关系和收益保持拟研究状态。
-
-ACC01—04、16条历史问题、全部原计算和审核保留；ACC05/06与STAGE03批量蒸馏暂缓，按问题需要调用。原件/全文/页图不入Git，旧库隔离。06交固定SHA后Manager独立验收并简短复盘，用户确认后再安排后续；目标是完成首次导师初选交付，不继续无限内部筛选。
+本次授权到选题稿成稿为止。Manager 逐题独立验收后先向用户简短复盘。通过后由用户交导师初选，收到导师意见再调整。
