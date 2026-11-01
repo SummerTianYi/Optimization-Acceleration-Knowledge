@@ -1,11 +1,11 @@
 # Optimization-Acceleration-Knowledge
 
-导师计划书P00决定范围，acceleration决定重点。近期文献发现重要问题，既有知识提供方法，最终形成可由导师取舍的多项课题。Codex执行；Manager独立验收后先简短复盘，用户确认再安排下一轮。
+导师计划书 P00 界定范围，研究重点是 acceleration。当前内部交付是五项具有不同加速对象的开放型课题，以及 16 条历史问题的复评。最终选题由导师决定。
 
-当前入口：[STATE](STATE.md) → [选题框架](scope/RECENT_RESEARCH_STRATEGY.md) → [重构与课题形成04](tasks/TOPIC_FORMULATION_04.md)。2026-11-01本版替代旧04；旧批次和MASTER_PLAN仅保留历史背景与未冲突的质量规范。
+[04 验收入口](REVIEW.md) · [当前状态](STATE.md) · [唯一提案清单](scope/DIRECTION_SHORTLIST_V2.md)
 
-本次重点：历史判断复评而非Git回滚；研究方向、核心问题和技术路线分层；课题有明确起点，同时保留有依据的替代路径和延展空间。4—6项为参考，证据与实质差异优先。研究潜力、准备程度及灵活性分别说明，不要求先做完论文才选题。
+阅读时可先用[方向地图](scope/RECENT_LITERATURE_MAP.md)比较网络通信、原变量驻点证书、约束内解、曲率精度和松弛降维，再到[问题证据](scope/PROBLEM_EVIDENCE.md)核作者结论、自行推导和有限检查的边界。原始位置见[P00 对应表](scope/P00_ALIGNMENT.md)、[近期来源](sources/RECENT_SOURCES.json)和[检索日志](sources/RECENT_SEARCH_LOG.md)。
 
-复用[P00定位](scope/P00_ALIGNMENT.md)、[近期方向地图](scope/RECENT_LITERATURE_MAP.md)、[问题证据](scope/PROBLEM_EVIDENCE.md)、[唯一提案清单](scope/DIRECTION_SHORTLIST_V2.md)、[来源日志](sources/RECENT_SEARCH_LOG.md)、[来源登记](sources/RECENT_SOURCES.json)。[03审核](reviews/VALIDATION03_c0df573_MANAGER_REVIEW.md)和[最近验收索引](REVIEW.md)保留，历史标签不冒充本轮复评结论。
+04 按[本版任务](tasks/TOPIC_FORMULATION_04.md)与[选题框架](scope/RECENT_RESEARCH_STRATEGY.md)执行。[03 审核](reviews/VALIDATION03_c0df573_MANAGER_REVIEW.md)、[六篇阅读地图](scope/ACCELERATION_MAP.md)及早期各批成果保留原归属。ACC05/06 和 STAGE03 批量蒸馏暂缓。
 
-ACC01—04、历史科学输出与审核保留；ACC05/06按问题定向使用，不恢复批量蒸馏。不重建库或访问旧库，原件/全文/页图/凭据不入Git。本轮尚待Codex执行，不制作导师汇报或最终定题。
+选题体系重构与课题形成04完成，待Manager独立验收。Manager 验收并简短复盘后，由用户确认是否安排下一轮。

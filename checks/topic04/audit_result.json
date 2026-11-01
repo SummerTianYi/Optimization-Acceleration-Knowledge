@@ -1,0 +1,65 @@
+{
+  "date": "2026-11-01",
+  "baseline": "726224d05a300d15d77a97800ba6b8c73b186847",
+  "repository": {
+    "defaultBranchRef": {
+      "name": "main"
+    },
+    "isPrivate": true,
+    "nameWithOwner": "SummerTianYi/Optimization-Acceleration-Knowledge"
+  },
+  "pre_sync_head_verified": "c0df5732da2ae72d16380824854ca26e147b27b0",
+  "protected_baseline_files": 94,
+  "source_files": 49,
+  "new_pdf_titles": [
+    "R41",
+    "R42",
+    "R43",
+    "R44",
+    "R45",
+    "R46",
+    "R47"
+  ],
+  "material_ids": [
+    "P00",
+    "ACC01",
+    "ACC02",
+    "ACC03",
+    "ACC04",
+    "ACC05",
+    "ACC06",
+    "ACC06-ORIGINAL"
+  ],
+  "query_strings": 80,
+  "new_queries": 17,
+  "historical_ids_reappraised": [
+    "A1",
+    "A2",
+    "B1",
+    "B2",
+    "C-R1",
+    "D1",
+    "B3",
+    "D2",
+    "D3",
+    "A0",
+    "B0",
+    "B4",
+    "C0",
+    "D0",
+    "旧C1",
+    "旧C2"
+  ],
+  "proposal_titles": {
+    "1": "几何约束下的分布式驻点计算",
+    "2": "融合结构能否降低非光滑驻点的验算成本",
+    "3": "可行原始证书驱动的约束内解精度",
+    "4": "低阶曲率信息的精度预算与二阶驻点",
+    "5": "多项式松弛的谱空间选择与原目标界"
+  },
+  "local_links_checked": 104,
+  "finite_check": "rational single-column fusion and two-column spectral-ball boundary",
+  "scope": "File identities, scoped history, local links, current entries and privacy patterns. No performance or novelty test.",
+  "failures": [],
+  "result": "PASS"
+}

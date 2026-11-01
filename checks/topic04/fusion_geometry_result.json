@@ -1,0 +1,57 @@
+{
+  "arithmetic": "rational",
+  "radius": 1,
+  "one_column": {
+    "input": [
+      "3/8",
+      "5/8",
+      "-1/4"
+    ],
+    "output": [
+      "1/2",
+      "1/2",
+      "-1/4"
+    ],
+    "input_squared_norm": "19/32",
+    "output_squared_norm": "9/16",
+    "squared_displacement": "1/32"
+  },
+  "two_columns": {
+    "input_columns": [
+      [
+        "1",
+        "0"
+      ],
+      [
+        "0",
+        "1"
+      ]
+    ],
+    "column_specific_output": [
+      [
+        "1/2",
+        "1/2"
+      ],
+      [
+        "0",
+        "1"
+      ]
+    ],
+    "common_output": [
+      [
+        "1/2",
+        "1/2"
+      ],
+      [
+        "1/2",
+        "1/2"
+      ]
+    ],
+    "test_vector": [
+      "1",
+      "1"
+    ],
+    "column_specific_squared_norm_lower_bound": "5/4",
+    "common_squared_norm_on_witness": "1"
+  }
+}

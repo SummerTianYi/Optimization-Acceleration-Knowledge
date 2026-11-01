@@ -1,6 +1,8 @@
 # 近期研究检索与阅读记录
 
-当前为候选价值与主线验证03；累计63条历史查询、42份登记文件，不能视为独立论文或全文通读数量。03只有指定原文访问和关系核查，没有新增检索式。
+当前 04 的检索与出版回读记录在文末，已登记 49 份来源文件。
+
+03 交付时为候选价值与主线验证03；累计63条历史查询、42份登记文件，不能视为独立论文或全文通读数量。03只有指定原文访问和关系核查，没有新增检索式。
 
 02当时的统计：当前为候选证据补齐02，增量在文末；此前筛选01协议、查询、阅读范围和停止判断按历史保留。累计63条查询、39份登记文件，不能视为独立论文或全文通读数量。
 
@@ -240,3 +242,42 @@ HALLaR重新访问正式DOI和作者链接：正式全文仍受订阅限制，�
 实际执行的科学小检查只见[03验收入口](../REVIEW.md)：A2两组小图、C-R1三个闭式状态和偏差例、B1三个MCP边界及同号局部关系。A1为书面成熟归约，D3为原文资格核查。没有性能数据、完整新定理或重跑旧科学实验。
 
 停止理由是五项指定问题均形成数学关系/具体断点和处置，而非已有足够候选数量。0正式候选、1潜在、8线索的当前结果如实保留。未穷尽近期更正或后续竞争、未做广泛查新；尤其D3资格不等于新颖性确认。后续由Manager独立验收后下达。
+
+## 04 定向补证 · 2026-11-01（Asia/Shanghai）
+
+先按 03 已登记的 42 份文件建立对照，再围绕缺少的结构、证书与计算成本查询。以下为本轮实际提交的网页学术检索式（Web Search），数学依据回到固定版本作者稿。日期截止 2026-11-01。先前 63 式保留，本轮 17 式，合计 80 式；共登记 49 份文件，含同作多版本及历史未读补充，不能按文件数推算独立论文数。
+
+|查询号|原查询式|用途/去向（包含跨查询归并）|
+|---|---|---|
+|T04-01|`2025 2026 large scale semidefinite programming adaptive spectral bundle rank primal recovery MaxCut relaxation duality gap subspace low rank solver`|R42/R44，原始—对偶比较|
+|T04-02|`2025 2026 nonconvex nonsmooth block coordinate inertial adaptive momentum identification local acceleration proximal alternating convergence rate`|R06，惯性成本口径|
+|T04-03|`2025 2026 Hessian finite difference third order regularization inexact derivatives dynamic accuracy second order stationarity complexity noise`|R43/R40，误差预算|
+|T04-04|`distributed sharp weakly convex optimization phase retrieval communication complexity linear convergence subgradient sharpness decentralized initialization 2025 2026`|尖锐性与网络模型导航|
+|T04-05|`"Decentralized Weakly Convex Optimization Over the Stiefel Manifold" arXiv robust subspace recovery theorem`|R41，模型与定理|
+|T04-06|`primal dual spectral bundle methods semidefinite programming rank degeneracy eigenvectors adaptive SDP Ding Grimmer 2025 2026 subspace MaxCut`|R42，谱束秩门槛|
+|T04-07|`inexact high order adaptive regularization dynamic accuracy derivative approximations finite differences third order second order optimality Cartis Gould Toint absolute errors`|R43，动态精度|
+|T04-08|`2025 2026 certified low-rank semidefinite programming approximate complementarity dual slack eigenvectors rank recovery spectral bundle two stage`|R44，近似互补|
+|T04-09|`site:arxiv.org "Adaptive Regularization Algorithms with Inexact Evaluations for Nonconvex Optimization" Bellavia`|R43 作者稿|
+|T04-10|`site:arxiv.org semidefinite programming approximate complementarity reduced problem primal recovery optimal storage Ding Yurtsever Cevher Tropp Udell`|R44 作者稿|
+|T04-11|`site:arxiv.org manifold identification partial smoothness forward backward splitting local linear convergence inertial finite identification composite nonconvex`|活动面识别前作导航|
+|T04-12|`decentralized Stiefel manifold accelerated consensus Chebyshev projected means higher order local linear rate nonsmooth weakly convex primal averaging 2025 2026`|R41 与几何混合的近邻|
+|T04-13|`"Local Linear Convergence" "Partial Smoothness" Douglas Rachford Liang Fadili Peyre arxiv`|DR/ADMM 部分光滑导航|
+|T04-14|`2025 2026 identification active manifolds composite optimization proximal smooth nonconvex constrained nonsmooth linear map active set proximal gradient identification`|R45，识别条件及耦合限制|
+|T04-15|`affine constrained convex composite optimization computable primal dual gap infeasible iterates smoothed duality gap stopping criterion Fercoq Walwil 2024 2025`|R46/R47，证书与停机|
+|T04-16|`semidefinite spectral bundle adaptive bundle size rank update heuristics a posteriori eigenvalue gap polynomial optimization SOS low rank Liao Zheng`|R42，球面多项式与迹界|
+|T04-17|`"Compressed Decentralized Momentum Stochastic Gradient Methods for Nonconvex Optimization" TMLR OpenReview Wei Liu`|R05 正式条目身份|
+
+**种子与出版身份回读。** 按指定旧种子的题名和首发链重新打开 arXiv 官方版本页：2610.35275v1、R01 2602.17878v1、R02 2606.00853v1、R03 2610.36256v1、R04 2607.01755v1、R05 2508.04950v1、R06 2608.05502v1。独立回读 R07 的 JMLR 第 27 卷第 109 篇（2026，1–52），与 R04 的压缩工作分别记录。Push-Pull 仅作出处导航。R05 作者页称 TMLR 接收，TMLR 展示页题名作者一致，OpenReview 论坛前台返回验证页，未以此推断精确发表日。R06 的正式条目给 2026-10-12 电子发表；数学定位沿用 arXiv v1。本轮另回读 R08、R10、R11、R24、R38、R40 的版本入口，区别书目回读与定理重读。其余种子本轮只确认登记的公开版本，未独立核准新的正式发表日期。[JMLR](https://www.jmlr.org/papers/v27/25-1030.html) · [TMLR](https://tmlr.infinite-conf.org/paper_pages/RqhMQHHkB4.html) · [R06 出版索引](https://pubmed.ncbi.nlm.nih.gov/42861582/)
+
+|来源|首发 → 所读版本修订|出版定位与本次阅读|
+|---|---|---|
+|R41|2023-03-31 → v1 同日|IEEE TSP 2026-08-10。作者稿五位作者含 Deng；正式出版元数据列 Wang、Hu、Chen、So 四位。定理号均据 v1。PDF7–8、11–14、16、18、21–22，DRSM、近端邻域、驻点、附加尖锐性和 DPCP。|
+|R42|2023-07-14 → v2 2026-02-03|期刊 2025-10-01 在线、2026 卷 93。PDF4–5、17、22、28–29、57，Slater、两侧谱束、球面四次式和矩迹界。|
+|R43|2018-11-09 → v3 2019-04-19|SIAM J. Optim. 2019-11-14 在线。PDF24–26，以动态精度查询计 q 阶临界性，比较重置与单调精化。|
+|R44|2019-02-09 → v2 2020-06-17|SIAM J. Optim. 2021-10-28 在线。PDF2、10、13，正则性、遗漏谱阈值、已知秩及过估秩恢复。|
+|R45|2026-09-16 → v1 同日|作者稿。PDF3、6–7，模型、假设 2–3 和定理 4–5，判断识别能否转到线性复合。|
+|R46|2024-03-19 → v1 同日|Math. Program. Comput. 2025-05-24 在线。PDF10、12、15–17，完整 prox、平滑 gap 和带误差界的转换。|
+|R47|2025-11-05 → v1 同日|作者稿。PDF2、5–6、8–9，算法 1/2 与定理 1/2 的平滑对象及调度。|
+|R06 增读|原记录和旧页段保留|PDF4、6、10，两种外推、块扫描、定理 6 的 KL 目标值分情形，不作总 oracle 速率。|
+
+**取得与限制。** 七个新增 PDF 均从版本固定的 arXiv URL 下载，逐份保存字节数、SHA-256、页数、题名和元数据。细节在[唯一来源登记](RECENT_SOURCES.json)。原页另视觉核 R41/14、R42/17 与 57、R43/25、R44/10、R45/7、R46/10、R47/9 和 R06/10。R45、R47 的正式出版日未核实。部分 DOI 跳转、IEEE 页面或 Crossref 请求遇到访问限制，R42 由 Springer 期刊落地页核正式日期，R41 由 IEEE 公开索引及 Crossref 核出版身份，数学段落均取所列作者稿。DR/ADMM 部分光滑及网络锐性等其余命中只作导航，未登记为新增定理证据。本轮没有穷尽并行工作，未把未命中当作选题成立的证据。[R41 出版入口](https://doi.org/10.1109/TSP.2026.3720815) · [R42 出版入口](https://link.springer.com/article/10.1007/s10589-025-00735-3) · [R46 出版入口](https://doi.org/10.1007/s12532-025-00284-0)
