@@ -1,0 +1,49 @@
+{
+  "reviewed_sha": "14b35df06fa1ab6a742e3989352e5cace8195b7f",
+  "environment": {
+    "python": "3.13.5",
+    "sympy": "1.14.0"
+  },
+  "fusion_single": {
+    "input": [
+      "3/8",
+      "5/8",
+      "-1/4"
+    ],
+    "output": [
+      "1/2",
+      "1/2",
+      "-1/4"
+    ],
+    "input_norm_squared": "19/32",
+    "output_norm_squared": "9/16",
+    "displacement_squared": "1/32"
+  },
+  "fusion_separate_columns": {
+    "matrix": [
+      [
+        "1/2",
+        "0"
+      ],
+      [
+        "1/2",
+        "1"
+      ]
+    ],
+    "witness_squared_norm_lower_bound": "5/4",
+    "exact_squared_spectral_norm": "sqrt(5)/4 + 3/4"
+  },
+  "fusion_common_projection": {
+    "spectral_norm": 1,
+    "projection_idempotent": true
+  },
+  "directional_difference_budget": {
+    "bound": "L*h/2 + 2*eta/h",
+    "minimizer": "2*sqrt(eta)/sqrt(L)",
+    "minimum_bound": "2*sqrt(L)*sqrt(eta)",
+    "existence_condition": "eta <= tau**2/(4*L)",
+    "scope": "scalar directional bound only; not full-tensor or algorithm complexity"
+  },
+  "passed": true,
+  "limits": "Independent algebra only; no paper-wide proof, speed measurement, or novelty certification."
+}
