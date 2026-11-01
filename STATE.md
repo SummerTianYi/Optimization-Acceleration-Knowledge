@@ -1,11 +1,11 @@
 # 当前状态
 
-2026-11-01。主线收敛与关联课题组织05完成，待Manager独立验收。[固定版本验收时请从本次提交打开 REVIEW](REVIEW.md) · [唯一提案清单](scope/DIRECTION_SHORTLIST_V2.md)
+2026-11-01。05受审固定SHA：`b27cdb8d55e3b90156eb6f9898fee8fe0323e0ca`。**主线收敛与关联课题组织05通过组织层独立验收；可以采纳T04-3/T04-5为有依据的推荐组合，尚不决定唯一主线或课题。** [Manager审核与复盘](reviews/MAINLINE05_b27cdb8_MANAGER_REVIEW.md) · [执行者固定交付](https://github.com/SummerTianYi/Optimization-Acceleration-Knowledge/blob/b27cdb8d55e3b90156eb6f9898fee8fe0323e0ca/REVIEW.md) · [唯一提案清单](scope/DIRECTION_SHORTLIST_V2.md)
 
-建议围绕**达到原目标区间精度所需的子问题总工作**组织 T04-3 与 T04-5。前者从集中凸容量流起步，后者从球面多项式的矩/SOS 松弛起步。两者可独立进行。T04-2 是同点驻点验算的相关延展。T04-1 的网络通信、T04-4 的低高阶曲率分别保留为独立备选。导师若更看重高阶与松弛中的谱子问题，可另比较 T04-4/5。[共同基础与学习路径](scope/RECENT_LITERATURE_MAP.md#map05) · [可复用的论证及具体断点](scope/PROBLEM_EVIDENCE.md#evidence05)
+建议主线表述为“面向目标精度的约束与凸松弛加速求解”：T04-3是可独立研究的集中凸容量流切入，T04-5直接进入P00的松弛降维分支。共享弱对偶下界、内解误差方向和成本判断，不共享全部收敛理论。T04-2保留相关延展，T04-1/T04-4保留网络和低高阶独立备选；不因归组而取消其价值。
 
-本轮补读 R43 §7.2，明确样本规模、全样本门槛及分量工作已有原文覆盖。曲率提案剩下的比较是两端差分误差、真实二阶驻点与总工作的耦合。05 的增量为组织建议、书面适配与来源定位，全部历史科学核验沿用原记录。[来源日志](sources/RECENT_SEARCH_LOG.md) · [04 Manager 审核](reviews/TOPIC04_14b35df_MANAGER_REVIEW.md)
+已核共享下界和盒/迹球内解公式；回查R42迹界、R44近似互补条件以及R43第7.2节抽样覆盖。固定阶松弛间隙与内解误差分开，能验算不等于已获加速。选这组不等于导师已偏好松弛路线，最终选择由导师决定。详细实际阅读及截图限制见审核，本轮没有新性能实验。
 
-基线是 Manager 确认版 `8fbb1ab70198d8bf7cf5cf53828f880acbb8a35e`，同步前本地 `main` 干净，已在库外保存并验证完整 Git bundle。ACC01—04 已通过，ACC05/06 及 STAGE03 批量蒸馏暂缓。[05 任务](tasks/MAINLINE_CONVERGENCE_05.md) · [研究策略](scope/RECENT_RESEARCH_STRATEGY.md)
+当前暂停在Manager简短复盘和用户确认。05任务已完成，不重复执行，不发布或自动执行下一任务。用户确认调整方向后再规划；本次只保存审核和更新状态，不改写执行者提案与历史科学记录。
 
-Manager 独立验收并简短复盘，用户确认后再规划下一轮。最终主线与课题由导师选择。
+ACC01—04及全部历史核验保留，ACC05/06和STAGE03批量蒸馏继续暂缓；旧库隔离，原件/全文/页图不入Git。不制作导师汇报或联系导师。
