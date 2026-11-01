@@ -1,9 +1,11 @@
 # Optimization-Acceleration-Knowledge
 
-独立私有科研知识库。导师计划书P00确定范围，acceleration为重点；近期研究发现问题，已有六篇作为方法基础。Codex执行，Manager固定SHA独立验收，导师最终选择课题。
+导师计划书P00决定范围，acceleration决定重点。近期文献发现重要问题，既有知识提供方法，最终形成可由导师取舍的多项课题。Codex执行；Manager独立验收后先简短复盘，用户确认再安排下一轮。
 
-当前先读[STATE](STATE.md)、[REVIEW](REVIEW.md)、[最新审核](reviews/VALIDATION03_c0df573_MANAGER_REVIEW.md)及[课题形成04](tasks/TOPIC_FORMULATION_04.md)。03技术核查通过不等于整个选题目标已完成；下一轮补足多项有文献、价值和方法依据的研究提案，不以提前完成证明作为准入门槛，也不为凑数量降低证据要求。
+当前入口：[STATE](STATE.md) → [选题框架](scope/RECENT_RESEARCH_STRATEGY.md) → [重构与课题形成04](tasks/TOPIC_FORMULATION_04.md)。2026-11-01本版替代旧04；旧批次和MASTER_PLAN仅保留历史背景与未冲突的质量规范。
 
-已有[P00范围](scope/P00_ALIGNMENT.md)、[近期地图](scope/RECENT_LITERATURE_MAP.md)、[问题池](scope/PROBLEM_EVIDENCE.md)、[唯一短名单](scope/DIRECTION_SHORTLIST_V2.md)、[检索记录](sources/RECENT_SEARCH_LOG.md)和[来源身份](sources/RECENT_SOURCES.json)。保留16条历史记录；已覆盖、价值待核与可行性待证分别判断，不自动升级或关闭。
+本次重点：历史判断复评而非Git回滚；研究方向、核心问题和技术路线分层；课题有明确起点，同时保留有依据的替代路径和延展空间。4—6项为参考，证据与实质差异优先。研究潜力、准备程度及灵活性分别说明，不要求先做完论文才选题。
 
-ACC01—04完整蒸馏已通过；ACC05/06和原STAGE03全面蒸馏暂缓。已有论文、执行者核验与Manager记录原样保存。旧库隔离；原PDF/全文/页图/凭据不入Git；没有新性能收益、确认创新或最终定题。当前不制作导师汇报。
+复用[P00定位](scope/P00_ALIGNMENT.md)、[近期方向地图](scope/RECENT_LITERATURE_MAP.md)、[问题证据](scope/PROBLEM_EVIDENCE.md)、[唯一提案清单](scope/DIRECTION_SHORTLIST_V2.md)、[来源日志](sources/RECENT_SEARCH_LOG.md)、[来源登记](sources/RECENT_SOURCES.json)。[03审核](reviews/VALIDATION03_c0df573_MANAGER_REVIEW.md)和[最近验收索引](REVIEW.md)保留，历史标签不冒充本轮复评结论。
+
+ACC01—04、历史科学输出与审核保留；ACC05/06按问题定向使用，不恢复批量蒸馏。不重建库或访问旧库，原件/全文/页图/凭据不入Git。本轮尚待Codex执行，不制作导师汇报或最终定题。
