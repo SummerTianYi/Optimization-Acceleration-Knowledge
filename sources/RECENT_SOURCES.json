@@ -1035,7 +1035,16 @@
       "reading_status": "targeted_reading_not_full_distillation",
       "status": "downloaded",
       "http_status": 200,
-      "related_record": null
+      "related_record": null,
+      "reading_updates": [
+        {
+          "stage": "MAINLINE_CONVERGENCE_05",
+          "access_date": "2026-11-01",
+          "read_pdf_pages": "31–35",
+          "reading_scope": "PDF31 全程概率语境；PDF32–35 §7.2，视觉核32–35。定理7.2、式(7.7)及(7.9)–(7.11)，有限和抽样规模、全样本上限与每步分量评价。",
+          "reading_status": "targeted_reading_not_full_distillation"
+        }
+      ]
     },
     {
       "id": "R44",
