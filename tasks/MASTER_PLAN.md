@@ -1,4 +1,4 @@
-> **历史规划。** 当前以[首次选题收尾06](FIRST_TOPIC_SELECTION_06.md)、[选题框架](../scope/RECENT_RESEARCH_STRATEGY.md)和[状态](../STATE.md)为准。下列顺序、准入与续派均按原日期阅读。
+> **历史规划。** 当前以[研究到初稿示范07](REUSABLE_RESEARCH_07.md)、[选题框架](../scope/RECENT_RESEARCH_STRATEGY.md)和[状态](../STATE.md)为准。下列顺序、准入与续派均按原日期阅读。
 
 > **2026-10-31 当时覆盖（优先于下文旧批次安排）：** 用户要求先查最新研究是否已覆盖历史论文的待研究问题。ACC01—ACC04已通过，ACC05/ACC06仍导航；旧第三批完整蒸馏暂缓。当前只执行[近期文献覆盖核查01](RECENT_LITERATURE_SCREEN_01.md)，以[新的研究路径](../scope/RECENT_RESEARCH_STRATEGY.md)为准。下文原定六篇先后完整蒸馏的顺序是历史规划，不再是当前授权。研究/写作/实验蒸馏和独立验收的通用质量标准仍有效。新增近期一手论文是明确授权的来源，不受下文“仅六篇”历史限制；新文献的下载原件仍不入Git。
 

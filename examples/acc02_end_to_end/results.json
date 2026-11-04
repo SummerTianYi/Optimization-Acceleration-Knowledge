@@ -1,0 +1,842 @@
+{
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5"
+  },
+  "cells": [
+    {
+      "cell": "SPD_100_ACC02",
+      "status": "success",
+      "steps": 196,
+      "f": 2.058794415131672e-06,
+      "relative_gap": 6.077040944525706e-09,
+      "N_f": 198,
+      "N_g": 197,
+      "cost": 395,
+      "factor_matvecs": 592,
+      "prox": 0,
+      "trials": 0,
+      "rejected": 0,
+      "calls": {
+        "update_f": 1,
+        "update_g": 197,
+        "stop_f": 197,
+        "stop_g": 0,
+        "monitor_f": 0,
+        "monitor_g": 0
+      },
+      "cache_hits": {
+        "update": 0,
+        "stop": 0,
+        "monitor": 0
+      }
+    },
+    {
+      "cell": "SPD_100_GD",
+      "status": "success",
+      "steps": 525,
+      "f": 3.381176209529471e-06,
+      "relative_gap": 9.980377892492332e-09,
+      "N_f": 526,
+      "N_g": 525,
+      "cost": 1051,
+      "factor_matvecs": 1576,
+      "prox": 0,
+      "trials": 0,
+      "rejected": 0,
+      "calls": {
+        "update_f": 0,
+        "update_g": 525,
+        "stop_f": 526,
+        "stop_g": 0,
+        "monitor_f": 0,
+        "monitor_g": 0
+      },
+      "cache_hits": {
+        "update": 0,
+        "stop": 0,
+        "monitor": 0
+      }
+    },
+    {
+      "cell": "SPD_100_Nesterov_fixed",
+      "status": "success",
+      "steps": 130,
+      "f": 3.315418811220542e-06,
+      "relative_gap": 9.78627866675527e-09,
+      "N_f": 131,
+      "N_g": 130,
+      "cost": 261,
+      "factor_matvecs": 391,
+      "prox": 0,
+      "trials": 0,
+      "rejected": 0,
+      "calls": {
+        "update_f": 0,
+        "update_g": 130,
+        "stop_f": 131,
+        "stop_g": 0,
+        "monitor_f": 0,
+        "monitor_g": 0
+      },
+      "cache_hits": {
+        "update": 0,
+        "stop": 0,
+        "monitor": 0
+      }
+    },
+    {
+      "cell": "SPD_100_Nesterov_backtrack",
+      "status": "success",
+      "steps": 148,
+      "f": 1.918347297897419e-06,
+      "relative_gap": 5.662476539405842e-09,
+      "N_f": 302,
+      "N_g": 148,
+      "cost": 450,
+      "factor_matvecs": 598,
+      "prox": 0,
+      "trials": 155,
+      "rejected": 7,
+      "calls": {
+        "update_f": 301,
+        "update_g": 148,
+        "stop_f": 1,
+        "stop_g": 0,
+        "monitor_f": 0,
+        "monitor_g": 0
+      },
+      "cache_hits": {
+        "update": 2,
+        "stop": 148,
+        "monitor": 0
+      }
+    },
+    {
+      "cell": "SPD_10000_ACC02",
+      "status": "success",
+      "steps": 565,
+      "f": 0.0002417576058070955,
+      "relative_gap": 9.782188003105719e-09,
+      "N_f": 567,
+      "N_g": 566,
+      "cost": 1133,
+      "factor_matvecs": 1699,
+      "prox": 0,
+      "trials": 0,
+      "rejected": 0,
+      "calls": {
+        "update_f": 1,
+        "update_g": 566,
+        "stop_f": 566,
+        "stop_g": 0,
+        "monitor_f": 0,
+        "monitor_g": 0
+      },
+      "cache_hits": {
+        "update": 0,
+        "stop": 0,
+        "monitor": 0
+      }
+    },
+    {
+      "cell": "SPD_10000_GD",
+      "status": "success",
+      "steps": 31244,
+      "f": 0.0002471100490496587,
+      "relative_gap": 9.9987628070293e-09,
+      "N_f": 31245,
+      "N_g": 31244,
+      "cost": 62489,
+      "factor_matvecs": 93733,
+      "prox": 0,
+      "trials": 0,
+      "rejected": 0,
+      "calls": {
+        "update_f": 0,
+        "update_g": 31244,
+        "stop_f": 31245,
+        "stop_g": 0,
+        "monitor_f": 0,
+        "monitor_g": 0
+      },
+      "cache_hits": {
+        "update": 0,
+        "stop": 0,
+        "monitor": 0
+      }
+    },
+    {
+      "cell": "SPD_10000_Nesterov_fixed",
+      "status": "success",
+      "steps": 656,
+      "f": 0.00023270552874921866,
+      "relative_gap": 9.415915681276859e-09,
+      "N_f": 657,
+      "N_g": 656,
+      "cost": 1313,
+      "factor_matvecs": 1969,
+      "prox": 0,
+      "trials": 0,
+      "rejected": 0,
+      "calls": {
+        "update_f": 0,
+        "update_g": 656,
+        "stop_f": 657,
+        "stop_g": 0,
+        "monitor_f": 0,
+        "monitor_g": 0
+      },
+      "cache_hits": {
+        "update": 0,
+        "stop": 0,
+        "monitor": 0
+      }
+    },
+    {
+      "cell": "SPD_10000_Nesterov_backtrack",
+      "status": "success",
+      "steps": 840,
+      "f": 0.00024182546869700494,
+      "relative_gap": 9.78493392518462e-09,
+      "N_f": 1693,
+      "N_g": 840,
+      "cost": 2533,
+      "factor_matvecs": 3373,
+      "prox": 0,
+      "trials": 854,
+      "rejected": 14,
+      "calls": {
+        "update_f": 1692,
+        "update_g": 840,
+        "stop_f": 1,
+        "stop_g": 0,
+        "monitor_f": 0,
+        "monitor_g": 0
+      },
+      "cache_hits": {
+        "update": 2,
+        "stop": 840,
+        "monitor": 0
+      }
+    },
+    {
+      "cell": "PSD_100_ACC02",
+      "status": "success",
+      "steps": 154,
+      "f": 2.2139949572770278e-06,
+      "relative_gap": 7.512678222774887e-09,
+      "N_f": 156,
+      "N_g": 155,
+      "cost": 311,
+      "factor_matvecs": 466,
+      "prox": 0,
+      "trials": 0,
+      "rejected": 0,
+      "calls": {
+        "update_f": 1,
+        "update_g": 155,
+        "stop_f": 155,
+        "stop_g": 0,
+        "monitor_f": 0,
+        "monitor_g": 0
+      },
+      "cache_hits": {
+        "update": 0,
+        "stop": 0,
+        "monitor": 0
+      }
+    },
+    {
+      "cell": "PSD_100_GD",
+      "status": "success",
+      "steps": 470,
+      "f": 2.91822900136182e-06,
+      "relative_gap": 9.90233306338007e-09,
+      "N_f": 471,
+      "N_g": 470,
+      "cost": 941,
+      "factor_matvecs": 1411,
+      "prox": 0,
+      "trials": 0,
+      "rejected": 0,
+      "calls": {
+        "update_f": 0,
+        "update_g": 470,
+        "stop_f": 471,
+        "stop_g": 0,
+        "monitor_f": 0,
+        "monitor_g": 0
+      },
+      "cache_hits": {
+        "update": 0,
+        "stop": 0,
+        "monitor": 0
+      }
+    },
+    {
+      "cell": "PSD_100_Nesterov_fixed",
+      "status": "success",
+      "steps": 161,
+      "f": 2.53937143085094e-06,
+      "relative_gap": 8.616767795873294e-09,
+      "N_f": 162,
+      "N_g": 161,
+      "cost": 323,
+      "factor_matvecs": 484,
+      "prox": 0,
+      "trials": 0,
+      "rejected": 0,
+      "calls": {
+        "update_f": 0,
+        "update_g": 161,
+        "stop_f": 162,
+        "stop_g": 0,
+        "monitor_f": 0,
+        "monitor_g": 0
+      },
+      "cache_hits": {
+        "update": 0,
+        "stop": 0,
+        "monitor": 0
+      }
+    },
+    {
+      "cell": "PSD_100_Nesterov_backtrack",
+      "status": "success",
+      "steps": 184,
+      "f": 2.3937584735034517e-06,
+      "relative_gap": 8.12266400849893e-09,
+      "N_f": 374,
+      "N_g": 184,
+      "cost": 558,
+      "factor_matvecs": 742,
+      "prox": 0,
+      "trials": 191,
+      "rejected": 7,
+      "calls": {
+        "update_f": 373,
+        "update_g": 184,
+        "stop_f": 1,
+        "stop_g": 0,
+        "monitor_f": 0,
+        "monitor_g": 0
+      },
+      "cache_hits": {
+        "update": 2,
+        "stop": 184,
+        "monitor": 0
+      }
+    },
+    {
+      "cell": "PSD_10000_ACC02",
+      "status": "success",
+      "steps": 527,
+      "f": 0.000207164259456987,
+      "relative_gap": 9.750333547274676e-09,
+      "N_f": 529,
+      "N_g": 528,
+      "cost": 1057,
+      "factor_matvecs": 1585,
+      "prox": 0,
+      "trials": 0,
+      "rejected": 0,
+      "calls": {
+        "update_f": 1,
+        "update_g": 528,
+        "stop_f": 528,
+        "stop_g": 0,
+        "monitor_f": 0,
+        "monitor_g": 0
+      },
+      "cache_hits": {
+        "update": 0,
+        "stop": 0,
+        "monitor": 0
+      }
+    },
+    {
+      "cell": "PSD_10000_GD",
+      "status": "success",
+      "steps": 25781,
+      "f": 0.0002124571555723564,
+      "relative_gap": 9.999447475957153e-09,
+      "N_f": 25782,
+      "N_g": 25781,
+      "cost": 51563,
+      "factor_matvecs": 77344,
+      "prox": 0,
+      "trials": 0,
+      "rejected": 0,
+      "calls": {
+        "update_f": 0,
+        "update_g": 25781,
+        "stop_f": 25782,
+        "stop_g": 0,
+        "monitor_f": 0,
+        "monitor_g": 0
+      },
+      "cache_hits": {
+        "update": 0,
+        "stop": 0,
+        "monitor": 0
+      }
+    },
+    {
+      "cell": "PSD_10000_Nesterov_fixed",
+      "status": "success",
+      "steps": 400,
+      "f": 0.00020166319793841174,
+      "relative_gap": 9.491422165500723e-09,
+      "N_f": 401,
+      "N_g": 400,
+      "cost": 801,
+      "factor_matvecs": 1201,
+      "prox": 0,
+      "trials": 0,
+      "rejected": 0,
+      "calls": {
+        "update_f": 0,
+        "update_g": 400,
+        "stop_f": 401,
+        "stop_g": 0,
+        "monitor_f": 0,
+        "monitor_g": 0
+      },
+      "cache_hits": {
+        "update": 0,
+        "stop": 0,
+        "monitor": 0
+      }
+    },
+    {
+      "cell": "PSD_10000_Nesterov_backtrack",
+      "status": "success",
+      "steps": 916,
+      "f": 0.0002062018610066755,
+      "relative_gap": 9.705037578170191e-09,
+      "N_f": 1845,
+      "N_g": 916,
+      "cost": 2761,
+      "factor_matvecs": 3677,
+      "prox": 0,
+      "trials": 930,
+      "rejected": 14,
+      "calls": {
+        "update_f": 1844,
+        "update_g": 916,
+        "stop_f": 1,
+        "stop_g": 0,
+        "monitor_f": 0,
+        "monitor_g": 0
+      },
+      "cache_hits": {
+        "update": 2,
+        "stop": 916,
+        "monitor": 0
+      }
+    },
+    {
+      "cell": "monitor",
+      "status": "success",
+      "steps": 400,
+      "f": 0.00020166319793841174,
+      "relative_gap": 9.491422165500723e-09,
+      "N_f": 401,
+      "N_g": 799,
+      "cost": 1200,
+      "factor_matvecs": 1999,
+      "prox": 0,
+      "trials": 0,
+      "rejected": 0,
+      "calls": {
+        "update_f": 0,
+        "update_g": 398,
+        "stop_f": 401,
+        "stop_g": 0,
+        "monitor_f": 0,
+        "monitor_g": 401
+      },
+      "cache_hits": {
+        "update": 2,
+        "stop": 0,
+        "monitor": 0
+      }
+    },
+    {
+      "cell": "tight_off",
+      "status": "success",
+      "steps": 400,
+      "f": 0.00020166319793841174,
+      "relative_gap": 9.491422165500723e-09,
+      "N_f": 401,
+      "N_g": 400,
+      "cost": 801,
+      "factor_matvecs": 1201,
+      "prox": 0,
+      "trials": 0,
+      "rejected": 0,
+      "calls": {
+        "update_f": 0,
+        "update_g": 400,
+        "stop_f": 401,
+        "stop_g": 0,
+        "monitor_f": 0,
+        "monitor_g": 0
+      },
+      "cache_hits": {
+        "update": 0,
+        "stop": 0,
+        "monitor": 0
+      }
+    },
+    {
+      "cell": "tight_on",
+      "status": "oracle_budget",
+      "steps": 300,
+      "f": 0.008152116280913104,
+      "relative_gap": 3.836851639535562e-07,
+      "N_f": 301,
+      "N_g": 599,
+      "cost": 900,
+      "factor_matvecs": 1499,
+      "prox": 0,
+      "trials": 0,
+      "rejected": 0,
+      "calls": {
+        "update_f": 0,
+        "update_g": 298,
+        "stop_f": 301,
+        "stop_g": 0,
+        "monitor_f": 0,
+        "monitor_g": 301
+      },
+      "cache_hits": {
+        "update": 2,
+        "stop": 0,
+        "monitor": 0
+      }
+    },
+    {
+      "cell": "gd_monitor",
+      "status": "success",
+      "steps": 525,
+      "f": 3.381176209529471e-06,
+      "relative_gap": 9.980377892492332e-09,
+      "N_f": 526,
+      "N_g": 526,
+      "cost": 1052,
+      "factor_matvecs": 1578,
+      "prox": 0,
+      "trials": 0,
+      "rejected": 0,
+      "calls": {
+        "update_f": 0,
+        "update_g": 0,
+        "stop_f": 526,
+        "stop_g": 0,
+        "monitor_f": 0,
+        "monitor_g": 526
+      },
+      "cache_hits": {
+        "update": 525,
+        "stop": 0,
+        "monitor": 0
+      }
+    },
+    {
+      "cell": "zero_start",
+      "status": "success",
+      "steps": 0,
+      "f": 0.0,
+      "relative_gap": 0.0,
+      "N_f": 1,
+      "N_g": 0,
+      "cost": 1,
+      "factor_matvecs": 1,
+      "prox": 0,
+      "trials": 0,
+      "rejected": 0,
+      "calls": {
+        "update_f": 0,
+        "update_g": 0,
+        "stop_f": 1,
+        "stop_g": 0,
+        "monitor_f": 0,
+        "monitor_g": 0
+      },
+      "cache_hits": {
+        "update": 0,
+        "stop": 0,
+        "monitor": 0
+      }
+    },
+    {
+      "cell": "one_call",
+      "status": "oracle_budget",
+      "steps": 0,
+      "f": 338.782383387801,
+      "relative_gap": 1.0,
+      "N_f": 1,
+      "N_g": 0,
+      "cost": 1,
+      "factor_matvecs": 1,
+      "prox": 0,
+      "trials": 0,
+      "rejected": 0,
+      "calls": {
+        "update_f": 0,
+        "update_g": 0,
+        "stop_f": 1,
+        "stop_g": 0,
+        "monitor_f": 0,
+        "monitor_g": 0
+      },
+      "cache_hits": {
+        "update": 0,
+        "stop": 0,
+        "monitor": 0
+      }
+    }
+  ],
+  "validation": {
+    "total_rows": 64544,
+    "cells": {
+      "SPD_100_ACC02": {
+        "rows": 197,
+        "energy_transitions": 195,
+        "max_scaled_eq19": -6.0477473357820215e-06,
+        "max_update_error": 0.0,
+        "max_scaled_D_error": 5.786078544976912e-16
+      },
+      "SPD_100_GD": {
+        "rows": 526,
+        "energy_transitions": 0,
+        "max_scaled_eq19": null,
+        "max_update_error": 0.0,
+        "max_scaled_D_error": 0.0
+      },
+      "SPD_100_Nesterov_fixed": {
+        "rows": 131,
+        "energy_transitions": 0,
+        "max_scaled_eq19": null,
+        "max_update_error": 0.0,
+        "max_scaled_D_error": 0.0
+      },
+      "SPD_100_Nesterov_backtrack": {
+        "rows": 149,
+        "energy_transitions": 0,
+        "max_scaled_eq19": null,
+        "max_update_error": 0.0,
+        "max_scaled_D_error": 0.0
+      },
+      "SPD_10000_ACC02": {
+        "rows": 566,
+        "energy_transitions": 564,
+        "max_scaled_eq19": -1.441265346488426e-06,
+        "max_update_error": 0.0,
+        "max_scaled_D_error": 6.923715073492431e-16
+      },
+      "SPD_10000_GD": {
+        "rows": 31245,
+        "energy_transitions": 0,
+        "max_scaled_eq19": null,
+        "max_update_error": 0.0,
+        "max_scaled_D_error": 0.0
+      },
+      "SPD_10000_Nesterov_fixed": {
+        "rows": 657,
+        "energy_transitions": 0,
+        "max_scaled_eq19": null,
+        "max_update_error": 0.0,
+        "max_scaled_D_error": 0.0
+      },
+      "SPD_10000_Nesterov_backtrack": {
+        "rows": 841,
+        "energy_transitions": 0,
+        "max_scaled_eq19": null,
+        "max_update_error": 0.0,
+        "max_scaled_D_error": 0.0
+      },
+      "PSD_100_ACC02": {
+        "rows": 155,
+        "energy_transitions": 153,
+        "max_scaled_eq19": -1.5624224862240324e-05,
+        "max_update_error": 0.0,
+        "max_scaled_D_error": 4.1243034109512966e-16
+      },
+      "PSD_100_GD": {
+        "rows": 471,
+        "energy_transitions": 0,
+        "max_scaled_eq19": null,
+        "max_update_error": 0.0,
+        "max_scaled_D_error": 0.0
+      },
+      "PSD_100_Nesterov_fixed": {
+        "rows": 162,
+        "energy_transitions": 0,
+        "max_scaled_eq19": null,
+        "max_update_error": 0.0,
+        "max_scaled_D_error": 0.0
+      },
+      "PSD_100_Nesterov_backtrack": {
+        "rows": 185,
+        "energy_transitions": 0,
+        "max_scaled_eq19": null,
+        "max_update_error": 0.0,
+        "max_scaled_D_error": 0.0
+      },
+      "PSD_10000_ACC02": {
+        "rows": 528,
+        "energy_transitions": 526,
+        "max_scaled_eq19": -2.433425500946514e-06,
+        "max_update_error": 0.0,
+        "max_scaled_D_error": 6.95978174824891e-16
+      },
+      "PSD_10000_GD": {
+        "rows": 25782,
+        "energy_transitions": 0,
+        "max_scaled_eq19": null,
+        "max_update_error": 0.0,
+        "max_scaled_D_error": 0.0
+      },
+      "PSD_10000_Nesterov_fixed": {
+        "rows": 401,
+        "energy_transitions": 0,
+        "max_scaled_eq19": null,
+        "max_update_error": 0.0,
+        "max_scaled_D_error": 0.0
+      },
+      "PSD_10000_Nesterov_backtrack": {
+        "rows": 917,
+        "energy_transitions": 0,
+        "max_scaled_eq19": null,
+        "max_update_error": 0.0,
+        "max_scaled_D_error": 0.0
+      },
+      "monitor": {
+        "rows": 401,
+        "energy_transitions": 0,
+        "max_scaled_eq19": null,
+        "max_update_error": 0.0,
+        "max_scaled_D_error": 0.0
+      },
+      "tight_off": {
+        "rows": 401,
+        "energy_transitions": 0,
+        "max_scaled_eq19": null,
+        "max_update_error": 0.0,
+        "max_scaled_D_error": 0.0
+      },
+      "tight_on": {
+        "rows": 301,
+        "energy_transitions": 0,
+        "max_scaled_eq19": null,
+        "max_update_error": 0.0,
+        "max_scaled_D_error": 0.0
+      },
+      "gd_monitor": {
+        "rows": 526,
+        "energy_transitions": 0,
+        "max_scaled_eq19": null,
+        "max_update_error": 0.0,
+        "max_scaled_D_error": 0.0
+      },
+      "zero_start": {
+        "rows": 1,
+        "energy_transitions": 0,
+        "max_scaled_eq19": null,
+        "max_update_error": 0.0,
+        "max_scaled_D_error": 0.0
+      },
+      "one_call": {
+        "rows": 1,
+        "energy_transitions": 0,
+        "max_scaled_eq19": null,
+        "max_update_error": 0.0,
+        "max_scaled_D_error": 0.0
+      }
+    },
+    "matching_trajectory_or_prefix": [
+      "monitor",
+      "tight_off",
+      "tight_on",
+      "gd_monitor"
+    ],
+    "sha256": {
+      "config.json": "9b9fb2169037d712aa1198dedc865f00d62f003c331225d5d8e61c7c64dd2392",
+      "environment.json": "a2e51ded7222a788f2286bd6f0b00a14b1fbfe7356b6e492c18802067aa82df6",
+      "gd_monitor/input.json": "0df8dd17d37152a00f4b2f0d990e9dd5dd2a73cf730cdbc5af496ea478a9fd98",
+      "gd_monitor/summary.json": "34271f398bc439baa220f199166a18f4f0ffc485886361f5569db1a187f6ffe0",
+      "gd_monitor/trajectory.csv": "bc6aa0a009cd5b6bc4190470f642187232d24d003e4f5f88a7718d6b2e04be19",
+      "invalid_m.json": "8a42e348def473d4199798b193c5d564ba9652568ea38212283fb5fd774c1e05",
+      "monitor/input.json": "6d54c773acfd069cc5cfd0c757ba532d2c7d125fba5829063abc570897690280",
+      "monitor/summary.json": "f73bd09577932abb4acfb2005261e02dccbceae44862d08e689216dbc3e4f1fb",
+      "monitor/trajectory.csv": "1215ad8ca3d3b3e2f9d07257ebae81a5528619eace9a1346ac09ddd4c2d24e55",
+      "one_call/input.json": "fe2bd1890d46082776106cb299362b19669786d4108bfcfaa053d91f75b42527",
+      "one_call/summary.json": "fd36a7932b46c584ec3fdaa6764c8fb4fb16a9795baaae9c52863de411c0e824",
+      "one_call/trajectory.csv": "fb652b5472a330b3fbaada2e9e0156f03fa0f8e18159216ec64f56928f3d9a6a",
+      "PSD_10000_ACC02/input.json": "bd4f2b5e759662f81cbaf988495aa2f61c2ab123bc030a4390f7439cf732bd67",
+      "PSD_10000_ACC02/summary.json": "1a549241f2871ab466bf9b94ba7dde8923e76800d5699b94c4bd6d2bea5c68c9",
+      "PSD_10000_ACC02/trajectory.csv": "cec19bdc997f3fda58b5ffa7d319f5abeec5d665c83fe63c4a7cf3c217a38b5d",
+      "PSD_10000_GD/input.json": "d71f9fac83eea9e6f9e785be2006026f5cda9d7044e1643c959ff1dae13d47ba",
+      "PSD_10000_GD/summary.json": "ffce71c097bb296188ba036ee19eb0bfae35f1a31e4b53dd3b88324020564068",
+      "PSD_10000_GD/trajectory.csv": "c70b318d38555ed275b6b4cc4d131a3ac39d8f7e44932e272bc45e8059018cdb",
+      "PSD_10000_Nesterov_backtrack/input.json": "dccddec7721470cd54e8b080def6ecb7439d438f91d55ec05ba502fa218d70be",
+      "PSD_10000_Nesterov_backtrack/summary.json": "48f054718b375628f43e50ed202f44161e80ee3c37372085baa3256b50a3021d",
+      "PSD_10000_Nesterov_backtrack/trajectory.csv": "2c4feecbd2712836518d5eeedc3cff5fcc090e58101e4f020dd21741224d4ae9",
+      "PSD_10000_Nesterov_fixed/input.json": "1a70b3c4f9d286b268e6050f2013f8d76df06514a4d7dbbf597814666feed43f",
+      "PSD_10000_Nesterov_fixed/summary.json": "d588f0c2e221fddb7dff6c32929c69834852d00edfb5ee891336644690cf0c35",
+      "PSD_10000_Nesterov_fixed/trajectory.csv": "619f8191e624aaa6185a001d817c246d0022d5b1545f489e6603970f062a0e9d",
+      "PSD_100_ACC02/input.json": "597882d217914256522be2c46b955f743d2b043653d14603792308472fd5b523",
+      "PSD_100_ACC02/summary.json": "ed152aed20fef974b13c1f8234c9fa51e7770ec6c6ba70af0f406373ac8824ab",
+      "PSD_100_ACC02/trajectory.csv": "3b6987732ffd870721671242c434b5e8e2e07f4e5a280a9b25b33e06f3ab6e43",
+      "PSD_100_GD/input.json": "0e2018b78446e3235a7b801f8b449755289eabed33596b9bd2ca141f62c07db4",
+      "PSD_100_GD/summary.json": "786ed155edf0d4507d9a86a774f99911e7a43b1c57eb849a2691d09f3158b804",
+      "PSD_100_GD/trajectory.csv": "223ba72516bc3ed81fa67d60b7992ba1e18045c350d4518b337c6f2f08241a7f",
+      "PSD_100_Nesterov_backtrack/input.json": "353aa4bcacfd897007363bcd1e7588b6e64d328cbb9fba190ca2d34f2be67eae",
+      "PSD_100_Nesterov_backtrack/summary.json": "78f7d3c8508470cddd4b51cb09292d58b0542fe399f5bcbfa92b0d498bdde823",
+      "PSD_100_Nesterov_backtrack/trajectory.csv": "2178604a69fcd8b04aafcae3e829cd3dbed11fa23051afc68c7afcb0e2b8c3f7",
+      "PSD_100_Nesterov_fixed/input.json": "61868837cf57058e06528374aed763a7bc57c8b98d9c9dfb9267ce0016641713",
+      "PSD_100_Nesterov_fixed/summary.json": "b8ef4c80eb036c154754de189d5463e4d08c99d6e4637e8a5c2264ead398a512",
+      "PSD_100_Nesterov_fixed/trajectory.csv": "4cf85f52df30b42559382424b6d11aa6828550786b871f688a33ec6b8312d490",
+      "SPD_10000_ACC02/input.json": "e67f9d960aa5d80340859ce4a26a8222593eef0fa19d182a478b927e143527b3",
+      "SPD_10000_ACC02/summary.json": "ce1db2bbbc8d7212ee21dcabe94dadac848d11b9cb1456178498a52977d30c24",
+      "SPD_10000_ACC02/trajectory.csv": "5dca33fc49510ea95521ca87b0c2b07fc2b5d0dcf61ec4a10f85577c1ad1beba",
+      "SPD_10000_GD/input.json": "30a9d1c0cc5ea57a36df93fbcba64dff803e935b84bd8ed99c735121bf71f932",
+      "SPD_10000_GD/summary.json": "b4de43925516e08f81c4c8e09d398ab6cb006c0aaaab148d86fcac581ccef3e5",
+      "SPD_10000_GD/trajectory.csv": "08bc7fc3083462604e598b238fc60618d3d2aefeb9d87019d320b75fb69d1898",
+      "SPD_10000_Nesterov_backtrack/input.json": "419b401dc93f199c5fcd456a4f41ef564521673fab84a26ce7e25392520cf6b6",
+      "SPD_10000_Nesterov_backtrack/summary.json": "f76305161472eb64577746edd57082520b18a49a7151540caa9874260b7fb25c",
+      "SPD_10000_Nesterov_backtrack/trajectory.csv": "878878bc6c4a0d78a7e9c4c72e18714cdf0166c01bdf9cebb94e5a38a7902dd2",
+      "SPD_10000_Nesterov_fixed/input.json": "f5f2b7a71b5268f53f7eb7b54c8c80ebe747be1caefd70c0a8454b848637db74",
+      "SPD_10000_Nesterov_fixed/summary.json": "52ff91c1494302c49a979b4cd10e4b646b714bd12e855de75d1adc1a6f9a812f",
+      "SPD_10000_Nesterov_fixed/trajectory.csv": "87250fb002d753ccc68f651acedbee200d54d51270f4d644c8f3795ac8d48cce",
+      "SPD_100_ACC02/input.json": "5c6b57e7e60bf01628367eaeffacb5265a9b7b4999dc24ade0cf6d01f501950a",
+      "SPD_100_ACC02/summary.json": "1eb22d5039f559272b5d2fd53383cf6f003479ba9bb8018edccd7c7c401f1f9b",
+      "SPD_100_ACC02/trajectory.csv": "a070b73c49664b0968d5b79b5c51a319107db2e363e9616eca3b49442a22e141",
+      "SPD_100_GD/input.json": "bc89db39efe644ceab6c6653c5f8447134e54a3022c215e09072545e591be403",
+      "SPD_100_GD/summary.json": "20443011d296beba7281d7d8461454a905ab08dd7faa7f20056124aa835d81ce",
+      "SPD_100_GD/trajectory.csv": "374e09f81e305392a74265cba6c044120c62deedd055eca79d14f1d23172806d",
+      "SPD_100_Nesterov_backtrack/input.json": "0d2d49cbce65b560f2434a12a0b94f30097410b8140b7ad71843416f2ea7969d",
+      "SPD_100_Nesterov_backtrack/summary.json": "611ad51f2f4493e0d2503d85cb2cf1ace63bef081dc56c9d5628bd654f75ae4d",
+      "SPD_100_Nesterov_backtrack/trajectory.csv": "e34a9a006490fc2fe88e7ac5cf5e70ea38def329546fa8ceea086079042844b4",
+      "SPD_100_Nesterov_fixed/input.json": "5df4a228a30832d658c41df49a24e8cabadb0201958b72424581a13b22227708",
+      "SPD_100_Nesterov_fixed/summary.json": "1afefd3e27ecfdd86fbe9d57e19fd4c8762af4c8bd54c547e78a01bafbf88ccf",
+      "SPD_100_Nesterov_fixed/trajectory.csv": "37d645f216233934e1500e657497b85bf4be3d4b990f91ee161bc2521d058de4",
+      "summary.json": "434517e47fb1dd3c639841f91bd49cb502a21841f84fc102e8967a77ea6a3035",
+      "tight_off/input.json": "e308f8571e0e155b29bcaca4ef07b59e5720a272788e1dea3d697d3cd5c285b4",
+      "tight_off/summary.json": "062fb06c3b965d33d2c423d221d552818a02cd173a90dbefe6a0d1f70d06f8a5",
+      "tight_off/trajectory.csv": "619f8191e624aaa6185a001d817c246d0022d5b1545f489e6603970f062a0e9d",
+      "tight_on/input.json": "2cfd700ff81605876420a652d4d68776770413801dc2806098d2f0793aa11cf2",
+      "tight_on/summary.json": "484bdae9585c49db8a9509eb49f831a0e56553c173bf25a75a6fca37ac96441d",
+      "tight_on/trajectory.csv": "f859d14d17447d7ca84510df0df19f710dba4fabf34eb5aed14d8846dbf4c9ab",
+      "zero_start/input.json": "8d0aee50288ceaece7d4cf70637fb8ffa0b6938f9c57770f9db7d3b1706abd22",
+      "zero_start/summary.json": "4598d4d8fcecfccd9d157196b5fd541d225d79d2e2fde23dea0209922c021211",
+      "zero_start/trajectory.csv": "b254436c4a5b68d6cb40e808a8dfaa1c3f5d9e229e0f8ffdd46f54396b53d13b"
+    }
+  },
+  "invalid_input": {
+    "status": "invalid_step_parameters"
+  }
+}

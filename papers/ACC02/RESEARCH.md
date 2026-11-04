@@ -1,5 +1,7 @@
 # ACC02 研究蒸馏：用能量剩余项设计下一步步长
 
+二次型特化的三门闭合、核空间不变量及可运行示范见[07 正向推导](../../examples/acc02_end_to_end/DERIVATION.md)，归属与原文一般定理分列。
+
 Wang, Z.; Peypouquet, J. *Adaptive Accelerated Gradient Method for Smooth Convex Optimization*. JOTA 210:52 (2026)，DOI 10.1007/s10957-026-03086-z。包内18页版本；PDF页即文章页。全文、证明和参考文献已读；关键式已看原页。以下区分原文结果、执行者推导及未验证迁移，不称全文独立复证。
 
 ## 1. 从已知方法到本篇贡献

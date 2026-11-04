@@ -1,5 +1,7 @@
 # ACC02 实验与验证设计
 
+07 已完成[12 维旋转问题的参考运行](../../examples/acc02_end_to_end/README.md)，主比较仅需原目标停机，监测作为单独实跑。下文 E02 的 100 维对角设计和 E03 噪声设计按原历史阅读。
+
 **无原实验。** 已通读PDF1–18：第2–4节为算法与证明，第5节结论及Data Availability（PDF17）说明未使用外部数据；没有原数据集、运行图表、基线性能或硬件报告。原实验审查已获Manager分项通过，以下E02/E03完整协议及所有性能比较仍为未执行。
 
 执行归属：首批执行者未运行ACC02；Manager随后新增八配置、共160条80位式(19)能量检查，见[独立审核](../../reviews/STAGE01_4285cde_MANAGER_REVIEW.md)、[脚本](../../checks/manager_check_4285cde.py)与[结果](../../checks/results/manager_stage01_4285cde.json)。这是有限二次模型机制核验，并非E02完整协议或性能复现。本次不重跑该核验，也不改写V01。

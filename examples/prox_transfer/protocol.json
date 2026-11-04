@@ -1,0 +1,21 @@
+{
+  "b": [
+    1,
+    -2,
+    0.125
+  ],
+  "lambda": 0.5,
+  "x0": [
+    0,
+    0,
+    0
+  ],
+  "mu": [
+    0.5,
+    0.015625
+  ],
+  "original_gap_target": 0.02,
+  "max_updates": 600,
+  "stop": "exact proximal fixed point on these dyadic inputs",
+  "reference": "triangle inequality lower bound, attained at b"
+}

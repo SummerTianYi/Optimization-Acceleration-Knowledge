@@ -1,0 +1,64 @@
+{
+  "dimension": 12,
+  "kappas": [
+    100,
+    10000
+  ],
+  "kinds": [
+    "SPD",
+    "PSD"
+  ],
+  "methods": [
+    "ACC02",
+    "GD",
+    "Nesterov_fixed",
+    "Nesterov_backtrack"
+  ],
+  "m": 0.5,
+  "t0": 2,
+  "beta": 0.5,
+  "gamma": 0.5,
+  "eta": 0.5,
+  "omega": 0.5,
+  "tolerance": 1e-8,
+  "budget": 200000,
+  "backtrack_trials": 100,
+  "backtrack_start": 1,
+  "backtrack_factor": 2,
+  "sensitivity": [
+    {
+      "name": "monitor",
+      "kind": "PSD",
+      "kappa": 10000,
+      "method": "Nesterov_fixed",
+      "monitor": true
+    },
+    {
+      "name": "tight_off",
+      "kind": "PSD",
+      "kappa": 10000,
+      "method": "Nesterov_fixed",
+      "budget": 900
+    },
+    {
+      "name": "tight_on",
+      "kind": "PSD",
+      "kappa": 10000,
+      "method": "Nesterov_fixed",
+      "budget": 900,
+      "monitor": true
+    },
+    {
+      "name": "gd_monitor",
+      "kind": "SPD",
+      "kappa": 100,
+      "method": "GD",
+      "monitor": true
+    }
+  ],
+  "boundaries": [
+    "zero_start",
+    "one_call",
+    "invalid_m"
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "sha256": "699a9926ed8e9c7ae1dd441e853ffd9a36dea19411a889d6db6a28bc92628c66",
+  "outputs": [
+    {
+      "mu": "1/2",
+      "status": "fixed_point",
+      "accepted_updates": 7,
+      "gradient_evaluations": 8,
+      "prox_evaluations": 8,
+      "output_evaluations_each_objective": 8,
+      "first_original_target": null,
+      "terminal": {
+        "k": 7,
+        "x": [
+          "3/4",
+          "-7/4",
+          "0"
+        ],
+        "original_gap": "5/16",
+        "surrogate_gap": "0",
+        "prox_mapping_inf": "0"
+      }
+    },
+    {
+      "mu": "1/64",
+      "status": "fixed_point",
+      "accepted_updates": 255,
+      "gradient_evaluations": 256,
+      "prox_evaluations": 256,
+      "output_evaluations_each_objective": 256,
+      "first_original_target": 253,
+      "terminal": {
+        "k": 255,
+        "x": [
+          "127/128",
+          "-255/128",
+          "15/128"
+        ],
+        "original_gap": "3/256",
+        "surrogate_gap": "0",
+        "prox_mapping_inf": "0"
+      }
+    }
+  ],
+  "records": 264,
+  "pre_transfer_files_sha256": {
+    "examples/acc02_end_to_end/CLAIMS.md": "55a48f53901902fff38dff68a51399c5625b29738bbb104742c8b154c0511572",
+    "examples/acc02_end_to_end/DERIVATION.md": "e9e591f1af85573b46853c1d6961bd12a235126f41de9078f980de04cdb82737",
+    "examples/acc02_end_to_end/inputs.json": "af1d919aa67fd6b315c74a7817c26ddba5aa589338e30eef8e2ce6ba0c17d62a",
+    "examples/acc02_end_to_end/NOTE.md": "f46a7f4349fc6848f225fcd0daa4698080b227d7f4dba2e835fe6061663f5429",
+    "examples/acc02_end_to_end/protocol.json": "4d81cd9e77d828772332da4a09fd4cedf646b230923149a03637d4ae04b9069a",
+    "examples/acc02_end_to_end/README.md": "16edde55abf848f4f2b73de41ad577042c9238d6a691b709506f0f5c444384f3",
+    "examples/acc02_end_to_end/results.json": "398472e189ff474f906e16b7c95bb01df21f39f4a548211868ab205c3dab8fcf",
+    "examples/acc02_end_to_end/run.py": "10395c0c6e070ace4ececcc32a2307512475da1381040dd7680b9f0ba7e75cc3",
+    "examples/acc02_end_to_end/verify.py": "4335be1b042a08d25ea1765a97a7725e97d793e049b037d1a3e0fa3175cb9b1e",
+    "knowledge/RESEARCH_TO_DRAFT.md": "73d5c464544eba9b6c63d8a1a9839be7f9206a7e46c6191e30db044e7059b46e"
+  },
+  "freeze_note": "Raw execution-host bytes above, checked before and after transfer. For LF-normalized Git checkouts use the following SHA-256 values.",
+  "pre_transfer_git_lf_sha256": {
+    "examples/acc02_end_to_end/CLAIMS.md": "55a48f53901902fff38dff68a51399c5625b29738bbb104742c8b154c0511572",
+    "examples/acc02_end_to_end/DERIVATION.md": "e9e591f1af85573b46853c1d6961bd12a235126f41de9078f980de04cdb82737",
+    "examples/acc02_end_to_end/inputs.json": "254a6202e58d440a723ad9d00b838414031fb854d4c8f70da5052ace0e6cbcf3",
+    "examples/acc02_end_to_end/NOTE.md": "f46a7f4349fc6848f225fcd0daa4698080b227d7f4dba2e835fe6061663f5429",
+    "examples/acc02_end_to_end/protocol.json": "4d81cd9e77d828772332da4a09fd4cedf646b230923149a03637d4ae04b9069a",
+    "examples/acc02_end_to_end/README.md": "e747b7d81f33661901f97e43feb904b2dbfc738919c80ef711aa6d5c4be1c665",
+    "examples/acc02_end_to_end/results.json": "6c7f2116010fd2f58d77c9097dddc54a030e687dafb629d464b1afa12fa0e6e0",
+    "examples/acc02_end_to_end/run.py": "b08392dd571143e2808f6dc8360581a8004c4fdc713b6b89e1dc3c40948b15c7",
+    "examples/acc02_end_to_end/verify.py": "4335be1b042a08d25ea1765a97a7725e97d793e049b037d1a3e0fa3175cb9b1e",
+    "knowledge/RESEARCH_TO_DRAFT.md": "73d5c464544eba9b6c63d8a1a9839be7f9206a7e46c6191e30db044e7059b46e"
+  },
+  "formatting_after_transfer": {
+    "change": "Final GitHub rendering edit only: TeX inline/display delimiters changed to GitHub dollar delimiters; all text inside equations retained. No method, code, protocol or result changed. Also removed one doubled punctuation mark in the reproduction instructions.",
+    "paths_before_after_lf_sha256": [
+      [
+        "examples/acc02_end_to_end/DERIVATION.md",
+        "e9e591f1af85573b46853c1d6961bd12a235126f41de9078f980de04cdb82737",
+        "e73b3ef8446995c9cabe78bab4e9459a4ae73bfecc55acd250312bde482f6036"
+      ],
+      [
+        "examples/acc02_end_to_end/NOTE.md",
+        "f46a7f4349fc6848f225fcd0daa4698080b227d7f4dba2e835fe6061663f5429",
+        "d5207258d7bc390f633a284a56fc3412de2b9f93a721786db6d918179d29dc88"
+      ],
+      [
+        "examples/prox_transfer/README.md",
+        "043359f417534a58caf3a3ccdf449ae321fc28707ca5ef699de26e9b27f75c75",
+        "d7e69425aba2aa4bab64c6e4cd79e22555e4c9bd15091cc6174b9054bed6a36a"
+      ],
+      [
+        "examples/acc02_end_to_end/README.md",
+        "e747b7d81f33661901f97e43feb904b2dbfc738919c80ef711aa6d5c4be1c665",
+        "c5c8dbef8d4d84d6d941ff2e0ce61fecb51accc48defe116d9aab3c1729ef787"
+      ]
+    ]
+  }
+}
